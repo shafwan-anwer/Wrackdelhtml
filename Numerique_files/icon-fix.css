@@ -1,0 +1,343 @@
+/* MOBILE MENU FIX - COMPLETE SOLUTION */
+
+/* Only apply to mobile and tablet - NOT desktop */
+@media (max-width: 1024px) {
+
+    /* CRITICAL FIX 1: Make the hidden dropdown menu NOT block clicks */
+    .elementor-nav-menu--dropdown[aria-hidden="true"] {
+        pointer-events: none !important;
+        visibility: hidden !important;
+    }
+
+    /* When menu is open, allow clicks */
+    .elementor-nav-menu--dropdown[aria-hidden="false"] {
+        pointer-events: auto !important;
+        visibility: visible !important;
+    }
+
+    /* CRITICAL FIX 2: Make the nav menu widget container higher than the audit button */
+    .elementor-element-f2fe263 {
+        z-index: 10 !important;
+        position: relative !important;
+    }
+
+    /* CRITICAL FIX 3: Make sure the menu toggle button is clickable and above everything */
+    .elementor-menu-toggle {
+        cursor: pointer !important;
+        pointer-events: auto !important;
+        position: relative !important;
+        display: inline-block !important;
+        padding: 10px !important;
+        background: transparent !important;
+        border: none !important;
+        z-index: 10000 !important;
+    }
+
+    /* CRITICAL FIX 4: Hide the close icon by default */
+    .elementor-menu-toggle__icon--close {
+        display: none !important;
+    }
+
+    /* Show close icon when menu is active */
+    .elementor-menu-toggle[aria-expanded="true"] .elementor-menu-toggle__icon--close {
+        display: inline-block !important;
+    }
+
+    /* Hide open icon when menu is active */
+    .elementor-menu-toggle[aria-expanded="true"] .elementor-menu-toggle__icon--open {
+        display: none !important;
+    }
+
+    /* Style the hamburger icon - CSS drawn (3 horizontal lines) */
+    .elementor-menu-toggle__icon--open.eicon-menu-bar {
+        position: relative;
+        display: inline-block !important;
+        width: 25px;
+        height: 20px;
+        vertical-align: middle;
+    }
+
+    /* Hide the broken font character */
+    .elementor-menu-toggle__icon--open.eicon-menu-bar:before {
+        content: none !important;
+        display: none !important;
+    }
+
+    /* Draw the hamburger menu icon with 3 horizontal black lines */
+    .elementor-menu-toggle__icon--open.eicon-menu-bar:after {
+        content: '' !important;
+        position: absolute;
+        display: block !important;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        top: 50%;
+        left: 0;
+        margin-top: -1.5px;
+        box-shadow:
+            0 -7px 0 0 #000,
+            0 7px 0 0 #000;
+    }
+
+    /* Style the close (X) icon */
+    .elementor-menu-toggle__icon--close.eicon-close {
+        position: relative;
+        display: inline-block !important;
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+
+    /* Hide the broken font character for close icon */
+    .elementor-menu-toggle__icon--close.eicon-close:before {
+        content: '' !important;
+        position: absolute;
+        display: block !important;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+    /* Draw the X icon using two diagonal lines */
+    .elementor-menu-toggle__icon--close.eicon-close:after {
+        content: '' !important;
+        position: absolute;
+        display: block !important;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    /* Ensure the audit button doesn't cover the menu toggle */
+    .elementor-element-5e63b87 {
+        z-index: 1 !important;
+    }
+}
+
+/* Fix other missing icons sitewide */
+.eicon-star-o:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before {
+    content: "☆" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-star:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before {
+    content: "★" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-check:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before,
+.eicon-check-circle:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before {
+    content: "✓" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-heart-o:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before,
+.eicon-heart:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before {
+    content: "♥" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-mail:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before,
+.eicon-envelope:not(.elementor-menu-toggle__icon--open):not(.elementor-menu-toggle__icon--close):before {
+    content: "✉" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+/* TAB CONTENT VISIBILITY FIX */
+/* CRITICAL: Override the default display:none from widget-tabs.min.css */
+/* This must be more specific to override .elementor-widget-tabs .elementor-tab-content{display:none} */
+.elementor-widget-tabs .elementor-tab-content.elementor-active,
+.elementor-tabs .elementor-tab-content.elementor-active,
+.vamtam-tabs .elementor-tab-content.elementor-active {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Override the hidden attribute for active tabs */
+.elementor-tab-content.elementor-active[hidden],
+.elementor-tab-content.elementor-active[hidden="false"] {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Ensure inactive tab content is hidden */
+.elementor-tab-content:not(.elementor-active) {
+    display: none !important;
+}
+
+/* Force active tab content to be visible on all screen sizes */
+@media (min-width: 768px) {
+    .elementor-widget-tabs .elementor-tab-content.elementor-active {
+        display: block !important;
+        visibility: visible !important;
+    }
+
+    .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-content.elementor-active {
+        display: block !important;
+        visibility: visible !important;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-widget-tabs .elementor-tab-content.elementor-active {
+        display: block !important;
+        visibility: visible !important;
+    }
+}
+
+/* Target the specific tab content by ID for the homepage */
+#elementor-tab-content-1881.elementor-active {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+/* Prevent any animations from hiding the content initially */
+.elementor-tab-content.elementor-active {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+}
+
+/* ============================================
+   ICON FONT FIXES - Fix missing icon fonts
+   ============================================ */
+
+/* Fix theme-icons font path - Override broken paths in style.css */
+@font-face {
+    font-family: 'theme-icons';
+    src: url('./theme-icons.woff2?fix') format('woff2'),
+         url('./theme-icons.woff?fix') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Backup font using icomoon files */
+@font-face {
+    font-family: 'theme-icons-backup';
+    src: url('./icomoon.woff2?fix') format('woff2'),
+         url('./icomoon.woff?fix') format('woff'),
+         url('./icomoon.ttf?fix') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Fix Elementor eicons font - Create fallback mappings since font file is missing */
+/* We'll use CSS content replacements for common icons */
+
+/* Elementor icon fallbacks using Unicode characters */
+.eicon-chevron-left:before {
+    content: "‹" !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 1.5em !important;
+}
+
+.eicon-chevron-right:before {
+    content: "›" !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 1.5em !important;
+}
+
+.eicon-arrow-left:before {
+    content: "←" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-arrow-right:before {
+    content: "→" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-arrow-up:before {
+    content: "↑" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-arrow-down:before {
+    content: "↓" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-angle-left:before {
+    content: "‹" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-angle-right:before {
+    content: "›" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-search:before {
+    content: "🔍" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-heart:before {
+    content: "♥" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-cart:before,
+.eicon-shopping-cart:before {
+    content: "🛒" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-user:before,
+.eicon-person:before {
+    content: "👤" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-play:before {
+    content: "▶" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.eicon-pause:before {
+    content: "❙❙" !important;
+    font-family: Arial, sans-serif !important;
+}
+
+/* Ensure icon classes use correct font families with fallbacks */
+[class^="vamtam-theme-"],
+[class*=" vamtam-theme-"],
+[class^="vamtamtheme-"],
+[class*=" vamtamtheme-"] {
+    font-family: 'theme-icons', 'theme-icons-backup', 'icomoon', sans-serif !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+}
+
+/* Fallback for eicons - use FontAwesome icons where applicable */
+[class*=" eicon-"],
+[class^="eicon-"] {
+    font-family: 'FontAwesome', 'Font Awesome 5 Free', 'Font Awesome 5 Brands', Arial, sans-serif !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 900;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+}
