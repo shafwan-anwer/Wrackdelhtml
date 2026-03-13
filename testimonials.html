@@ -9,14 +9,14 @@
 <meta name="robots" content="max-image-preview:large">
 <style id="vamtam-theme-options">body {--vamtam-body-link-regular:#000000;
 --vamtam-body-link-visited:#000000;
---vamtam-body-link-hover:#6754E9;
---vamtam-body-link-active:#6754E9;
+--vamtam-body-link-hover:#3735e8;
+--vamtam-body-link-active:#3735e8;
 --vamtam-input-border-radius:18px 18px 18px 18px;
 --vamtam-input-border-color:#E2E2E2;
 --vamtam-btn-text-color:#FFFFFF;
 --vamtam-btn-hover-text-color:#FFFFFF;
 --vamtam-btn-bg-color:#000000;
---vamtam-btn-hover-bg-color:#6754E9;
+--vamtam-btn-hover-bg-color:#3735e8;
 --vamtam-btn-border-radius:18px 18px 18px 18px;
 --vamtam-btn-hover-border-radius:18px 18px 18px 18px;
 --vamtam-site-max-width:1280px;
@@ -190,6 +190,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					});
 				}
 			</script>
+			<link rel="stylesheet" href="./Numerique_files/custom-enhancements.css" type="text/css" media="all">
+			<link rel="stylesheet" href="./Numerique_files/icon-fix.css" type="text/css" media="all">
+			<script src="./Numerique_files/header-scroll.js" defer></script>
 </head>
 <body class="wp-singular page-template-default page page-id-faq wp-custom-logo wp-embed-responsive wp-theme-wrackdel full header-layout-logo-menu has-page-header no-middle-header responsive-layout vamtam-is-elementor elementor-active elementor-pro-active vamtam-wc-cart-empty wc-product-gallery-slider-active vamtam-font-smoothing layout-full elementor-default elementor-kit-7 elementor-page elementor-page-faq elementor-page-3064 e--ua-blink e--ua-chrome e--ua-mac e--ua-webkit dialog-body dialog-lightbox-body dialog-container dialog-lightbox-container" data-elementor-device-mode="desktop">
 	<div data-rocket-location-hash="33a51ce4811700f4830645d37fdf24b5" id="top"></div>
@@ -694,7 +697,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	user-select: none;
 }
 .faq-question:hover {
-	color: #6754E9;
+	color: #3735e8;
 }
 .faq-question .faq-icon {
 	font-family: 'icomoon';
@@ -710,7 +713,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	content: var(--vamtam-icon-minus);
 }
 .faq-item.active .faq-question {
-	color: #6754E9;
+	color: #3735e8;
 }
 .faq-answer {
 	max-height: 0;
@@ -751,7 +754,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 }
 .faq-cta a {
 	display: inline-block;
-	background: #6754E9;
+	background: #3735e8;
 	color: #fff;
 	padding: 14px 32px;
 	border-radius: 18px;
@@ -781,103 +784,164 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 }
 </style>
 
-<div class="faq-section">
-	<div class="faq-intro">
-		<h2 class="elementor-heading-title elementor-size-default">Frequently Asked Questions</h2>
-		<p>Find answers to common questions about our digital marketing services, processes, and how we can help grow your business.</p>
+<div class="testimonials-section">
+	<div class="testimonials-intro">
+		<h2 class="elementor-heading-title elementor-size-default section-heading">What Our Clients Say</h2>
+		<p class="section-subtitle">Real results from real businesses. See why companies trust Wrackdel to grow their digital presence and drive measurable ROI.</p>
 	</div>
 
-	<h3 class="faq-category-title">General</h3>
+	<div class="testimonials-grid">
+		<!-- Testimonial 1 - E-commerce SEO Success -->
+		<div class="testimonial-card">
+			<div class="quote-icon">
+				<i class="fas fa-quote-left"></i>
+			</div>
+			<div class="star-rating">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+			</div>
+			<p class="testimonial-text">
+				Working with Wrackdel has been transformative for our business. Their SEO strategy increased our organic traffic by 285% in just six months, and we're now ranking on page one for all our target keywords. The team's expertise and dedication to our success is unmatched.
+			</p>
+			<div class="client-info">
+				<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%236754E9'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='24' font-weight='bold'%3ESM%3C/text%3E%3C/svg%3E" alt="Sarah Martinez" class="client-avatar">
+				<div class="client-details">
+					<h4>Sarah Martinez</h4>
+					<p>CEO, TrendStyle Boutique</p>
+				</div>
+			</div>
+		</div>
 
-	<div class="faq-item">
-		<div class="faq-question">What services does Wrackdel offer?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We offer a comprehensive range of digital marketing services including Search Engine Optimization (SEO), Paid Search Marketing (PPC), Social Media Marketing, Email Marketing, Conversion Rate Optimization, Influencer Marketing, Google Shopping, and Amazon Shopping campaigns.</p></div>
+		<!-- Testimonial 2 - PPC Campaign Success -->
+		<div class="testimonial-card">
+			<div class="quote-icon">
+				<i class="fas fa-quote-left"></i>
+			</div>
+			<div class="star-rating">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+			</div>
+			<p class="testimonial-text">
+				The PPC campaigns Wrackdel created for us delivered an incredible 8.2 ROAS. They completely restructured our Google Ads account, found new high-converting keywords, and optimized our landing pages. Our cost per acquisition dropped by 45% while conversions doubled.
+			</p>
+			<div class="client-info">
+				<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%236754E9'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='24' font-weight='bold'%3EJC%3C/text%3E%3C/svg%3E" alt="James Chen" class="client-avatar">
+				<div class="client-details">
+					<h4>James Chen</h4>
+					<p>Marketing Director, TechFlow Solutions</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Testimonial 3 - Social Media Marketing -->
+		<div class="testimonial-card">
+			<div class="quote-icon">
+				<i class="fas fa-quote-left"></i>
+			</div>
+			<div class="star-rating">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+			</div>
+			<p class="testimonial-text">
+				Wrackdel's social media strategy took our brand to the next level. They grew our Instagram following from 5K to 50K in 8 months with authentic engagement. The influencer partnerships they arranged generated over $200K in tracked revenue. True marketing partners!
+			</p>
+			<div class="client-info">
+				<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%236754E9'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='24' font-weight='bold'%3EER%3C/text%3E%3C/svg%3E" alt="Emily Rodriguez" class="client-avatar">
+				<div class="client-details">
+					<h4>Emily Rodriguez</h4>
+					<p>Founder, GlowUp Beauty Co.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Testimonial 4 - Comprehensive Digital Strategy -->
+		<div class="testimonial-card">
+			<div class="quote-icon">
+				<i class="fas fa-quote-left"></i>
+			</div>
+			<div class="star-rating">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+			</div>
+			<p class="testimonial-text">
+				After struggling with multiple agencies, we found Wrackdel. Their integrated approach combining SEO, PPC, and conversion optimization increased our revenue by 340% year-over-year. The monthly reporting is transparent, insightful, and actually helps us make better business decisions. Highly recommend!
+			</p>
+			<div class="client-info">
+				<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%236754E9'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='24' font-weight='bold'%3EMP%3C/text%3E%3C/svg%3E" alt="Michael Patel" class="client-avatar">
+				<div class="client-details">
+					<h4>Michael Patel</h4>
+					<p>VP of Operations, HomeHub Furniture</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Testimonial 5 - Amazon Shopping Success -->
+		<div class="testimonial-card">
+			<div class="quote-icon">
+				<i class="fas fa-quote-left"></i>
+			</div>
+			<div class="star-rating">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+			</div>
+			<p class="testimonial-text">
+				Our Amazon sales were stagnant until Wrackdel stepped in. They optimized our product listings, managed our sponsored ads, and improved our seller rating. Within 4 months, we became a top seller in our category with a 520% increase in monthly revenue. Game-changing results!
+			</p>
+			<div class="client-info">
+				<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%236754E9'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='24' font-weight='bold'%3ELT%3C/text%3E%3C/svg%3E" alt="Lisa Thompson" class="client-avatar">
+				<div class="client-details">
+					<h4>Lisa Thompson</h4>
+					<p>Owner, PetPals Supplies</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Testimonial 6 - Email Marketing & CRO -->
+		<div class="testimonial-card">
+			<div class="quote-icon">
+				<i class="fas fa-quote-left"></i>
+			</div>
+			<div class="star-rating">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+			</div>
+			<p class="testimonial-text">
+				Wrackdel revolutionized our email marketing and website conversion rates. Their data-driven A/B testing and personalized email sequences increased our conversion rate from 1.8% to 4.2%. The ROI on their services has been phenomenal - they truly understand what drives customer action.
+			</p>
+			<div class="client-info">
+				<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%236754E9'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='24' font-weight='bold'%3EDB%3C/text%3E%3C/svg%3E" alt="David Brooks" class="client-avatar">
+				<div class="client-details">
+					<h4>David Brooks</h4>
+					<p>CMO, FitLife Nutrition</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<div class="faq-item">
-		<div class="faq-question">How is Wrackdel different from other agencies?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We consider ourselves a partner, not a vendor. Our approach combines data-driven strategies with creative solutions to deliver measurable results. With an average ROAS of 6.7 across our 100+ global clients, we focus on real business outcomes rather than vanity metrics.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">What industries do you work with?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We work with businesses across a wide range of industries including e-commerce, technology, healthcare, finance, education, and professional services. Our strategies are customized to fit the unique needs and goals of each industry.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">Where is Wrackdel located?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We serve clients globally with a distributed team of marketing experts. Regardless of your location, we can work together seamlessly through our established remote collaboration processes.</p></div>
-	</div>
-
-	<h3 class="faq-category-title">Working With Us</h3>
-
-	<div class="faq-item">
-		<div class="faq-question">How do I get started?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Getting started is easy. Simply reach out through our contact page or request a free audit. We will schedule an initial consultation to understand your business goals, assess your current digital presence, and develop a tailored strategy for your success.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">What does the onboarding process look like?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Our onboarding process typically includes a discovery session to understand your goals, a comprehensive audit of your existing digital marketing efforts, competitor analysis, strategy development, and a detailed implementation roadmap. This usually takes 2-3 weeks to complete.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">How long are your contracts?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We offer flexible engagement models to suit your needs. While we recommend a minimum commitment to allow our strategies to take effect and show results, we also offer month-to-month arrangements after an initial period. We are confident that our results will speak for themselves.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">How do you report on results?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We provide detailed monthly reports that include key performance metrics, campaign insights, and strategic recommendations. You will also have access to real-time dashboards and regular check-in calls with your dedicated account manager to discuss progress and next steps.</p></div>
-	</div>
-
-	<h3 class="faq-category-title">Services &amp; Pricing</h3>
-
-	<div class="faq-item">
-		<div class="faq-question">How much do your services cost?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Our pricing varies based on the scope of services, your business goals, and the level of competition in your market. We create custom proposals tailored to your specific needs and budget. Contact us for a free consultation and personalized quote.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">How long does it take to see results?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Results timelines vary by service. Paid search campaigns can show results within weeks, while SEO strategies typically take 3-6 months to show significant improvements. We set clear expectations during onboarding and provide regular progress updates throughout our engagement.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">Do you offer a free audit?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Yes! We offer a complimentary digital marketing audit that evaluates your current online presence, identifies opportunities for improvement, and outlines potential strategies. This helps both of us understand the scope of work needed to achieve your goals.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">Can I choose specific services or do I need a full package?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Absolutely. You can select individual services or combine multiple services into a custom package. We will work with you to determine which services align best with your objectives and budget, whether that is a focused SEO campaign or a full-spectrum digital marketing strategy.</p></div>
-	</div>
-
-	<div class="faq-cta">
-		<h3>Still have questions?</h3>
-		<p>Our team is ready to help you find the answers you need.</p>
-		<a href="contact.html">Contact Us</a>
+	<div class="testimonials-cta" style="text-align: center; margin-top: 60px; padding: 40px; background: #f8f9fa; border-radius: 20px;">
+		<h3 style="font-size: 32px; font-weight: 700; margin-bottom: 15px; color: #000;">Ready to Join Our Success Stories?</h3>
+		<p style="font-size: 18px; color: #555; margin-bottom: 25px;">Let's create your digital marketing success story together.</p>
+		<a href="contact.html" style="display: inline-block; background: #3735e8; color: #ffffff; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 16px; transition: all 0.3s ease;">Get Started Today</a>
 	</div>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-	document.querySelectorAll('.faq-question').forEach(function(question) {
-		question.addEventListener('click', function() {
-			var item = this.parentElement;
-			var wasActive = item.classList.contains('active');
-			// Close all other items
-			document.querySelectorAll('.faq-item.active').forEach(function(activeItem) {
-				activeItem.classList.remove('active');
-			});
-			// Toggle clicked item
-			if (!wasActive) {
-				item.classList.add('active');
-			}
-		});
-	});
-});
-</script>
 
 						</div>
 						</div>

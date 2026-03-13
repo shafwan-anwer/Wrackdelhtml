@@ -9,14 +9,14 @@
 <meta name="robots" content="max-image-preview:large">
 <style id="vamtam-theme-options">body {--vamtam-body-link-regular:#000000;
 --vamtam-body-link-visited:#000000;
---vamtam-body-link-hover:#6754E9;
---vamtam-body-link-active:#6754E9;
+--vamtam-body-link-hover:#3735e8;
+--vamtam-body-link-active:#3735e8;
 --vamtam-input-border-radius:18px 18px 18px 18px;
 --vamtam-input-border-color:#E2E2E2;
 --vamtam-btn-text-color:#FFFFFF;
 --vamtam-btn-hover-text-color:#FFFFFF;
 --vamtam-btn-bg-color:#000000;
---vamtam-btn-hover-bg-color:#6754E9;
+--vamtam-btn-hover-bg-color:#3735e8;
 --vamtam-btn-border-radius:18px 18px 18px 18px;
 --vamtam-btn-hover-border-radius:18px 18px 18px 18px;
 --vamtam-site-max-width:1280px;
@@ -190,6 +190,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					});
 				}
 			</script>
+			<link rel="stylesheet" href="./Numerique_files/custom-enhancements.css" type="text/css" media="all">
+			<link rel="stylesheet" href="./Numerique_files/icon-fix.css" type="text/css" media="all">
+			<script src="./Numerique_files/header-scroll.js" defer></script>
 </head>
 <body class="wp-singular page-template-default page page-id-faq wp-custom-logo wp-embed-responsive wp-theme-wrackdel full header-layout-logo-menu has-page-header no-middle-header responsive-layout vamtam-is-elementor elementor-active elementor-pro-active vamtam-wc-cart-empty wc-product-gallery-slider-active vamtam-font-smoothing layout-full elementor-default elementor-kit-7 elementor-page elementor-page-faq elementor-page-3064 e--ua-blink e--ua-chrome e--ua-mac e--ua-webkit dialog-body dialog-lightbox-body dialog-container dialog-lightbox-container" data-elementor-device-mode="desktop">
 	<div data-rocket-location-hash="33a51ce4811700f4830645d37fdf24b5" id="top"></div>
@@ -627,7 +630,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-c1c537e elementor-widget elementor-widget-heading animated fadeInDown" data-id="c1c537e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">FAQ</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Packages</h2>				</div>
 				</div>
 					</div>
 		</div>
@@ -643,241 +646,118 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-73278d3 elementor-widget elementor-widget-theme-post-content" data-id="73278d3" data-element_type="widget" data-widget_type="theme-post-content.default">
 				<div class="elementor-widget-container">
-							<div data-elementor-type="wp-page" data-elementor-id="faq" class="elementor elementor-faq" data-elementor-post-type="page">
+							<div data-elementor-type="wp-page" data-elementor-id="packages" class="elementor elementor-packages" data-elementor-post-type="page">
 
-<style>
-.faq-section {
-	max-width: 1280px;
-	margin: 0 auto;
-	padding: 0 15px;
-}
-.faq-section .faq-intro {
-	margin-bottom: 60px;
-}
-.faq-section .faq-intro h2 {
-	font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif;
-	font-weight: var(--e-global-typography-vamtam_h1-font-weight, 700);
-	font-size: clamp(28px, 4vw, 48px);
-	line-height: 1.2;
-	margin-bottom: 16px;
-}
-.faq-section .faq-intro p {
-	color: var(--e-global-color-vamtam_accent_6, #555);
-	max-width: 590px;
-	font-size: 16px;
-	line-height: 1.6;
-}
-.faq-category-title {
-	font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	margin: 40px 0 20px;
-}
-.faq-item {
-	border-bottom: 1px solid #E2E2E2;
-	margin-bottom: 0;
-}
-.faq-item:first-of-type {
-	border-top: 1px solid #E2E2E2;
-}
-.faq-question {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 0;
-	cursor: pointer;
-	font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 1.4;
-	transition: color 0.3s ease;
-	user-select: none;
-}
-.faq-question:hover {
-	color: #6754E9;
-}
-.faq-question .faq-icon {
-	font-family: 'icomoon';
-	font-size: 14px;
-	flex-shrink: 0;
-	margin-left: 20px;
-	transition: transform 0.3s ease;
-}
-.faq-question .faq-icon::before {
-	content: var(--vamtam-icon-plus);
-}
-.faq-item.active .faq-question .faq-icon::before {
-	content: var(--vamtam-icon-minus);
-}
-.faq-item.active .faq-question {
-	color: #6754E9;
-}
-.faq-answer {
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.4s ease, padding 0.3s ease;
-	padding: 0 0 0 0;
-}
-.faq-item.active .faq-answer {
-	max-height: 500px;
-	padding: 0 0 20px 0;
-}
-.faq-answer p {
-	color: var(--e-global-color-vamtam_accent_6, #555);
-	font-size: 16px;
-	line-height: 1.7;
-	margin: 0;
-	max-width: 800px;
-}
-.faq-cta {
-	margin-top: 60px;
-	margin-bottom: 120px;
-	padding: 40px;
-	background: #000;
-	border-radius: 18px;
-	text-align: center;
-}
-.faq-cta h3 {
-	font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif;
-	color: #fff;
-	font-size: 28px;
-	font-weight: 700;
-	margin-bottom: 12px;
-}
-.faq-cta p {
-	color: rgba(255,255,255,0.7);
-	font-size: 16px;
-	margin-bottom: 24px;
-}
-.faq-cta a {
-	display: inline-block;
-	background: #6754E9;
-	color: #fff;
-	padding: 14px 32px;
-	border-radius: 18px;
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 16px;
-	transition: background 0.3s ease;
-}
-.faq-cta a:hover {
-	background: #5443c7;
-}
-@media (max-width: 767px) {
-	.faq-section .faq-intro {
-		margin-bottom: 40px;
-	}
-	.faq-question {
-		font-size: 16px;
-	}
-	.faq-cta {
-		padding: 30px 20px;
-		margin-top: 40px;
-		margin-bottom: 60px;
-	}
-	.faq-cta h3 {
-		font-size: 22px;
-	}
-}
-</style>
+<section class="pricing-section" style="padding: 80px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+	<div style="max-width: 1280px; margin: 0 auto; padding: 0 20px;">
 
-<div class="faq-section">
-	<div class="faq-intro">
-		<h2 class="elementor-heading-title elementor-size-default">Frequently Asked Questions</h2>
-		<p>Find answers to common questions about our digital marketing services, processes, and how we can help grow your business.</p>
+		<!-- Section Header -->
+		<div style="text-align: center; margin-bottom: 60px;">
+			<h2 class="section-heading" style="font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif; font-size: clamp(32px, 4vw, 48px); font-weight: 800; margin-bottom: 20px; color: #000;">
+				Choose Your Growth Package
+			</h2>
+			<p class="section-subtitle" style="font-size: 18px; color: #777; max-width: 700px; margin: 0 auto; line-height: 1.7;">
+				Flexible pricing plans designed to accelerate your digital marketing success. Every package includes dedicated support and proven strategies.
+			</p>
+		</div>
+
+		<!-- Pricing Cards Container -->
+		<div class="packages-container">
+
+			<!-- STARTER Package -->
+			<div class="pricing-card">
+				<h3 class="package-name">STARTER</h3>
+				<div class="price">
+					<span class="currency">$</span>
+					<span>499</span>
+					<span class="period">/month</span>
+				</div>
+				<p style="color: #777; font-size: 15px; margin-bottom: 30px; min-height: 45px;">
+					Perfect for small businesses ready to establish their digital presence and drive initial growth.
+				</p>
+				<ul class="feature-list">
+					<li>Comprehensive SEO audit and optimization</li>
+					<li>Google Ads campaign setup and management</li>
+					<li>Social media presence on 2 platforms</li>
+					<li>Monthly performance reports and insights</li>
+					<li>Conversion tracking and analytics setup</li>
+					<li>Email marketing strategy consultation</li>
+					<li>Competitor analysis and benchmarking</li>
+					<li>Dedicated account manager support</li>
+				</ul>
+				<a href="contact.html" class="pricing-cta">Get Started</a>
+			</div>
+
+			<!-- PROFESSIONAL Package (Featured) -->
+			<div class="pricing-card featured">
+				<div class="featured-badge">Most Popular</div>
+				<h3 class="package-name">PROFESSIONAL</h3>
+				<div class="price">
+					<span class="currency">$</span>
+					<span>999</span>
+					<span class="period">/month</span>
+				</div>
+				<p style="color: rgba(255,255,255,0.9); font-size: 15px; margin-bottom: 30px; min-height: 45px;">
+					Ideal for growing businesses seeking comprehensive digital marketing with measurable ROI.
+				</p>
+				<ul class="feature-list">
+					<li>Everything in STARTER, plus:</li>
+					<li>Advanced SEO with content creation (4 articles/month)</li>
+					<li>Multi-channel PPC campaigns (Google, Facebook, LinkedIn)</li>
+					<li>Social media management on 4 platforms</li>
+					<li>Email marketing automation and campaigns</li>
+					<li>Conversion rate optimization (CRO) testing</li>
+					<li>Influencer outreach and collaboration</li>
+					<li>Bi-weekly strategy calls and priority support</li>
+					<li>Custom dashboard with real-time analytics</li>
+					<li>Quarterly strategy review and optimization</li>
+				</ul>
+				<a href="contact.html" class="pricing-cta">Get Started</a>
+			</div>
+
+			<!-- ENTERPRISE Package -->
+			<div class="pricing-card">
+				<h3 class="package-name">ENTERPRISE</h3>
+				<div class="price">
+					<span class="currency">$</span>
+					<span>1,999</span>
+					<span class="period">/month</span>
+				</div>
+				<p style="color: #777; font-size: 15px; margin-bottom: 30px; min-height: 45px;">
+					For established brands demanding enterprise-level strategies and maximum market impact.
+				</p>
+				<ul class="feature-list">
+					<li>Everything in PROFESSIONAL, plus:</li>
+					<li>Premium SEO with 8+ optimized articles/month</li>
+					<li>Full-funnel PPC strategy across all major platforms</li>
+					<li>Complete social media management (unlimited platforms)</li>
+					<li>Advanced marketing automation and segmentation</li>
+					<li>Amazon and Google Shopping campaign optimization</li>
+					<li>Dedicated influencer marketing campaigns</li>
+					<li>White-glove account management and weekly calls</li>
+					<li>Custom API integrations and reporting</li>
+					<li>Strategic consulting and brand development</li>
+				</ul>
+				<a href="contact.html" class="pricing-cta">Get Started</a>
+			</div>
+
+		</div>
+
+		<!-- Bottom CTA Section -->
+		<div style="margin-top: 80px; padding: 50px 40px; background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%); border-radius: 20px; text-align: center; box-shadow: 0 15px 50px rgba(0,0,0,0.15);">
+			<h3 style="font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif; color: #fff; font-size: 32px; font-weight: 700; margin-bottom: 16px;">
+				Not sure which package is right for you?
+			</h3>
+			<p style="color: rgba(255,255,255,0.8); font-size: 18px; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+				Our team will analyze your needs and recommend the perfect solution. Get a free consultation and custom proposal tailored to your business goals.
+			</p>
+			<a href="contact.html" style="display: inline-block; background: #3735e8; color: #fff; padding: 18px 45px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(103,84,233,0.4);" onmouseover="this.style.background='#5443c7'; this.style.transform='scale(1.05)'" onmouseout="this.style.background='#3735e8'; this.style.transform='scale(1)'">
+				Schedule Free Consultation
+			</a>
+		</div>
+
 	</div>
-
-	<h3 class="faq-category-title">General</h3>
-
-	<div class="faq-item">
-		<div class="faq-question">What services does Wrackdel offer?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We offer a comprehensive range of digital marketing services including Search Engine Optimization (SEO), Paid Search Marketing (PPC), Social Media Marketing, Email Marketing, Conversion Rate Optimization, Influencer Marketing, Google Shopping, and Amazon Shopping campaigns.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">How is Wrackdel different from other agencies?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We consider ourselves a partner, not a vendor. Our approach combines data-driven strategies with creative solutions to deliver measurable results. With an average ROAS of 6.7 across our 100+ global clients, we focus on real business outcomes rather than vanity metrics.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">What industries do you work with?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We work with businesses across a wide range of industries including e-commerce, technology, healthcare, finance, education, and professional services. Our strategies are customized to fit the unique needs and goals of each industry.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">Where is Wrackdel located?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We serve clients globally with a distributed team of marketing experts. Regardless of your location, we can work together seamlessly through our established remote collaboration processes.</p></div>
-	</div>
-
-	<h3 class="faq-category-title">Working With Us</h3>
-
-	<div class="faq-item">
-		<div class="faq-question">How do I get started?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Getting started is easy. Simply reach out through our contact page or request a free audit. We will schedule an initial consultation to understand your business goals, assess your current digital presence, and develop a tailored strategy for your success.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">What does the onboarding process look like?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Our onboarding process typically includes a discovery session to understand your goals, a comprehensive audit of your existing digital marketing efforts, competitor analysis, strategy development, and a detailed implementation roadmap. This usually takes 2-3 weeks to complete.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">How long are your contracts?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We offer flexible engagement models to suit your needs. While we recommend a minimum commitment to allow our strategies to take effect and show results, we also offer month-to-month arrangements after an initial period. We are confident that our results will speak for themselves.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">How do you report on results?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>We provide detailed monthly reports that include key performance metrics, campaign insights, and strategic recommendations. You will also have access to real-time dashboards and regular check-in calls with your dedicated account manager to discuss progress and next steps.</p></div>
-	</div>
-
-	<h3 class="faq-category-title">Services &amp; Pricing</h3>
-
-	<div class="faq-item">
-		<div class="faq-question">How much do your services cost?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Our pricing varies based on the scope of services, your business goals, and the level of competition in your market. We create custom proposals tailored to your specific needs and budget. Contact us for a free consultation and personalized quote.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">How long does it take to see results?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Results timelines vary by service. Paid search campaigns can show results within weeks, while SEO strategies typically take 3-6 months to show significant improvements. We set clear expectations during onboarding and provide regular progress updates throughout our engagement.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">Do you offer a free audit?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Yes! We offer a complimentary digital marketing audit that evaluates your current online presence, identifies opportunities for improvement, and outlines potential strategies. This helps both of us understand the scope of work needed to achieve your goals.</p></div>
-	</div>
-
-	<div class="faq-item">
-		<div class="faq-question">Can I choose specific services or do I need a full package?<span class="faq-icon"></span></div>
-		<div class="faq-answer"><p>Absolutely. You can select individual services or combine multiple services into a custom package. We will work with you to determine which services align best with your objectives and budget, whether that is a focused SEO campaign or a full-spectrum digital marketing strategy.</p></div>
-	</div>
-
-	<div class="faq-cta">
-		<h3>Still have questions?</h3>
-		<p>Our team is ready to help you find the answers you need.</p>
-		<a href="contact.html">Contact Us</a>
-	</div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-	document.querySelectorAll('.faq-question').forEach(function(question) {
-		question.addEventListener('click', function() {
-			var item = this.parentElement;
-			var wasActive = item.classList.contains('active');
-			// Close all other items
-			document.querySelectorAll('.faq-item.active').forEach(function(activeItem) {
-				activeItem.classList.remove('active');
-			});
-			// Toggle clicked item
-			if (!wasActive) {
-				item.classList.add('active');
-			}
-		});
-	});
-});
-</script>
+</section>
 
 						</div>
 						</div>

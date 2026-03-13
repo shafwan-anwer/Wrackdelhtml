@@ -10,14 +10,14 @@
 <meta name="robots" content="max-image-preview:large">
 <style id="vamtam-theme-options">body {--vamtam-body-link-regular:#000000;
 --vamtam-body-link-visited:#000000;
---vamtam-body-link-hover:#6754E9;
---vamtam-body-link-active:#6754E9;
+--vamtam-body-link-hover:#3735e8;
+--vamtam-body-link-active:#3735e8;
 --vamtam-input-border-radius:18px 18px 18px 18px;
 --vamtam-input-border-color:#E2E2E2;
 --vamtam-btn-text-color:#FFFFFF;
 --vamtam-btn-hover-text-color:#FFFFFF;
 --vamtam-btn-bg-color:#000000;
---vamtam-btn-hover-bg-color:#6754E9;
+--vamtam-btn-hover-bg-color:#3735e8;
 --vamtam-btn-border-radius:18px 18px 18px 18px;
 --vamtam-btn-hover-border-radius:18px 18px 18px 18px;
 --vamtam-site-max-width:1280px;
