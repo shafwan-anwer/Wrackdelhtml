@@ -57,7 +57,7 @@
     display: inline-block;
     padding: 8px 20px;
     background: rgba(55,53,232,0.1);
-    color: #3735e8;
+    color: #1565C0;
     border-radius: 50px;
     font-size: 12px;
     font-weight: 700;
@@ -98,7 +98,7 @@
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #3735e8 0%, #8b7af5 100%);
+    background: linear-gradient(135deg, #1565C0 0%, #8b7af5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -128,7 +128,7 @@
     display: block;
     font-size: 48px;
     font-weight: 900;
-    color: #3735e8;
+    color: #1565C0;
     margin-bottom: 8px;
 }
 
@@ -177,7 +177,7 @@
     top: 0;
     bottom: 0;
     width: 3px;
-    background: linear-gradient(180deg, #3735e8 0%, #8b7af5 100%);
+    background: linear-gradient(180deg, #1565C0 0%, #8b7af5 100%);
 }
 
 .timeline-item {
@@ -192,7 +192,7 @@
     top: 5px;
     width: 15px;
     height: 15px;
-    background: #3735e8;
+    background: #1565C0;
     border-radius: 50%;
     border: 3px solid #fff;
     box-shadow: 0 0 0 3px rgba(55,53,232,0.2);
@@ -257,7 +257,7 @@
     left: 0;
     right: 0;
     height: 5px;
-    background: linear-gradient(90deg, #3735e8, #8b7af5);
+    background: linear-gradient(90deg, #1565C0, #8b7af5);
     transform: scaleX(0);
     transition: transform 0.4s ease;
 }
@@ -275,7 +275,7 @@
     width: 80px;
     height: 80px;
     margin: 0 auto 25px;
-    background: linear-gradient(135deg, #3735e8, #8b7af5);
+    background: linear-gradient(135deg, #1565C0, #8b7af5);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -331,7 +331,7 @@
 
 .value-card:hover {
     background: #fff;
-    border-color: #3735e8;
+    border-color: #1565C0;
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(55,53,232,0.1);
 }
@@ -339,7 +339,7 @@
 .value-number {
     font-size: 48px;
     font-weight: 900;
-    background: linear-gradient(135deg, #3735e8, #8b7af5);
+    background: linear-gradient(135deg, #1565C0, #8b7af5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -362,7 +362,7 @@
 /* === WHY CHOOSE US SECTION === */
 .why-choose-section {
     padding: 100px 20px;
-    background: linear-gradient(135deg, #3735e8 0%, #5642c5 100%);
+    background: linear-gradient(135deg, #1565C0 0%, #5642c5 100%);
     color: #fff;
     position: relative;
     overflow: hidden;
@@ -542,20 +542,20 @@
 }
 
 .btn-primary:hover {
-    background: #3735e8;
-    border-color: #3735e8;
+    background: #1565C0;
+    border-color: #1565C0;
     transform: translateY(-3px);
     box-shadow: 0 10px 30px rgba(55,53,232,0.3);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #3735e8;
-    border: 2px solid #3735e8;
+    color: #1565C0;
+    border: 2px solid #1565C0;
 }
 
 .btn-secondary:hover {
-    background: #3735e8;
+    background: #1565C0;
     color: #fff;
     transform: translateY(-3px);
     box-shadow: 0 10px 30px rgba(55,53,232,0.3);
