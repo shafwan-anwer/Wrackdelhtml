@@ -209,7 +209,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 						<div class="elementor-element elementor-element-5318970 elementor-widget__width-auto elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5318970" data-element_type="widget" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
 											<a href="index.html">
-			<img width="196" height="67" src="./Numerique_files/logo.svg" class="attachment-full size-full wp-image-149" alt="">				</a>
+			<img width="196" height="67" src="./Numerique_files/logo.png" class="attachment-full size-full wp-image-149" alt="">				</a>
 											</div>
 				</div>
 					</div>
@@ -302,7 +302,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 						<div class="elementor-element elementor-element-5318970 elementor-widget__width-auto elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5318970" data-element_type="widget" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
 											<a href="index.html">
-			<img width="196" height="67" src="./Numerique_files/logo.svg" class="attachment-full size-full wp-image-149" alt="">				</a>
+			<img width="196" height="67" src="./Numerique_files/logo.png" class="attachment-full size-full wp-image-149" alt="">				</a>
 											</div>
 				</div>
 					</div>
@@ -412,7 +412,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 						<div class="elementor-element elementor-element-d0f870c elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="d0f870c" data-element_type="widget" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
 											<a href="index.html">
-			<img width="196" height="67" src="./Numerique_files/logo.svg" class="attachment-full size-full wp-image-149" alt="">				</a>
+			<img width="196" height="67" src="./Numerique_files/logo.png" class="attachment-full size-full wp-image-149" alt="">				</a>
 											</div>
 				</div>
 					</div>
@@ -536,7 +536,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 						<div class="elementor-element elementor-element-d0f870c elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="d0f870c" data-element_type="widget" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
 											<a href="index.html">
-			<img width="196" height="67" src="./Numerique_files/logo.svg" class="attachment-full size-full wp-image-149" alt="">				</a>
+			<img width="196" height="67" src="./Numerique_files/logo.png" class="attachment-full size-full wp-image-149" alt="">				</a>
 											</div>
 				</div>
 					</div>
@@ -1327,7 +1327,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				</div>
 				<div class="elementor-element elementor-element-679ac8f1 elementor-widget elementor-widget-image" data-id="679ac8f1" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="161" height="37" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20161%2037&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-5828" alt="" data-lazy-src="./Numerique_files/google-logo.svg"><noscript><img loading="lazy" loading="lazy" decoding="async" width="161" height="37" src="./Numerique_files/google-logo.svg" class="attachment-large size-large wp-image-5828" alt="" /></noscript>															</div>
+															<img decoding="async" width="161" height="37" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20161%2037&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-5828" alt="" data-lazy-src="./Numerique_files/google-logo.png"><noscript><img loading="lazy" loading="lazy" decoding="async" width="161" height="37" src="./Numerique_files/google-logo.png" class="attachment-large size-large wp-image-5828" alt="" /></noscript>															</div>
 				</div>
 				<div class="elementor-element elementor-element-649684b1 elementor-invisible elementor-widget elementor-widget-heading" data-id="649684b1" data-element_type="widget" data-settings="{&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:300,&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
