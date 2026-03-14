@@ -38,6 +38,19 @@
     color: #ffffff !important;
 }
 
+/* Logo center alignment in header column */
+.elementor-location-header .elementor-element-be8cc84 .elementor-widget-wrap {
+    justify-content: center !important;
+}
+
+.elementor-widget-theme-site-logo {
+    text-align: center;
+}
+
+.elementor-widget-theme-site-logo a {
+    display: inline-block;
+}
+
 /* Logo adjustments on scroll (optional - make it slightly smaller) */
 .header-scrolled .elementor-widget-theme-site-logo img {
     transform: scale(0.9);
