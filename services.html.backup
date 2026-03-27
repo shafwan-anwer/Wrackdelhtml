@@ -10,14 +10,14 @@
 <meta name="robots" content="max-image-preview:large">
 <style id="vamtam-theme-options">body {--vamtam-body-link-regular:#000000;
 --vamtam-body-link-visited:#000000;
---vamtam-body-link-hover:#3735e8;
---vamtam-body-link-active:#3735e8;
+--vamtam-body-link-hover:#1565C0;
+--vamtam-body-link-active:#1565C0;
 --vamtam-input-border-radius:18px 18px 18px 18px;
 --vamtam-input-border-color:#E2E2E2;
 --vamtam-btn-text-color:#FFFFFF;
 --vamtam-btn-hover-text-color:#FFFFFF;
 --vamtam-btn-bg-color:#000000;
---vamtam-btn-hover-bg-color:#3735e8;
+--vamtam-btn-hover-bg-color:#1565C0;
 --vamtam-btn-border-radius:18px 18px 18px 18px;
 --vamtam-btn-hover-border-radius:18px 18px 18px 18px;
 --vamtam-site-max-width:1280px;
@@ -75,7 +75,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 </style>
 <style id="global-styles-inline-css" type="text/css">
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #2196F3;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(33,150,243) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(100,181,246) 20%,rgb(30,136,229) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(187,222,251) 0%,rgb(144,202,249) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(66,165,245) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
 :where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
@@ -197,6 +197,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					});
 				}
 			</script>
+			<link rel="stylesheet" href="./Numerique_files/custom-enhancements.css" type="text/css" media="all">
+			<link rel="stylesheet" href="./Numerique_files/icon-fix.css" type="text/css" media="all">
+			<script src="./Numerique_files/header-scroll.js" defer></script>
 </head>
 <body class="wp-singular page-template-default page page-id-84 page-parent wp-custom-logo wp-embed-responsive wp-theme-wrackdel full header-layout-logo-menu has-page-header no-middle-header responsive-layout has-post-thumbnail vamtam-is-elementor elementor-active elementor-pro-active vamtam-wc-cart-empty wc-product-gallery-slider-active vamtam-font-smoothing layout-full elementor-default elementor-kit-7 elementor-page elementor-page-84 elementor-page-3064 e--ua-blink e--ua-chrome e--ua-mac e--ua-webkit dialog-body dialog-lightbox-body dialog-container dialog-lightbox-container" data-elementor-device-mode="desktop">
 	<div id="top"></div>
@@ -219,58 +222,28 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 						<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-d6e4a7b elementor-widget__width-auto elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger vamtam-has-mobile-disable-scroll elementor-widget elementor-widget-nav-menu vamtam-has-submenu-icon" data-id="d6e4a7b" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-theme-underline">
-				<ul id="menu-1-d6e4a7b" class="elementor-nav-menu" data-smartmenus-id="17729797197527595"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-134"><a href="index.html" class="elementor-item has-submenu" id="sm-17729797197527595-1" aria-haspopup="true" aria-controls="sm-17729797197527595-2" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Home</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
-<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729797197527595-2" role="group" aria-hidden="true" aria-labelledby="sm-17729797197527595-1" aria-expanded="false">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-115"><a href="index.html" class="elementor-sub-item">Home 1</a></li>
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-theme-underline">
+				<ul id="menu-1-d6e4a7b" class="elementor-nav-menu" data-smartmenus-id="17729597090969531"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-134"><a href="index.html" aria-current="page" class="elementor-item elementor-item-active has-submenu" id="sm-17729597090969531-1" aria-haspopup="true" aria-controls="sm-17729597090969531-2" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Home</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729597090969531-2" role="group" aria-hidden="true" aria-labelledby="sm-17729597090969531-1" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-115"><a href="index.html" aria-current="page" class="elementor-sub-item elementor-item-active">Home 1</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="index.html" class="elementor-sub-item">Home 2</a></li>
 </ul>
 </li>
-<li class="mega-menu-solutions menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-84 current_page_item menu-item-121"><a href="services.html" aria-current="page" class="elementor-item elementor-item-active"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Services</span></span></a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-135"><a href="about-us.html" class="elementor-item has-submenu" id="sm-17729797197527595-3" aria-haspopup="true" aria-controls="sm-17729797197527595-4" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">About Us</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
-<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729797197527595-4" role="group" aria-hidden="true" aria-labelledby="sm-17729797197527595-3" aria-expanded="false">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="about-us.html" class="elementor-sub-item">About Us</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="#" class="elementor-sub-item">Careers</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="#" class="elementor-sub-item">Meet the Team</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3226"><a href="portfolio.html" class="elementor-item has-submenu" id="sm-17729797197527595-5" aria-haspopup="true" aria-controls="sm-17729797197527595-6" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Work</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
-<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729797197527595-6" role="group" aria-hidden="true" aria-labelledby="sm-17729797197527595-5" aria-expanded="false">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3227"><a href="portfolio.html" class="elementor-sub-item">Portfolio</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="packages.html" class="elementor-item">Packages</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item">Testimonials</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item">FAQs</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item">Awards</a></li>
-</ul>
-</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Services</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="about-us.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">About Us</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3226"><a href="portfolio.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Portfolio</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="packages.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Packages</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Testimonials</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">FAQs</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Contact</span></span></a></li>
 </ul>			</nav>
-					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
-			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
-					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
-				<ul id="menu-2-d6e4a7b" class="elementor-nav-menu" data-smartmenus-id="17729797197548796"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-134"><a href="index.html" class="elementor-item has-submenu" tabindex="-1" id="sm-17729797197548796-1" aria-haspopup="true" aria-controls="sm-17729797197548796-2" aria-expanded="false">Home<span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
-<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729797197548796-2" role="group" aria-hidden="true" aria-labelledby="sm-17729797197548796-1" aria-expanded="false">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-115"><a href="index.html" class="elementor-sub-item" tabindex="-1">Home 1</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="index.html" class="elementor-sub-item" tabindex="-1">Home 2</a></li>
+</li>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729797197527595-4" role="group" aria-hidden="true" aria-labelledby="sm-17729797197527595-3" aria-expanded="false">
 </ul>
 </li>
-<li class="mega-menu-solutions menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-84 current_page_item menu-item-121"><a href="services.html" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Services</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-135"><a href="about-us.html" class="elementor-item has-submenu" tabindex="-1" id="sm-17729797197548796-3" aria-haspopup="true" aria-controls="sm-17729797197548796-4" aria-expanded="false">About Us<span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
-<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729797197548796-4" role="group" aria-hidden="true" aria-labelledby="sm-17729797197548796-3" aria-expanded="false">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="about-us.html" class="elementor-sub-item" tabindex="-1">About Us</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="#" class="elementor-sub-item" tabindex="-1">Careers</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="#" class="elementor-sub-item" tabindex="-1">Meet the Team</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3226"><a href="portfolio.html" class="elementor-item has-submenu" tabindex="-1" id="sm-17729797197548796-5" aria-haspopup="true" aria-controls="sm-17729797197548796-6" aria-expanded="false">Work<span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
-<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729797197548796-6" role="group" aria-hidden="true" aria-labelledby="sm-17729797197548796-5" aria-expanded="false">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3227"><a href="portfolio.html" class="elementor-sub-item" tabindex="-1">Portfolio</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="packages.html" class="elementor-item">Packages</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item">Testimonials</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item">FAQs</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item" tabindex="-1">Awards</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
+
+
+
 </ul>			</nav>
 						</div>
 				</div>
@@ -723,11 +696,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-6cf1c62 elementor-widget elementor-widget-heading" data-id="6cf1c62" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">We lead with customer-first strategies:</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Our Services</h2>				</div>
 				</div>
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-6b061c9 elementor-widget elementor-widget-text-editor" data-id="6b061c9" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Driving growth through personalized experiences for truly end-to-end business building.</p>								</div>
+									<p>We offer comprehensive digital marketing services designed to help your business thrive in the digital landscape.</p>								</div>
 				</div>
 					</div>
 		</div>
@@ -1242,122 +1215,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		</div>
 					</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-faa4135 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="faa4135" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e9f327b" data-id="e9f327b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-cc52892 elementor-widget elementor-widget-heading" data-id="cc52892" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h5 class="elementor-heading-title elementor-size-default">The Best Brands Choose Wrackdel</h5>				</div>
-				</div>
-				<div class="elementor-element elementor-element-510da78 elementor-widget elementor-widget-template" data-id="510da78" data-element_type="widget" data-widget_type="template.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-template">
-					<div data-elementor-type="section" data-elementor-id="3094" class="elementor elementor-3094 elementor-location-single" data-elementor-post-type="elementor_library">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-8446ae8 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="8446ae8" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7e14887" data-id="7e14887" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-40ce0f7 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="40ce0f7" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="156" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20156%2034&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-9316" alt="" data-lazy-src="./Numerique_files/jolie-1.svg"><noscript><img decoding="async" width="156" height="34" src="./Numerique_files/jolie-1.svg" class="attachment-large size-large wp-image-9316" alt="" /></noscript>															</div>
-				</div>
-				<div class="elementor-element elementor-element-533da8d elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="533da8d" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="147" height="35" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20147%2035&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-9306" alt="" data-lazy-src="./Numerique_files/caridad.svg"><noscript><img loading="lazy" loading="lazy" decoding="async" width="147" height="35" src="./Numerique_files/caridad.svg" class="attachment-large size-large wp-image-9306" alt="" /></noscript>															</div>
-				</div>
-				<div class="elementor-element elementor-element-49ef3da elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="49ef3da" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="61" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2061%2034&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-9385" alt="" data-lazy-src="./Numerique_files/F7.svg"><noscript><img loading="lazy" loading="lazy" decoding="async" width="61" height="34" src="./Numerique_files/F7.svg" class="attachment-large size-large wp-image-9385" alt="" /></noscript>															</div>
-				</div>
-				<div class="elementor-element elementor-element-cf9c2fb elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="cf9c2fb" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="160" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20160%2034&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-9317" alt="" data-lazy-src="./Numerique_files/Scuola_Logo_OnlyTop-1.svg"><noscript><img loading="lazy" loading="lazy" decoding="async" width="160" height="34" src="./Numerique_files/Scuola_Logo_OnlyTop-1.svg" class="attachment-large size-large wp-image-9317" alt="" /></noscript>															</div>
-				</div>
-				<div class="elementor-element elementor-element-5afa0db elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="5afa0db" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="126" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20126%2034&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-9386" alt="" data-lazy-src="./Numerique_files/petmania.svg"><noscript><img loading="lazy" loading="lazy" decoding="async" width="126" height="34" src="./Numerique_files/petmania.svg" class="attachment-large size-large wp-image-9386" alt="" /></noscript>															</div>
-				</div>
-				<div class="elementor-element elementor-element-eff633f elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="eff633f" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="171" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20171%2034&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-9312" alt="" data-lazy-src="./Numerique_files/tecnologia.svg"><noscript><img loading="lazy" loading="lazy" decoding="async" width="171" height="34" src="./Numerique_files/tecnologia.svg" class="attachment-large size-large wp-image-9312" alt="" /></noscript>															</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-05abd13 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="05abd13" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d05599" data-id="3d05599" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-9d2435b elementor-widget elementor-widget-global elementor-global-3575 elementor-widget-spacer" data-id="9d2435b" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-				</div>
-						</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-bf5b156 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="bf5b156" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7609993" data-id="7609993" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-a485efb elementor-widget elementor-widget-template" data-id="a485efb" data-element_type="widget" data-widget_type="template.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-template">
-					<div data-elementor-type="section" data-elementor-id="5072" class="elementor elementor-5072 elementor-location-single" data-elementor-post-type="elementor_library">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-5729a393 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5729a393" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4337bdbf" data-id="4337bdbf" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-1bedc77a elementor-widget__width-auto elementor-absolute e-transform elementor-widget elementor-widget-image" data-id="1bedc77a" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-30,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="542" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20542%201024&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-4944" alt="" data-lazy- data-lazy-sizes="(max-width: 542px) 100vw, 542px" data-lazy-src="./Numerique_files/GettyImages-1367732506-1-542x1024.png"><noscript><img loading="lazy" loading="lazy" decoding="async" width="542" height="1024" src="./Numerique_files/GettyImages-1367732506-1-542x1024.png" class="attachment-large size-large wp-image-4944" alt="" sizes="(max-width: 542px) 100vw, 542px" /></noscript>															</div>
-				</div>
-				<div class="elementor-element elementor-element-679ac8f1 elementor-widget elementor-widget-image" data-id="679ac8f1" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="161" height="37" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20161%2037&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-5828" alt="" data-lazy-src="./Numerique_files/google-logo.png"><noscript><img loading="lazy" loading="lazy" decoding="async" width="161" height="37" src="./Numerique_files/google-logo.png" class="attachment-large size-large wp-image-5828" alt="" /></noscript>															</div>
-				</div>
-				<div class="elementor-element elementor-element-649684b1 elementor-invisible elementor-widget elementor-widget-heading" data-id="649684b1" data-element_type="widget" data-settings="{&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:300,&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Get started with a Free consultation</h2>				</div>
-				</div>
-				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-61944829 elementor-align-center vamtam-has-underline-anim elementor-widget elementor-widget-button" data-id="61944829" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon">
-				<i aria-hidden="true" class="vamtamtheme- vamtam-theme-arrow-right"></i>			</span>
-									<span class="elementor-button-text"><span class="vamtam-btn-text">Get a proposal</span></span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-				</div>
-						</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
+
+
 				</div>
 						</div>
 				</div>
@@ -1388,7 +1247,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b327f8f" data-id="b327f8f" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-0c69f54 elementor-invisible elementor-widget elementor-widget-heading" data-id="0c69f54" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:200}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-0c69f54 elementor-widget elementor-widget-heading animated fadeIn" data-id="0c69f54" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:200}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">See how we can help your business grow with digital marketing</h2>				</div>
 				</div>
@@ -1405,7 +1264,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 									<div class="elementor-button-wrapper">
 					<a class="elementor-button elementor-button-link elementor-size-sm" href="tel:8884005050">
 						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text"><span class="vamtam-btn-text">888-400-5050</span></span>
+									<span class="elementor-button-text"><span class="vamtam-btn-text">+94 77 717 3446</span></span>
 					</span>
 					</a>
 				</div>
@@ -1445,29 +1304,29 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				</div>
 				<div class="elementor-element elementor-element-83c7c96 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="83c7c96" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="119" height="29" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20119%2029&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-1144" alt="" data-lazy-src="./Numerique_files/meta-partner.svg"><noscript><img loading="lazy" width="119" height="29" src="./Numerique_files/meta-partner.svg" class="attachment-large size-large wp-image-1144" alt="" /></noscript>															</div>
+															<img width="119" height="29" src="./Numerique_files/meta-partner.svg" class="attachment-large size-large wp-image-1144" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-2012204 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="2012204" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="142" height="30" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20142%2030&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-1142" alt="" data-lazy-src="./Numerique_files/google-cloud.svg"><noscript><img loading="lazy" width="142" height="30" src="./Numerique_files/google-cloud.svg" class="attachment-large size-large wp-image-1142" alt="" /></noscript>															</div>
+															<img width="142" height="30" src="./Numerique_files/google-cloud.svg" class="attachment-large size-large wp-image-1142" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-8b9df4f elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="8b9df4f" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="73" height="30" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2073%2030&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-1143" alt="" data-lazy-src="./Numerique_files/google-partner.svg"><noscript><img loading="lazy" width="73" height="30" src="./Numerique_files/google-partner.svg" class="attachment-large size-large wp-image-1143" alt="" /></noscript>															</div>
+															<img width="73" height="30" src="./Numerique_files/google-partner.svg" class="attachment-large size-large wp-image-1143" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-3fca2ad elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="3fca2ad" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="79" height="30" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2079%2030&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-1145" alt="" data-lazy-src="./Numerique_files/shopify.svg"><noscript><img loading="lazy" width="79" height="30" src="./Numerique_files/shopify.svg" class="attachment-large size-large wp-image-1145" alt="" /></noscript>															</div>
+															<img width="79" height="30" src="./Numerique_files/shopify.svg" class="attachment-large size-large wp-image-1145" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-a3c3caf elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="a3c3caf" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="78" height="30" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2078%2030&#39;%3E%3C/svg%3E" class="attachment-large size-large wp-image-1146" alt="" data-lazy-src="./Numerique_files/tiktok.svg"><noscript><img loading="lazy" width="78" height="30" src="./Numerique_files/tiktok.svg" class="attachment-large size-large wp-image-1146" alt="" /></noscript>															</div>
+															<img width="78" height="30" src="./Numerique_files/tiktok.svg" class="attachment-large size-large wp-image-1146" alt="">															</div>
 				</div>
 					</div>
 		</div>
 				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-284d67b" data-id="284d67b" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-fcdae10 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-heading" data-id="fcdae10" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-fcdae10 elementor-widget__width-auto elementor-widget elementor-widget-heading animated pulse" data-id="fcdae10" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default">6.7</h3>				</div>
 				</div>
@@ -1498,10 +1357,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-ae3e8b3 elementor-nav-menu--dropdown-none elementor-widget__width-auto elementor-widget-mobile__width-inherit vamtam-has-mobile-disable-scroll elementor-widget elementor-widget-nav-menu vamtam-has-submenu-icon" data-id="ae3e8b3" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-theme-underline">
-				<ul id="menu-1-ae3e8b3" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729797197632644"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1467"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Paid search marketing</span></span></a></li>
+				<ul id="menu-1-ae3e8b3" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729597091443865"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1467"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Paid search marketing</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1468"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Search engine optimization</span></span></a></li>
 </ul>			</nav>
 						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
+				<ul id="menu-2-ae3e8b3" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729597091454336"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1467"><a href="paid-search-marketing.html" class="elementor-item" tabindex="-1">Paid search marketing</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1468"><a href="services.html" class="elementor-item" tabindex="-1">Search engine optimization</a></li>
 </ul>			</nav>
 						</div>
@@ -1509,11 +1369,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-209b4f9 elementor-nav-menu--dropdown-none elementor-widget__width-auto elementor-widget-mobile__width-inherit vamtam-has-mobile-disable-scroll elementor-widget elementor-widget-nav-menu vamtam-has-submenu-icon" data-id="209b4f9" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-theme-underline">
-				<ul id="menu-1-209b4f9" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729797197648528"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1469"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Email marketing</span></span></a></li>
+				<ul id="menu-1-209b4f9" class="elementor-nav-menu sm-vertical" data-smartmenus-id="1772959709148246"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1469"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Email marketing</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1470"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Conversion rate optimization</span></span></a></li>
 </ul>			</nav>
 						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
-				<ul id="menu-2-209b4f9" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729797197643264"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1469"><a href="services.html" class="elementor-item" tabindex="-1">Email marketing</a></li>
+				<ul id="menu-2-209b4f9" class="elementor-nav-menu sm-vertical" data-smartmenus-id="1772959709149432"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1469"><a href="services.html" class="elementor-item" tabindex="-1">Email marketing</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1470"><a href="services.html" class="elementor-item" tabindex="-1">Conversion rate optimization</a></li>
 </ul>			</nav>
 						</div>
@@ -1521,11 +1381,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-d5984ba elementor-nav-menu--dropdown-none elementor-widget__width-auto elementor-widget-mobile__width-inherit vamtam-has-mobile-disable-scroll elementor-widget elementor-widget-nav-menu vamtam-has-submenu-icon" data-id="d5984ba" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-theme-underline">
-				<ul id="menu-1-d5984ba" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729797197658853"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Social Media Marketing</span></span></a></li>
+				<ul id="menu-1-d5984ba" class="elementor-nav-menu sm-vertical" data-smartmenus-id="1772959709149533"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Social Media Marketing</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1472"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Google shopping</span></span></a></li>
 </ul>			</nav>
 						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
-				<ul id="menu-2-d5984ba" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729797197657546"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471"><a href="services.html" class="elementor-item" tabindex="-1">Social Media Marketing</a></li>
+				<ul id="menu-2-d5984ba" class="elementor-nav-menu sm-vertical" data-smartmenus-id="177295970915129"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471"><a href="services.html" class="elementor-item" tabindex="-1">Social Media Marketing</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1472"><a href="services.html" class="elementor-item" tabindex="-1">Google shopping</a></li>
 </ul>			</nav>
 						</div>
@@ -1533,11 +1393,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-a4c35e0 elementor-nav-menu--dropdown-none elementor-widget__width-auto elementor-widget-mobile__width-inherit vamtam-has-mobile-disable-scroll elementor-widget elementor-widget-nav-menu vamtam-has-submenu-icon" data-id="a4c35e0" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-theme-underline">
-				<ul id="menu-1-a4c35e0" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729797197657988"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1473"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Influencer marketing</span></span></a></li>
+				<ul id="menu-1-a4c35e0" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729597091533367"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1473"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Influencer marketing</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1474"><a href="services.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Amazon shopping</span></span></a></li>
 </ul>			</nav>
 						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
-				<ul id="menu-2-a4c35e0" class="elementor-nav-menu sm-vertical" data-smartmenus-id="1772979719765539"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1473"><a href="services.html" class="elementor-item" tabindex="-1">Influencer marketing</a></li>
+				<ul id="menu-2-a4c35e0" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17729597091535073"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1473"><a href="services.html" class="elementor-item" tabindex="-1">Influencer marketing</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1474"><a href="services.html" class="elementor-item" tabindex="-1">Amazon shopping</a></li>
 </ul>			</nav>
 						</div>
@@ -1545,7 +1405,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-f7988a7 elementor-nav-menu__align-justify elementor-nav-menu--dropdown-mobile elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu vamtam-has-submenu-icon" data-id="f7988a7" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-theme-underline">
-				<ul id="menu-1-f7988a7" class="elementor-nav-menu" data-smartmenus-id="17729797197669995"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1483"><a href="about-us.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">About</span></span></a></li>
+				<ul id="menu-1-f7988a7" class="elementor-nav-menu" data-smartmenus-id="1772959709154195"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1483"><a href="about-us.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">About</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1482"><a href="blog.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Blog</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481"><a href="#" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Careers</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1480"><a href="about-us.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Team</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1477"><a href="portfolio.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Portfolio</span></span></a></li>
@@ -1555,13 +1416,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open vamtamtheme- vamtam-theme-plus"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
 					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
-				<ul id="menu-2-f7988a7" class="elementor-nav-menu" data-smartmenus-id="1772979719766164"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1483"><a href="about-us.html" class="elementor-item" tabindex="-1">About</a></li>
+				<ul id="menu-2-f7988a7" class="elementor-nav-menu" data-smartmenus-id="1772959709156729"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1483"><a href="about-us.html" class="elementor-item" tabindex="-1">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1482"><a href="blog.html" class="elementor-item" tabindex="-1">Blog</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481"><a href="#" class="elementor-item" tabindex="-1">Careers</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1480"><a href="about-us.html" class="elementor-item" tabindex="-1">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1477"><a href="portfolio.html" class="elementor-item" tabindex="-1">Portfolio</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="packages.html" class="elementor-item">Packages</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item">Testimonials</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item">FAQs</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1487"><a href="#" class="elementor-item" tabindex="-1">Awards</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1478"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 </ul>			</nav>
@@ -1582,11 +1441,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-fcec2a3 elementor-widget__width-auto elementor-nav-menu--dropdown-none elementor-widget-mobile__width-inherit vamtam-has-mobile-disable-scroll elementor-widget elementor-widget-nav-menu vamtam-has-submenu-icon" data-id="fcec2a3" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-				<ul id="menu-1-fcec2a3" class="elementor-nav-menu" data-smartmenus-id="17729797197667456"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1456"><a href="terms-conditions.html" class="elementor-item">Terms &amp; Conditions</a></li>
+				<ul id="menu-1-fcec2a3" class="elementor-nav-menu" data-smartmenus-id="17729597091578503"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1456"><a href="terms-conditions.html" class="elementor-item">Terms &amp; Conditions</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1457"><a rel="privacy-policy" href="privacy-policy.html" class="elementor-item">Privacy Policy</a></li>
 </ul>			</nav>
 						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true" style="--menu-height: 0;">
-				<ul id="menu-2-fcec2a3" class="elementor-nav-menu" data-smartmenus-id="17729797197669238"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1456"><a href="terms-conditions.html" class="elementor-item" tabindex="-1">Terms &amp; Conditions</a></li>
+				<ul id="menu-2-fcec2a3" class="elementor-nav-menu" data-smartmenus-id="17729597091613882"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1456"><a href="terms-conditions.html" class="elementor-item" tabindex="-1">Terms &amp; Conditions</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1457"><a rel="privacy-policy" href="privacy-policy.html" class="elementor-item" tabindex="-1">Privacy Policy</a></li>
 </ul>			</nav>
 						</div>
@@ -1767,4 +1626,5 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 })();
 </script>
 <script src="./Numerique_files/tab-fix.js"></script>
+<script src="./Numerique_files/tabs-click-fix.js"></script>
 </body></html>

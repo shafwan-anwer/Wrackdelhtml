@@ -1590,7 +1590,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 									<div class="elementor-button-wrapper">
 					<a class="elementor-button elementor-button-link elementor-size-sm" href="tel:8884005050">
 						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text"><span class="vamtam-btn-text">888-400-5050</span></span>
+									<span class="elementor-button-text"><span class="vamtam-btn-text">+94 77 717 3446</span></span>
 					</span>
 					</a>
 				</div>

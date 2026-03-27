@@ -3,6 +3,14 @@
    Modern, Impressive Styling for About Us, Packages & Testimonials
    ================================================================= */
 
+/* ===== LOGO COLOR VARIABLES ===== */
+:root {
+    --logo-bright-blue: #94d6f7;
+    --logo-navy: #003366;
+    --logo-light-blue: #66c1ef;
+    --logo-dark-blue: #56b5f3;
+}
+
 /* ===== HEADER SCROLL ANIMATION ===== */
 
 /* Default header state - transparent */
@@ -31,7 +39,7 @@
 
 /* Ensure nav links are visible on white background */
 .header-scrolled .elementor-nav-menu a {
-    color: #000000 !important;
+    color: var(--logo-navy) !important;
 }
 
 .header-scrolled .elementor-button {
@@ -72,7 +80,7 @@
 }
 
 .page-id-86 .elementor-element-c1c537e h2 {
-    color: #1565C0;
+    color: var(--logo-bright-blue);
     font-size: 11px;
     font-weight: 600;
     text-transform: uppercase;
@@ -88,7 +96,7 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 1.4;
-    color: #000000;
+    color: var(--logo-navy);
 }
 
 .page-id-86 .elementor-element-599dfb7 img {
@@ -157,7 +165,7 @@
 .page-id-86 .elementor-element-dcf2f48 h2 {
     font-size: 32px;
     font-weight: 700;
-    color: #000000;
+    color: var(--logo-navy);
 }
 
 /* Values Cards - Properly Responsive */
@@ -185,8 +193,8 @@
 }
 
 .page-id-86 .elementor-element-926cfce .elementor-column:hover {
-    border-color: #1565C0 !important;
-    box-shadow: 0 8px 25px rgba(103,84,233,0.12) !important;
+    border-color: var(--logo-bright-blue) !important;
+    box-shadow: 0 8px 25px rgba(0,136,204,0.12) !important;
     transform: translateY(-3px) !important;
 }
 
@@ -202,14 +210,14 @@
 .page-id-86 .elementor-icon-box-icon .elementor-icon {
     width: 65px !important;
     height: 65px !important;
-    background: linear-gradient(135deg, #1565C0, #42A5F5) !important;
+    background: linear-gradient(135deg, var(--logo-bright-blue), var(--logo-light-blue)) !important;
     border-radius: 50% !important;
     font-size: 30px !important;
     color: #ffffff !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 6px 18px rgba(103,84,233,0.2) !important;
+    box-shadow: 0 6px 18px rgba(0,136,204,0.2) !important;
     transition: transform 0.3s ease !important;
 }
 
@@ -220,7 +228,7 @@
 .page-id-86 .elementor-icon-box-title {
     font-size: 20px !important;
     font-weight: 700 !important;
-    color: #000000 !important;
+    color: var(--logo-navy) !important;
     margin-bottom: 12px !important;
 }
 
@@ -251,7 +259,7 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 1.4;
-    color: #000000;
+    color: var(--logo-navy);
 }
 
 .page-id-86 .elementor-element-3232088 p {
@@ -261,7 +269,7 @@
 }
 
 .page-id-86 .elementor-element-5e3e423 .elementor-button {
-    background: #000000 !important;
+    background: var(--logo-navy) !important;
     color: #ffffff !important;
     padding: 12px 30px !important;
     border-radius: 6px !important;
@@ -271,7 +279,7 @@
 }
 
 .page-id-86 .elementor-element-5e3e423 .elementor-button:hover {
-    background: #1565C0 !important;
+    background: var(--logo-bright-blue) !important;
 }
 
 /* === CLIENTS SECTION === */
@@ -284,7 +292,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #1565C0;
+    color: var(--logo-bright-blue);
     text-align: center;
     margin-bottom: 40px;
 }
@@ -304,20 +312,20 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #1565C0;
+    color: var(--logo-bright-blue);
 }
 
 .page-id-86 .elementor-element-52af333 h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.4;
-    color: #000000;
+    color: var(--logo-navy);
 }
 
 .page-id-86 .elementor-element-9feb5f8 .elementor-button {
     background: transparent !important;
-    color: #1565C0 !important;
-    border: 2px solid #1565C0 !important;
+    color: var(--logo-bright-blue) !important;
+    border: 2px solid var(--logo-bright-blue) !important;
     padding: 10px 28px !important;
     border-radius: 6px !important;
     font-weight: 600 !important;
@@ -325,7 +333,7 @@
 }
 
 .page-id-86 .elementor-element-9feb5f8 .elementor-button:hover {
-    background: #1565C0 !important;
+    background: var(--logo-bright-blue) !important;
     color: #ffffff !important;
 }
 
@@ -334,7 +342,7 @@
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-    color: #000000;
+    color: var(--logo-navy);
 }
 
 /* === TABLET RESPONSIVE (768px - 1024px) === */
@@ -457,7 +465,7 @@
     left: 0;
     right: 0;
     height: 5px;
-    background: linear-gradient(90deg, #1565C0 0%, #42A5F5 100%);
+    background: linear-gradient(90deg, var(--logo-bright-blue) 0%, var(--logo-light-blue) 100%);
     transform: scaleX(0);
     transition: transform 0.4s ease;
 }
@@ -468,16 +476,16 @@
 
 .pricing-card:hover {
     transform: translateY(-12px);
-    box-shadow: 0 20px 60px rgba(103,84,233,0.2);
-    border-color: #1565C0;
+    box-shadow: 0 20px 60px rgba(0,136,204,0.2);
+    border-color: var(--logo-bright-blue);
 }
 
 /* Featured package highlight */
 .pricing-card.featured {
-    background: linear-gradient(135deg, #1565C0 0%, #1976D2 100%);
+    background: linear-gradient(135deg, var(--logo-bright-blue) 0%, var(--logo-dark-blue) 100%);
     color: #ffffff;
     transform: scale(1.05);
-    box-shadow: 0 15px 50px rgba(103,84,233,0.3);
+    box-shadow: 0 15px 50px rgba(0,136,204,0.3);
 }
 
 .pricing-card.featured .price {
@@ -492,7 +500,7 @@
     position: absolute;
     top: 20px;
     right: -30px;
-    background: #000000;
+    background: var(--logo-navy);
     color: #ffffff;
     padding: 5px 40px;
     font-size: 12px;
@@ -507,7 +515,7 @@
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #000000;
+    color: var(--logo-navy);
 }
 
 .pricing-card.featured .package-name {
@@ -518,7 +526,7 @@
 .price {
     font-size: 48px;
     font-weight: 800;
-    color: #1565C0;
+    color: var(--logo-bright-blue);
     margin: 20px 0;
     display: flex;
     align-items: baseline;
@@ -564,7 +572,7 @@
     font-weight: 900;
     position: absolute;
     left: 0;
-    color: #1565C0;
+    color: var(--logo-bright-blue);
     font-size: 14px;
 }
 
@@ -575,7 +583,7 @@
 /* CTA button in pricing cards */
 .pricing-cta {
     display: inline-block;
-    background: #000000;
+    background: var(--logo-navy);
     color: #ffffff;
     padding: 16px 40px;
     border-radius: 50px;
@@ -584,26 +592,26 @@
     font-size: 16px;
     margin-top: 20px;
     transition: all 0.3s ease;
-    border: 2px solid #000000;
+    border: 2px solid var(--logo-navy);
 }
 
 .pricing-cta:hover {
-    background: #1565C0;
-    border-color: #1565C0;
+    background: var(--logo-bright-blue);
+    border-color: var(--logo-bright-blue);
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(103,84,233,0.3);
+    box-shadow: 0 8px 20px rgba(0,136,204,0.3);
 }
 
 .pricing-card.featured .pricing-cta {
     background: #ffffff;
-    color: #1565C0;
+    color: var(--logo-bright-blue);
     border-color: #ffffff;
 }
 
 .pricing-card.featured .pricing-cta:hover {
-    background: #000000;
+    background: var(--logo-navy);
     color: #ffffff;
-    border-color: #000000;
+    border-color: var(--logo-navy);
 }
 
 /* ===== TESTIMONIALS PAGE ENHANCEMENTS ===== */
@@ -626,19 +634,19 @@
     box-shadow: 0 8px 30px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
     position: relative;
-    border-left: 5px solid #1565C0;
+    border-left: 5px solid var(--logo-bright-blue);
 }
 
 .testimonial-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 50px rgba(103,84,233,0.15);
+    box-shadow: 0 15px 50px rgba(0,136,204,0.15);
 }
 
 /* Quote icon */
 .quote-icon {
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #1565C0 0%, #64B5F6 100%);
+    background: linear-gradient(135deg, var(--logo-bright-blue) 0%, var(--logo-light-blue) 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -646,7 +654,7 @@
     color: #ffffff;
     font-size: 24px;
     margin-bottom: 25px;
-    box-shadow: 0 6px 20px rgba(103,84,233,0.25);
+    box-shadow: 0 6px 20px rgba(0,136,204,0.25);
 }
 
 /* Star rating */
@@ -681,13 +689,13 @@
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #1565C0;
+    border: 3px solid var(--logo-bright-blue);
 }
 
 .client-details h4 {
     font-size: 18px;
     font-weight: 700;
-    color: #000;
+    color: var(--logo-navy);
     margin: 0 0 5px 0;
 }
 
@@ -729,7 +737,7 @@ h2.section-heading::after {
     transform: translateX(-50%);
     width: 80px;
     height: 5px;
-    background: linear-gradient(90deg, #1565C0 0%, #42A5F5 100%);
+    background: linear-gradient(90deg, var(--logo-bright-blue) 0%, var(--logo-light-blue) 100%);
     border-radius: 3px;
 }
 
@@ -776,5 +784,385 @@ h2.section-heading::after {
 
     .price {
         font-size: 38px;
+    }
+}
+
+/* ===== PORTFOLIO PAGE - MODERN LOGO-FOCUSED DESIGN ===== */
+
+/* Remove background images and overlay from portfolio cards */
+.elementor-element-c0059f9:not(.elementor-motion-effects-element-type-background),
+.elementor-element-c0059f9 > .elementor-motion-effects-container > .elementor-motion-effects-layer,
+.elementor-element-1ff7e98:not(.elementor-motion-effects-element-type-background),
+.elementor-element-1ff7e98 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
+
+.elementor-element-c0059f9 > .elementor-background-overlay,
+.elementor-element-1ff7e98 > .elementor-background-overlay {
+    display: none !important;
+}
+
+/* Portfolio card container styling */
+.elementor-element-c0059f9,
+.elementor-element-1ff7e98 {
+    background: #ffffff !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06) !important;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    overflow: hidden !important;
+    min-height: 550px !important;
+}
+
+.elementor-element-c0059f9:hover,
+.elementor-element-1ff7e98:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 12px 35px rgba(21, 101, 192, 0.15) !important;
+    border-color: #1565C0 !important;
+}
+
+/* Column padding adjustment */
+.elementor-element-6c0720c > .elementor-element-populated,
+.elementor-element-e60da80 > .elementor-element-populated {
+    padding: 45px 40px 40px 40px !important;
+}
+
+/* Logo container styling */
+.portfolio-logo-container {
+    text-align: center;
+    padding: 40px 30px 35px 30px;
+    margin-bottom: 25px;
+    background: #f9fafb;
+    border-radius: 12px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Portfolio client logos */
+.portfolio-client-logo {
+    max-width: 320px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(0%);
+}
+
+.elementor-element-c0059f9:hover .portfolio-client-logo,
+.elementor-element-1ff7e98:hover .portfolio-client-logo {
+    transform: scale(1.05);
+}
+
+/* Industry tag styling */
+.elementor-element-5b8a939 .elementor-icon-list-text,
+.elementor-element-6c74ef0 .elementor-icon-list-text {
+    background: linear-gradient(135deg, #1565C0 0%, #1976D2 100%) !important;
+    color: #ffffff !important;
+    padding: 6px 18px !important;
+    border-radius: 20px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    display: inline-block !important;
+    text-transform: uppercase;
+}
+
+.elementor-element-5b8a939,
+.elementor-element-6c74ef0 {
+    margin-bottom: 15px !important;
+}
+
+.elementor-element-5b8a939 .elementor-icon-list-items,
+.elementor-element-6c74ef0 .elementor-icon-list-items {
+    justify-content: flex-start !important;
+}
+
+/* Client description title */
+.elementor-element-3abe29a .elementor-heading-title,
+.elementor-element-88189ee .elementor-heading-title {
+    color: #1a1a1a !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 1.4 !important;
+    margin-bottom: 12px !important;
+}
+
+.elementor-element-3abe29a .elementor-heading-title a,
+.elementor-element-88189ee .elementor-heading-title a {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.elementor-element-3abe29a .elementor-heading-title a:hover,
+.elementor-element-88189ee .elementor-heading-title a:hover {
+    color: #1565C0 !important;
+}
+
+/* Divider styling */
+.elementor-element-c4f912d,
+.elementor-element-2ce03f2 {
+    margin: 15px 0 !important;
+}
+
+.elementor-element-c4f912d .elementor-divider-separator,
+.elementor-element-2ce03f2 .elementor-divider-separator {
+    border-top-color: #e0e0e0 !important;
+    border-top-width: 1px !important;
+}
+
+/* Client description text */
+.elementor-element-5a8d2d4 .elementor-icon-list-text,
+.elementor-element-f8a6e6b .elementor-icon-list-text {
+    color: #555555 !important;
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    font-weight: 400 !important;
+}
+
+.elementor-element-5a8d2d4,
+.elementor-element-f8a6e6b {
+    margin-top: 15px !important;
+}
+
+/* Portfolio grid adjustments */
+.elementor-element-3a7d1af.elementor-grid {
+    row-gap: 35px !important;
+    column-gap: 30px !important;
+}
+
+/* Remove inline margin styles from masonry items */
+.e-loop-item {
+    margin-top: 0 !important;
+}
+
+/* Ensure consistent card heights */
+.e-loop-item .elementor-element-c0059f9,
+.e-loop-item .elementor-element-1ff7e98 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Portfolio page intro text */
+.page-id-1089 .elementor-element-34bc9ae p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555555;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 50px;
+}
+
+/* ===== TABLET RESPONSIVE (768px - 1024px) ===== */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .portfolio-logo-container {
+        padding: 35px 25px 30px 25px;
+        min-height: 160px;
+    }
+
+    .portfolio-client-logo {
+        max-width: 280px;
+        max-height: 130px;
+    }
+
+    .elementor-element-6c0720c > .elementor-element-populated,
+    .elementor-element-e60da80 > .elementor-element-populated {
+        padding: 35px 30px 30px 30px !important;
+    }
+
+    .elementor-element-3abe29a .elementor-heading-title,
+    .elementor-element-88189ee .elementor-heading-title {
+        font-size: 20px !important;
+    }
+}
+
+/* ===== MOBILE RESPONSIVE (up to 767px) ===== */
+@media (max-width: 767px) {
+    .elementor-element-c0059f9,
+    .elementor-element-1ff7e98 {
+        min-height: 460px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .elementor-element-6c0720c > .elementor-element-populated,
+    .elementor-element-e60da80 > .elementor-element-populated {
+        padding: 30px 25px 25px 25px !important;
+    }
+
+    .portfolio-logo-container {
+        padding: 30px 20px 25px 20px;
+        min-height: 140px;
+    }
+
+    .portfolio-client-logo {
+        max-width: 240px;
+        max-height: 110px;
+    }
+
+    .elementor-element-5b8a939 .elementor-icon-list-text,
+    .elementor-element-6c74ef0 .elementor-icon-list-text {
+        font-size: 11px !important;
+        padding: 5px 14px !important;
+    }
+
+    .elementor-element-3abe29a .elementor-heading-title,
+    .elementor-element-88189ee .elementor-heading-title {
+        font-size: 18px !important;
+    }
+
+    .elementor-element-5a8d2d4 .elementor-icon-list-text,
+    .elementor-element-f8a6e6b .elementor-icon-list-text {
+        font-size: 14px !important;
+    }
+
+    .page-id-1089 .elementor-element-34bc9ae p {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    .elementor-element-3a7d1af.elementor-grid {
+        row-gap: 25px !important;
+    }
+}
+
+/* ===== HOMEPAGE PORTFOLIO SLIDER - LOGO-FOCUSED DESIGN ===== */
+
+/* Remove background images from homepage slider cards */
+.elementor-element-18d3a72:not(.elementor-motion-effects-element-type-background),
+.elementor-element-18d3a72 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
+
+.elementor-element-18d3a72 > .elementor-background-overlay {
+    display: none !important;
+}
+
+/* Homepage slider card styling */
+.elementor-element-18d3a72 {
+    background: #ffffff !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06) !important;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    overflow: hidden !important;
+    min-height: 520px !important;
+}
+
+.elementor-element-18d3a72:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 12px 35px rgba(21, 101, 192, 0.15) !important;
+    border-color: #1565C0 !important;
+}
+
+/* Homepage slider logo hover effect */
+.elementor-element-18d3a72:hover .portfolio-client-logo {
+    transform: scale(1.05);
+}
+
+/* Homepage slider industry tags */
+.home .elementor-element-a313379 .elementor-icon-list-text {
+    background: linear-gradient(135deg, #1565C0 0%, #1976D2 100%) !important;
+    color: #ffffff !important;
+    padding: 6px 18px !important;
+    border-radius: 20px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    display: inline-block !important;
+    text-transform: uppercase !important;
+}
+
+/* Homepage slider heading titles */
+.home .elementor-element-91430f9 .elementor-heading-title {
+    color: #1a1a1a !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 1.4 !important;
+    margin-bottom: 12px !important;
+}
+
+.home .elementor-element-91430f9 .elementor-heading-title a {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.home .elementor-element-91430f9 .elementor-heading-title a:hover {
+    color: #1565C0 !important;
+}
+
+/* Homepage slider description text */
+.home .elementor-element-a233b52 .elementor-icon-list-text {
+    color: #555555 !important;
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    font-weight: 400 !important;
+}
+
+/* Homepage slider dividers */
+.home .elementor-element-d801dc0 .elementor-divider-separator {
+    border-top-color: #e0e0e0 !important;
+    border-top-width: 1px !important;
+}
+
+/* Ensure equal card heights in homepage slider */
+.home .swiper-slide.elementor-element,
+.home .e-loop-item {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .elementor-element-18d3a72 {
+    height: 100%;
+}
+
+/* Homepage slider padding adjustments */
+.home .elementor-element-8518e7f > .elementor-element-populated {
+    padding: 45px 40px 40px 40px !important;
+}
+
+/* ===== HOMEPAGE SLIDER MOBILE RESPONSIVE ===== */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .home .elementor-element-18d3a72 {
+        min-height: 480px !important;
+    }
+
+    .home .elementor-element-8518e7f > .elementor-element-populated {
+        padding: 35px 30px 30px 30px !important;
+    }
+
+    .home .elementor-element-91430f9 .elementor-heading-title {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .home .elementor-element-18d3a72 {
+        min-height: 460px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .home .elementor-element-8518e7f > .elementor-element-populated {
+        padding: 30px 25px 25px 25px !important;
+    }
+
+    .home .elementor-element-a313379 .elementor-icon-list-text {
+        font-size: 11px !important;
+        padding: 5px 14px !important;
+    }
+
+    .home .elementor-element-91430f9 .elementor-heading-title {
+        font-size: 17px !important;
+    }
+
+    .home .elementor-element-a233b52 .elementor-icon-list-text {
+        font-size: 14px !important;
     }
 }
