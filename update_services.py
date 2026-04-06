@@ -7,7 +7,7 @@ with open('/Users/ayeshafazly/Wrackdelhtml/services.html', 'r', encoding='utf-8'
 
 # Service 1 - Update first service box (Paid search marketing -> Social Media Management)
 content = re.sub(
-    r'aria-label="Paid search marketing">\s*<i aria-hidden="true" class="vamtamtheme- vamtam-theme-search-marketing"></i>\s*</a>\s*</div>\s*<div class="elementor-icon-box-content">\s*<h5 class="elementor-icon-box-title">\s*</h5>\s*<p class="elementor-icon-box-description">\s*Craft campaigns — built just for your business — to ensure real and quantifiable ROI\.',
+    r'aria-label="Paid search marketing">\s*<i aria-hidden="true" class="vamtamtheme- vamtam-theme-search-marketing"></i>\s*</a>\s*</div>\s*<div class="elementor-icon-box-content">\s*<h5 class="elementor-icon-box-title">\s*</h5>\s*<p class="elementor-icon-box-description">\s*Craft campaigns , built just for your business , to ensure real and quantifiable ROI\.',
     r'aria-label="Social Media Management">\n\t\t\t\t<i aria-hidden="true" class="vamtamtheme- vamtam-theme-social-media"></i>\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t<div class="elementor-icon-box-content">\n\n\t\t\t\t\t\t\t\t<h5 class="elementor-icon-box-title">\n\t\t\t\t\t<a href="#">Social Media Management</a>\n\t\t\t\t</h5>\n\t\t\t\t\n\t\t\t\t\t\t\t\t<p class="elementor-icon-box-description">\n\t\t\t\t\t\tWe help businesses build a strong presence across platforms by creating engaging content, managing accounts, and running effective campaigns. Services include: social media strategy development, content planning and creation, account management, community engagement, and performance tracking.',
     content,
     flags=re.DOTALL
@@ -31,7 +31,7 @@ content = re.sub(
 
 # Service 4 - Update Conversion rate optimization -> Paid Advertising
 content = re.sub(
-    r'aria-label="Conversion rate optimization">\s*<i aria-hidden="true" class="vamtamtheme- vamtam-theme-rocket"></i>\s*</a>\s*</div>\s*<div class="elementor-icon-box-content">\s*<h5 class="elementor-icon-box-title">\s*<a href="services\.html">Conversion rate optimization</a>\s*</h5>\s*<p class="elementor-icon-box-description">\s*Craft campaigns — built just for your business — to ensure real and quantifiable ROI\.',
+    r'aria-label="Conversion rate optimization">\s*<i aria-hidden="true" class="vamtamtheme- vamtam-theme-rocket"></i>\s*</a>\s*</div>\s*<div class="elementor-icon-box-content">\s*<h5 class="elementor-icon-box-title">\s*<a href="services\.html">Conversion rate optimization</a>\s*</h5>\s*<p class="elementor-icon-box-description">\s*Craft campaigns , built just for your business , to ensure real and quantifiable ROI\.',
     r'aria-label="Paid Advertising">\n\t\t\t\t<i aria-hidden="true" class="vamtamtheme- vamtam-theme-campaigns"></i>\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t<div class="elementor-icon-box-content">\n\n\t\t\t\t\t\t\t\t<h5 class="elementor-icon-box-title">\n\t\t\t\t\t<a href="#">Paid Advertising</a>\n\t\t\t\t</h5>\n\t\t\t\t\n\t\t\t\t\t\t\t\t<p class="elementor-icon-box-description">\n\t\t\t\t\t\tWe design and manage targeted advertising campaigns that deliver measurable results. Platforms we manage: Facebook & Instagram Ads, Google Ads (Search & Display), YouTube Advertising, retargeting campaigns, and conversion optimization.',
     content,
     flags=re.DOTALL

@@ -831,11 +831,10 @@ h2.section-heading::after {
 /* Logo container styling */
 .portfolio-logo-container {
     text-align: center;
-    padding: 40px 30px 35px 30px;
-    margin-bottom: 25px;
+    padding: 10px 10px 10px 10px;
     background: #f9fafb;
     border-radius: 12px;
-    min-height: 180px;
+    min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -843,10 +842,10 @@ h2.section-heading::after {
 
 /* Portfolio client logos */
 .portfolio-client-logo {
-    max-width: 320px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
+    max-width: 650px;
+    max-height: 350px;
+    width: 650px;
+    height: 350px;
     object-fit: contain;
     transition: transform 0.3s ease, filter 0.3s ease;
     filter: grayscale(0%);

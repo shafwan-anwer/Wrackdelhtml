@@ -1,0 +1,47 @@
+/* Country Code Selector Styling */
+.phone-input-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.country-code-select {
+    width: 120px;
+    padding: 12px 18px;
+    border: 1px solid #E2E2E2;
+    border-radius: 18px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.country-code-select:focus {
+    border-color: #1565C0;
+    outline: none;
+}
+
+.country-code-select:hover {
+    border-color: #1565C0;
+}
+
+.phone-input-wrapper input[type="tel"] {
+    flex: 1;
+}
+
+/* Modal form specific styling */
+#auditModal .phone-input-wrapper .country-code-select {
+    width: 110px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .phone-input-wrapper {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .country-code-select {
+        width: 100%;
+    }
+}

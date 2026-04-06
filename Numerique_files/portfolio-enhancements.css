@@ -1,0 +1,27 @@
+/* Make portfolio card logos bigger */
+.portfolio-client-logo {
+    max-width: 350px !important;
+    height: auto !important;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.portfolio-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .portfolio-client-logo {
+        max-width: 350px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .portfolio-client-logo {
+        max-width: 200px !important;
+    }
+}

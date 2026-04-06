@@ -1,0 +1,138 @@
+/* Google Reviews Widget Styling */
+.google-reviews-container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.google-reviews-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.google-logo {
+    width: 80px;
+    height: auto;
+}
+
+.google-rating-summary {
+    flex: 1;
+}
+
+.google-rating-summary h3 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.google-stars {
+    color: #fbbc04;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.google-review-count {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.google-reviews-slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.google-reviews-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+}
+
+.google-review-card {
+    min-width: 100%;
+    background: #fff;
+    border: 1px solid #e8eaed;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.google-review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 12px;
+}
+
+.google-reviewer-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1a73e8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.google-reviewer-info {
+    flex: 1;
+}
+
+.google-reviewer-name {
+    font-weight: 600;
+    color: #202124;
+    margin: 0 0 2px 0;
+}
+
+.google-review-date {
+    color: #5f6368;
+    font-size: 13px;
+}
+
+.google-review-stars {
+    color: #fbbc04;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.google-review-text {
+    color: #3c4043;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.google-reviews-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.google-review-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #dadce0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.google-review-dot.active {
+    background: #1a73e8;
+}
+
+@media (max-width: 768px) {
+    .google-review-card {
+        padding: 15px;
+    }
+
+    .google-reviews-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
