@@ -1,0 +1,283 @@
+/* Simple Custom Mobile Menu - Clean & Working Solution */
+
+/* Fix mobile/tablet header to be full width */
+@media (max-width: 1024px) {
+    /* Force mobile header section to full width */
+    section.elementor-hidden-desktop {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* Ensure sticky header is full width */
+    .elementor-sticky--active.elementor-hidden-desktop,
+    .elementor-sticky.elementor-hidden-desktop {
+        left: 0 !important;
+        right: 0 !important;
+        width: 100vw !important;
+    }
+
+    /* Hero section margin fix for mobile - Homepage */
+    section[data-id="6099a9d"] {
+        margin-top: 80px !important;
+        padding-top: 40px !important;
+    }
+
+    /* Services page - "Solutions for business growth" heading */
+    body.page section.elementor-top-section:first-of-type {
+        padding-top: 100px !important;
+    }
+
+    /* Portfolio page - "PORTFOLIO" heading */
+    .portfolio-section:first-of-type,
+    section.portfolio-hero:first-of-type {
+        padding-top: 100px !important;
+    }
+
+    /* Testimonials page - "What Our Clients Say" heading */
+    .testimonials-section:first-of-type,
+    section.testimonials-hero:first-of-type {
+        padding-top: 100px !important;
+    }
+
+    /* FAQ page - "FAQ" heading */
+    .faq-section:first-of-type,
+    section.faq-hero:first-of-type {
+        padding-top: 100px !important;
+    }
+
+    /* Contact page - "CONTACT US" heading */
+    .contact-section:first-of-type,
+    section.contact-hero:first-of-type {
+        padding-top: 100px !important;
+    }
+
+    /* Universal fix for all first sections */
+    .page-content .elementor:first-child section:first-child {
+        padding-top: 100px !important;
+    }
+
+    /* Fix any overflow issues */
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* Ensure header wrapper is full width */
+    header.elementor-location-header {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+
+    /* Hide broken Elementor dropdown */
+    .elementor-nav-menu--dropdown.elementor-nav-menu__container {
+        display: none !important;
+    }
+
+    /* Custom Hamburger Icon */
+    .elementor-menu-toggle__icon--open.eicon-menu-bar,
+    .elementor-menu-toggle__icon--close.eicon-close {
+        display: none !important;
+    }
+
+    .elementor-menu-toggle {
+        position: relative;
+        width: 30px;
+        height: 24px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100000;
+    }
+
+    .elementor-menu-toggle::before,
+    .elementor-menu-toggle::after,
+    .elementor-menu-toggle .hamburger-middle {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 3px;
+        background-color: #1E3A8A;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .elementor-menu-toggle::before {
+        top: 2px;
+    }
+
+    .elementor-menu-toggle .hamburger-middle {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .elementor-menu-toggle::after {
+        bottom: 2px;
+    }
+
+    /* Active/Open State - X icon */
+    .elementor-menu-toggle[aria-expanded="true"]::before {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .elementor-menu-toggle[aria-expanded="true"] .hamburger-middle {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+    .elementor-menu-toggle[aria-expanded="true"]::after {
+        bottom: 50%;
+        transform: translate(-50%, 50%) rotate(-45deg);
+    }
+
+    /* Overlay */
+    .mobile-menu-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 99998;
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .mobile-menu-overlay.active {
+        display: block;
+        opacity: 1;
+    }
+
+    /* Custom Mobile Menu */
+    #custom-mobile-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 85%;
+        max-width: 400px;
+        height: calc(100vh - 70px);
+        background: white;
+        z-index: 99999;
+        overflow-y: auto;
+        transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: -4px 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    #custom-mobile-menu.active {
+        right: 0;
+    }
+
+    .custom-mobile-menu-content {
+        padding: 30px 0;
+    }
+
+    .custom-mobile-nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .custom-mobile-nav > li {
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .custom-mobile-nav > li > a,
+    .custom-mobile-nav > li > span {
+        display: block;
+        padding: 18px 30px;
+        color: #1a1a1a;
+        font-size: 17px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border-left: 4px solid transparent;
+    }
+
+    .custom-mobile-nav > li > a:active,
+    .custom-mobile-nav > li > a:hover {
+        background: linear-gradient(90deg, #f0f7ff 0%, #ffffff 100%);
+        color: #1E3A8A;
+        border-left-color: #1E3A8A;
+        padding-left: 35px;
+    }
+
+    /* Submenu styling */
+    .submenu-toggle {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .submenu {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 8px 0;
+        background: #f8f9fa;
+    }
+
+    .submenu li {
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .submenu li:last-child {
+        border-bottom: none;
+    }
+
+    .submenu a {
+        display: block;
+        padding: 14px 30px 14px 50px;
+        color: #555;
+        font-size: 15px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .submenu a:active,
+    .submenu a:hover {
+        background: #e9ecef;
+        color: #1E3A8A;
+        padding-left: 55px;
+    }
+}
+
+/* Tablet specific fixes (landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Additional padding for tablet */
+    section.elementor-hidden-desktop .elementor-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /* Make sure logo is properly sized on tablet */
+    .elementor-hidden-desktop .elementor-widget-image img {
+        max-width: 180px !important;
+        height: auto !important;
+    }
+
+    /* Ensure hamburger is visible and properly positioned */
+    .elementor-menu-toggle {
+        margin-right: 10px !important;
+    }
+}
+
+/* Desktop - ensure nothing breaks */
+@media (min-width: 1025px) {
+    #custom-mobile-menu,
+    .mobile-menu-overlay {
+        display: none !important;
+    }
+}
