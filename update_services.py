@@ -2,7 +2,7 @@
 import re
 
 # Read the file
-with open('/Users/ayeshafazly/Wrackdelhtml/services.html', 'r', encoding='utf-8') as f:
+with open('/Users/ayeshafazly/Wrackdellhtml/services.html', 'r', encoding='utf-8') as f:
     content = f.read()
 
 # Service 1 - Update first service box (Paid search marketing -> Social Media Management)
@@ -21,9 +21,9 @@ content = re.sub(
     flags=re.DOTALL
 )
 
-# Service 3 - Update Email marketing -> Content Creation & Branding
+# Service 3 - Update Website Strategy -> Content Creation & Branding
 content = re.sub(
-    r'aria-label="Email marketing">\s*<i aria-hidden="true" class="vamtamtheme- vamtam-theme-email"></i>\s*</a>\s*</div>\s*<div class="elementor-icon-box-content">\s*<h5 class="elementor-icon-box-title">\s*<a href="services\.html">Email marketing</a>\s*</h5>\s*<p class="elementor-icon-box-description">\s*When it comes to reaching your target audience, you can\'t get much closer than direct to their inboxes\.',
+    r'aria-label="Website Strategy">\s*<i aria-hidden="true" class="vamtamtheme- vamtam-theme-email"></i>\s*</a>\s*</div>\s*<div class="elementor-icon-box-content">\s*<h5 class="elementor-icon-box-title">\s*<a href="services\.html">Website Strategy</a>\s*</h5>\s*<p class="elementor-icon-box-description">\s*When it comes to reaching your target audience, you can\'t get much closer than direct to their inboxes\.',
     r'aria-label="Content Creation & Branding">\n\t\t\t\t<i aria-hidden="true" class="vamtamtheme- vamtam-theme-idea"></i>\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t<div class="elementor-icon-box-content">\n\n\t\t\t\t\t\t\t\t<h5 class="elementor-icon-box-title">\n\t\t\t\t\t<a href="#">Content Creation & Branding</a>\n\t\t\t\t</h5>\n\t\t\t\t\n\t\t\t\t\t\t\t\t<p class="elementor-icon-box-description">\n\t\t\t\t\t\tStrong content is the foundation of successful digital marketing. We create compelling visual and written content that tells your brand story. Services include: creative campaign concepts, graphic design and branded visuals, social media content creation, video and short-form content, and brand messaging.',
     content,
     flags=re.DOTALL
@@ -71,7 +71,7 @@ content = re.sub(
 )
 
 # Write the updated content back
-with open('/Users/ayeshafazly/Wrackdelhtml/services.html', 'w', encoding='utf-8') as f:
+with open('/Users/ayeshafazly/Wrackdellhtml/services.html', 'w', encoding='utf-8') as f:
     f.write(content)
 
 print("Services updated successfully!")

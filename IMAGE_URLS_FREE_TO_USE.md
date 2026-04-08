@@ -302,7 +302,7 @@ All suggested images work well with your new **blue color scheme** (#1E88E5, #42
 ## 📞 **WHERE TO GET ACTUAL BRAND LOGOS**
 
 1. **Official Brand Websites** - Check their media/press kits
-2. **Brand Contact** - Email marketing@[company].lk
+2. **Brand Contact** - Website Strategy@[company].lk
 3. **Partnership Agreements** - If they're actual clients
 4. **Design Platforms** - Brandfetch.com, Seeklogo.com (verify licensing)
 

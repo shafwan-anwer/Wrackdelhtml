@@ -6,21 +6,21 @@ document.addEventListener('DOMContentLoaded', function() {
             avatar: "S",
             rating: 5,
             date: "2 weeks ago",
-            text: "Wrackdel has been instrumental in elevating our online presence. Their creative approach and deep understanding of the hospitality industry helped us reach the right audience and increase bookings significantly."
+            text: "Wrackdell has been instrumental in elevating our online presence. Their creative approach and deep understanding of the hospitality industry helped us reach the right audience and increase bookings significantly."
         },
         {
             name: "Sarah Johnson",
             avatar: "SJ",
             rating: 5,
             date: "1 month ago",
-            text: "Outstanding service! The team at Wrackdel truly understands digital marketing. Our ROI has increased by 300% since working with them. Highly recommended!"
+            text: "Outstanding service! The team at Wrackdell truly understands digital marketing. Our ROI has increased by 300% since working with them. Highly recommended!"
         },
         {
             name: "Michael Chen",
             avatar: "MC",
             rating: 5,
             date: "3 weeks ago",
-            text: "Professional, creative, and results-driven. Wrackdel transformed our social media presence and helped us connect with our target audience effectively."
+            text: "Professional, creative, and results-driven. Wrackdell transformed our social media presence and helped us connect with our target audience effectively."
         },
         {
             name: "Emma Williams",
