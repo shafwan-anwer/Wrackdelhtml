@@ -1,0 +1,500 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - text:      
+    - generic [ref=e6]:
+      - link "Get a Free Audit" [ref=e10] [cursor=pointer]:
+        - /url: contact.html
+        - generic [ref=e11]:
+          - generic [ref=e13]: 
+          - generic [ref=e14]: Get a Free Audit
+      - generic [ref=e16]:
+        - link [ref=e21] [cursor=pointer]:
+          - /url: services.html
+        - generic [ref=e23]:
+          - text: 
+          - generic [ref=e25]:
+            - text:   
+            - button "Menu Toggle" [ref=e26] [cursor=pointer]:  
+            - text:   
+    - generic [ref=e28] [cursor=pointer]: 
+    - text:         
+    - generic [ref=e29] [cursor=pointer]: 
+    - text:   
+    - generic [ref=e30] [cursor=pointer]: 
+    - text:   
+  - generic [ref=e31]:
+    - main [ref=e33]:
+      - article [ref=e35]:
+        - generic [ref=e37]:
+          - generic [ref=e41]:
+            - heading "Elevate Your Digital Presence with Wrackdell" [level=1] [ref=e48]
+            - paragraph [ref=e51]: Strategic digital marketing solutions that drive real results. From social media to SEO, we help brands thrive in the digital landscape.
+            - generic [ref=e62]: Creative & Results-Driven
+            - img "Modern office workspace" [ref=e73]
+            - generic [ref=e79]:
+              - generic [ref=e82]:
+                - text: Ready to Grow
+                - text: Your Brand?
+              - link "Get Started" [ref=e86] [cursor=pointer]:
+                - /url: contact.html
+                - generic [ref=e87]:
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: Get Started
+          - generic [ref=e94]:
+            - generic [ref=e96]:
+              - img "Team member" [ref=e99]
+              - img "Team member" [ref=e102]
+              - img "Team member" [ref=e105]
+              - link "Contact Us" [ref=e109] [cursor=pointer]:
+                - /url: contact.html
+                - generic [ref=e110]:
+                  - generic [ref=e112]: 
+                  - generic [ref=e113]: Contact Us
+            - generic [ref=e115]:
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - img [ref=e121]
+                - listitem [ref=e123]:
+                  - img [ref=e125]
+                - listitem [ref=e127]:
+                  - img [ref=e129]
+                - listitem [ref=e131]:
+                  - img [ref=e133]
+                - listitem [ref=e135]:
+                  - img [ref=e137]
+              - paragraph [ref=e141]: 5000+ Client reviews
+          - generic [ref=e143]:
+            - generic [ref=e145]:
+              - heading "Who We Are" [level=2] [ref=e148]
+              - heading "Building Brands That Stand Out" [level=2] [ref=e151]
+            - generic [ref=e153]:
+              - paragraph [ref=e156]:
+                - text: In today's fast-moving digital world, visibility is everything. At Wrackdell, we help brands grow, connect, and stand out through creative and strategic digital marketing.
+                - text: We are a team of marketers, designers, and content creators who believe that great marketing blends data, creativity, and storytelling.
+              - link "More about us" [ref=e160] [cursor=pointer]:
+                - /url: about-us.html
+                - generic [ref=e162]: More about us
+          - generic [ref=e164]:
+            - generic [ref=e166]:
+              - img [ref=e171]
+              - heading "Creative & Results-Driven" [level=4] [ref=e175]
+              - paragraph [ref=e178]: We combine creativity with strategic thinking to deliver campaigns that not only look great but also drive measurable results for your business.
+            - generic [ref=e180]:
+              - img [ref=e185]
+              - heading "Data-Backed Decisions" [level=4] [ref=e190]
+              - paragraph [ref=e193]: Every campaign we run is backed by data and analytics. We focus on strategy and brand positioning to ensure your marketing delivers real impact.
+            - generic [ref=e195]:
+              - img [ref=e200]
+              - heading "Transparent Communication" [level=4] [ref=e204]
+              - paragraph [ref=e207]: We believe in building strong partnerships through reliable and transparent communication. You'll always know what we're doing and why it matters.
+          - generic [ref=e211]:
+            - heading "Our Capabilities" [level=2] [ref=e216]
+            - heading "Data-driven, customer-centric digital services" [level=2] [ref=e219]
+            - link "View all solutions" [ref=e223] [cursor=pointer]:
+              - /url: "#our-services"
+              - generic [ref=e224]:
+                - generic [ref=e226]: 
+                - generic [ref=e227]: View all solutions
+            - generic [ref=e229]:
+              - generic [ref=e231]:
+                - generic [ref=e234]:
+                  - link "Paid search marketing" [ref=e236] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e237]: paid
+                  - generic [ref=e238]:
+                    - heading "Social Media Management" [level=5] [ref=e239]:
+                      - link "Social Media Management" [ref=e240] [cursor=pointer]:
+                        - /url: paid-search-marketing.html
+                    - paragraph [ref=e241]: Craft campaigns - built just for your business - to ensure real and quantifiable ROI.
+                - link "Learn more" [ref=e245] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e247]: Learn more
+              - generic [ref=e249]:
+                - generic [ref=e252]:
+                  - link "Search engine optimization" [ref=e254] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e255]: search
+                  - generic [ref=e256]:
+                    - heading "Search engine optimization" [level=5] [ref=e257]:
+                      - link "Search engine optimization" [ref=e258] [cursor=pointer]:
+                        - /url: services.html
+                    - paragraph [ref=e259]: Maintain your best spot on the search results page, so you can find new customers and re-engage loyal ones.
+                - link "Learn more" [ref=e263] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e265]: Learn more
+              - generic [ref=e267]:
+                - generic [ref=e270]:
+                  - link "Website Strategy" [ref=e272] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e273]: mail
+                  - generic [ref=e274]:
+                    - heading "Website Strategy" [level=5] [ref=e275]:
+                      - link "Website Strategy" [ref=e276] [cursor=pointer]:
+                        - /url: services.html
+                    - paragraph [ref=e277]: When it comes to reaching your target audience, you can’t get much closer than direct to their inboxes.
+                - link "Learn more" [ref=e281] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e283]: Learn more
+              - generic [ref=e285]:
+                - generic [ref=e288]:
+                  - link "Conversion rate optimization" [ref=e290] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e291]: show_chart
+                  - generic [ref=e292]:
+                    - heading "Conversion rate optimization" [level=5] [ref=e293]:
+                      - link "Conversion rate optimization" [ref=e294] [cursor=pointer]:
+                        - /url: services.html
+                    - paragraph [ref=e295]: Craft campaigns - built just for your business - to ensure real and quantifiable ROI.
+                - link "Learn more" [ref=e299] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e301]: Learn more
+          - generic [ref=e303]:
+            - generic [ref=e308]:
+              - tablist [ref=e309]:
+                - tab "Performance" [expanded] [selected] [ref=e310] [cursor=pointer]
+                - tab "Team of experts" [ref=e311] [cursor=pointer]
+                - tab "Results" [ref=e312] [cursor=pointer]
+              - tablist [ref=e313]:
+                - tabpanel "Performance" [ref=e314]:
+                  - heading "100% Campaign Performance" [level=4] [ref=e315]:
+                    - text: 100% Campaign
+                    - text: Performance
+                  - paragraph [ref=e316]: We focus on driving meaningful engagement and increasing impressions across all your campaigns. You don’t have to wonder how your content is performing we ensure your brand stays visible, reaches the right audience, and continuously grows its impact.
+                  - paragraph [ref=e317]:
+                    - link [ref=e318] [cursor=pointer]:
+                      - /url: ./Numerique_files/Stats.svg
+                      - img [ref=e319]
+            - generic [ref=e321]:
+              - heading "Our Services" [level=2] [ref=e324]
+              - paragraph [ref=e327]:
+                - text: Social Media Marketing & Management
+                - text: Content Creation & Brand Storytelling
+                - text: Paid Advertising (Meta, Google, YouTube)
+                - text: Influencer Marketing
+                - text: Search Engine Optimization (SEO)
+                - text: Website Strategy & Digital Consulting
+                - text: Analytics & Performance Tracking
+              - link "Get Proposal" [ref=e331] [cursor=pointer]:
+                - /url: services.html#proposal-form
+                - generic [ref=e332]:
+                  - generic [ref=e334]: 
+                  - generic [ref=e335]: Get Proposal
+          - generic [ref=e337]:
+            - generic [ref=e339]:
+              - heading "Portfolio" [level=2] [ref=e342]
+              - heading "Our work drives businesses forward" [level=2] [ref=e345]
+              - link "View all" [ref=e353] [cursor=pointer]:
+                - /url: portfolio.html
+                - generic [ref=e355]: View all
+            - generic [ref=e359]:
+              - list [ref=e360]:
+                - generic [ref=e361]:
+                  - group "1 / 5" [ref=e362]:
+                    - generic [ref=e366]:
+                      - img "Lanka Real Estate" [ref=e370]
+                      - generic [ref=e374]:
+                        - list [ref=e377]:
+                          - listitem [ref=e378]:
+                            - link "Real Estate Brand" [ref=e379] [cursor=pointer]:
+                              - /url: services.html
+                              - generic [ref=e380]: Real Estate Brand
+                        - heading "Premium Estate Brand Since 2002" [level=5] [ref=e383]:
+                          - link "Premium Estate Brand Since 2002" [ref=e384] [cursor=pointer]:
+                            - /url: services.html
+                        - list [ref=e391]:
+                          - listitem [ref=e392]:
+                            - generic [ref=e393]: Showcasing luxury properties in prime locations with style, space, and investment appeal.
+                  - group "2 / 5" [ref=e394]:
+                    - generic [ref=e398]:
+                      - img "Villa Maggona" [ref=e402]
+                      - generic [ref=e406]:
+                        - list [ref=e409]:
+                          - listitem [ref=e410]:
+                            - link "Luxury Villa / Hospitality" [ref=e411] [cursor=pointer]:
+                              - /url: services.html
+                              - generic [ref=e412]: Luxury Villa / Hospitality
+                        - heading "Award-Winning Beachfront Villa" [level=5] [ref=e415]:
+                          - link "Award-Winning Beachfront Villa" [ref=e416] [cursor=pointer]:
+                            - /url: services.html
+                        - list [ref=e423]:
+                          - listitem [ref=e424]:
+                            - generic [ref=e425]: A luxury retreat offering modern comforts, privacy, and stunning ocean views.
+                  - group "3 / 5" [ref=e426]:
+                    - generic [ref=e430]:
+                      - img "Haldummulla Estate" [ref=e434]
+                      - generic [ref=e438]:
+                        - list [ref=e441]:
+                          - listitem [ref=e442]:
+                            - link "Tea Estate / Agro-tourism" [ref=e443] [cursor=pointer]:
+                              - /url: services.html
+                              - generic [ref=e444]: Tea Estate / Agro-tourism
+                        - heading "A Heritage Tea Plantation" [level=5] [ref=e447]:
+                          - link "A Heritage Tea Plantation" [ref=e448] [cursor=pointer]:
+                            - /url: services.html
+                        - list [ref=e455]:
+                          - listitem [ref=e456]:
+                            - generic [ref=e457]: Experience authentic tea culture with breathtaking hillside landscapes.
+                  - group "4 / 5" [ref=e458]:
+                    - generic [ref=e462]:
+                      - img "Shanti Uyana" [ref=e466]
+                      - generic [ref=e470]:
+                        - list [ref=e473]:
+                          - listitem [ref=e474]:
+                            - link "Wellness Resort / Ayurveda" [ref=e475] [cursor=pointer]:
+                              - /url: services.html
+                              - generic [ref=e476]: Wellness Resort / Ayurveda
+                        - heading "Holistic Healing in Nature" [level=5] [ref=e479]:
+                          - link "Holistic Healing in Nature" [ref=e480] [cursor=pointer]:
+                            - /url: services.html
+                        - list [ref=e487]:
+                          - listitem [ref=e488]:
+                            - generic [ref=e489]: An authentic Ayurveda retreat with personalized wellness journeys and serene surroundings.
+                  - group "5 / 5" [ref=e490]:
+                    - generic [ref=e494]:
+                      - img "Serendo Tours" [ref=e498]
+                      - generic [ref=e502]:
+                        - list [ref=e505]:
+                          - listitem [ref=e506]:
+                            - link "Travel & Tourism" [ref=e507] [cursor=pointer]:
+                              - /url: services.html
+                              - generic [ref=e508]: Travel & Tourism
+                        - heading "Crafting Dream Journeys" [level=5] [ref=e511]:
+                          - link "Crafting Dream Journeys" [ref=e512] [cursor=pointer]:
+                            - /url: services.html
+                        - list [ref=e519]:
+                          - listitem [ref=e520]:
+                            - generic [ref=e521]: Curated travel experiences with authentic culture, personalized service, and unforgettable memories.
+              - generic [ref=e522]:
+                - button "Go to slide 1" [ref=e523] [cursor=pointer]
+                - button "Go to slide 2" [ref=e524] [cursor=pointer]
+                - button "Go to slide 3" [ref=e525] [cursor=pointer]
+              - generic [ref=e526] [cursor=pointer]: prev
+              - generic [ref=e527] [cursor=pointer]: next
+          - generic [ref=e531]:
+            - heading "The best brands choose Wrackdell" [level=5] [ref=e534]
+            - generic [ref=e536]:
+              - img "Lanka Real Estate" [ref=e538]
+              - img "Villa Maggona" [ref=e540]
+              - img "Haldummulla Estate" [ref=e542]
+              - img "Shanti Uyana" [ref=e544]
+              - img "Serendo Tours" [ref=e546]
+              - img "Lanka Real Estate" [ref=e548]
+              - img "Villa Maggona" [ref=e550]
+              - img "Haldummulla Estate" [ref=e552]
+              - img "Shanti Uyana" [ref=e554]
+              - img "Serendo Tours" [ref=e556]
+          - generic [ref=e568]:
+            - heading "Our Expertise" [level=2] [ref=e571]
+            - heading "Trusted digital marketing partner delivering measurable results" [level=2] [ref=e574]
+            - generic [ref=e575]:
+              - generic [ref=e576]:
+                - img [ref=e578]
+                - heading "Drive Organic Growth" [level=4] [ref=e581]
+                - heading "SEO & Search Marketing" [level=3] [ref=e582]
+                - paragraph [ref=e583]: Boost your visibility and dominate search results with our proven SEO strategies.
+                - list [ref=e584]:
+                  - listitem [ref=e585]: Keyword research & optimization
+                  - listitem [ref=e586]: On-page & technical SEO
+                  - listitem [ref=e587]: Link building & authority
+                  - listitem [ref=e588]: Local SEO optimization
+              - generic [ref=e589]:
+                - img [ref=e591]
+                - heading "Engage Your Audience" [level=4] [ref=e593]
+                - heading "Social Media Marketing" [level=3] [ref=e594]
+                - paragraph [ref=e595]: Build meaningful connections and grow your brand presence across all platforms.
+                - list [ref=e596]:
+                  - listitem [ref=e597]: Content strategy & creation
+                  - listitem [ref=e598]: Community management
+                  - listitem [ref=e599]: Paid social advertising
+                  - listitem [ref=e600]: Influencer partnerships
+              - generic [ref=e601]:
+                - img [ref=e603]
+                - heading "Digital Experiences" [level=4] [ref=e605]
+                - heading "Website Design & Development" [level=3] [ref=e606]
+                - paragraph [ref=e607]: Create stunning, high-performing websites that convert visitors into customers.
+                - list [ref=e608]:
+                  - listitem [ref=e609]: Responsive web design
+                  - listitem [ref=e610]: E-commerce solutions
+                  - listitem [ref=e611]: CMS development
+                  - listitem [ref=e612]: Performance optimization
+          - generic [ref=e616]:
+            - heading "The proof is in the numbers" [level=4] [ref=e619]
+            - generic [ref=e621]:
+              - generic [ref=e623]:
+                - heading "37%" [level=2] [ref=e634]
+                - generic [ref=e638]: 
+                - generic [ref=e641]: Average increase in sales for our clients
+              - generic [ref=e643]:
+                - heading "100%" [level=2] [ref=e654]
+                - generic [ref=e658]: 
+                - generic [ref=e661]: Google and Facebook-certified team
+              - generic [ref=e663]:
+                - heading "81%" [level=2] [ref=e674]
+                - generic [ref=e678]: 
+                - generic [ref=e681]: Results improved compared to previous agencies
+    - contentinfo [ref=e689]:
+      - contentinfo [ref=e690]:
+        - generic [ref=e696]:
+          - heading "See how we can help your business grow with digital marketing" [level=2] [ref=e701]
+          - generic [ref=e703]:
+            - paragraph [ref=e706]: Ready to elevate your digital presence? Contact Wrackdell today for a customized strategy that delivers measurable results.
+            - link "+94 77 717 3446" [ref=e710] [cursor=pointer]:
+              - /url: tel:8884005050
+              - generic [ref=e712]: +94 77 717 3446
+            - link "Contact Us" [ref=e716] [cursor=pointer]:
+              - /url: contact.html
+              - generic [ref=e717]:
+                - generic [ref=e719]: 
+                - generic [ref=e720]: Contact Us
+        - generic [ref=e724]:
+          - heading "Solutions" [level=6] [ref=e727]
+          - navigation "Menu" [ref=e730]:
+            - list [ref=e731]:
+              - listitem [ref=e732]:
+                - link "Social Media Management" [ref=e733] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e736]: Social Media Management
+              - listitem [ref=e737]:
+                - link "Content Creation & Branding" [ref=e738] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e741]: Content Creation & Branding
+          - navigation "Menu" [ref=e744]:
+            - list [ref=e745]:
+              - listitem [ref=e746]:
+                - link "Paid Advertising" [ref=e747] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e750]: Paid Advertising
+              - listitem [ref=e751]:
+                - link "Influencer Marketing" [ref=e752] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e755]: Influencer Marketing
+          - navigation "Menu" [ref=e758]:
+            - list [ref=e759]:
+              - listitem [ref=e760]:
+                - link "Search Engine Optimization (SEO)" [ref=e761] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e764]: Search Engine Optimization (SEO)
+              - listitem [ref=e765]:
+                - link "Website Strategy & Digital Consulting" [ref=e766] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e769]: Website Strategy & Digital Consulting
+          - navigation "Menu" [ref=e772]:
+            - list [ref=e773]:
+              - listitem [ref=e774]:
+                - link "Analytics & Performance Tracking" [ref=e775] [cursor=pointer]:
+                  - /url: services.html
+                  - generic [ref=e778]: Analytics & Performance Tracking
+          - generic [ref=e780]:
+            - navigation "Menu" [ref=e781]:
+              - list [ref=e782]:
+                - listitem [ref=e783]:
+                  - link "HOME" [ref=e784] [cursor=pointer]:
+                    - /url: index.html
+                    - generic [ref=e787]: HOME
+                - listitem [ref=e788]:
+                  - link "SERVICES" [ref=e789] [cursor=pointer]:
+                    - /url: services.html
+                    - generic [ref=e792]: SERVICES
+                - listitem [ref=e793]:
+                  - link "BLOG" [ref=e794] [cursor=pointer]:
+                    - /url: blog.html
+                    - generic [ref=e797]: BLOG
+                - listitem [ref=e798]:
+                  - link "PORTFOLIO" [ref=e799] [cursor=pointer]:
+                    - /url: portfolio.html
+                    - generic [ref=e802]: PORTFOLIO
+                - listitem [ref=e803]:
+                  - link "TEAM" [ref=e804] [cursor=pointer]:
+                    - /url: team.html
+                    - generic [ref=e807]: TEAM
+                - listitem [ref=e808]:
+                  - link "CAREERS" [ref=e809] [cursor=pointer]:
+                    - /url: careers.html
+                    - generic [ref=e812]: CAREERS
+                - listitem [ref=e813]:
+                  - link "FAQS" [ref=e814] [cursor=pointer]:
+                    - /url: faq.html
+                    - generic [ref=e817]: FAQS
+                - listitem [ref=e818]:
+                  - link "CONTACT" [ref=e819] [cursor=pointer]:
+                    - /url: contact.html
+                    - generic [ref=e822]: CONTACT
+            - text:  
+        - generic [ref=e824]:
+          - generic [ref=e826]:
+            - generic [ref=e829]:
+              - text: © 2026 Wrackdell Pvt Ltd. All rights reserved.
+              - text: 43D Lauries Road, Colombo - 04, Sri Lanka
+              - generic [ref=e830]:
+                - text: Developed by
+                - link "CodeLabs" [ref=e831] [cursor=pointer]:
+                  - /url: https://codelabsolutionsco.com/
+            - navigation "Menu" [ref=e834]:
+              - list [ref=e835]:
+                - listitem [ref=e836]:
+                  - link "Terms & Conditions" [ref=e837] [cursor=pointer]:
+                    - /url: terms-conditions.html
+                - listitem [ref=e838]:
+                  - link "Privacy Policy" [ref=e839] [cursor=pointer]:
+                    - /url: privacy-policy.html
+          - list [ref=e844]:
+            - listitem [ref=e845]:
+              - link "Facebook" [ref=e846] [cursor=pointer]:
+                - /url: https://www.facebook.com/
+                - generic [ref=e847]: Facebook
+                - img [ref=e848]
+            - listitem [ref=e850]:
+              - link "Instagram" [ref=e851] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+                - generic [ref=e852]: Instagram
+                - img [ref=e853]
+            - listitem [ref=e855]:
+              - link "TikTok" [ref=e856] [cursor=pointer]:
+                - /url: https://www.tiktok.com/
+                - generic [ref=e857]: TikTok
+                - img [ref=e858]
+            - listitem [ref=e860]:
+              - link "LinkedIn" [ref=e861] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+                - generic [ref=e862]: LinkedIn
+                - img [ref=e863]
+  - text: 
+  - generic [ref=e865]: tablet
+  - generic [ref=e866]: tablet
+  - text: 
+  - link "Chat on WhatsApp" [ref=e868] [cursor=pointer]:
+    - /url: https://wa.me/94777173446
+    - img [ref=e869]
+  - list [ref=e873]:
+    - listitem [ref=e874]:
+      - link "Home" [ref=e875] [cursor=pointer]:
+        - /url: index.html
+    - listitem [ref=e876]:
+      - link "Services" [ref=e877] [cursor=pointer]:
+        - /url: services.html
+    - listitem [ref=e878]:
+      - link "About Us" [ref=e879] [cursor=pointer]:
+        - /url: about-us.html
+    - listitem [ref=e880]:
+      - link "Portfolio" [ref=e881] [cursor=pointer]:
+        - /url: portfolio.html
+    - listitem [ref=e882]:
+      - link "Team" [ref=e883] [cursor=pointer]:
+        - /url: team.html
+    - listitem [ref=e884]:
+      - link "Testimonials" [ref=e885] [cursor=pointer]:
+        - /url: testimonials.html
+    - listitem [ref=e886]:
+      - link "FAQs" [ref=e887] [cursor=pointer]:
+        - /url: faq.html
+    - listitem [ref=e888]:
+      - link "Blog" [ref=e889] [cursor=pointer]:
+        - /url: blog.html
+    - listitem [ref=e890]:
+      - link "Careers" [ref=e891] [cursor=pointer]:
+        - /url: careers.html
+    - listitem [ref=e892]:
+      - link "Contact" [ref=e893] [cursor=pointer]:
+        - /url: contact.html
+    - listitem [ref=e894]:
+      - generic [ref=e895] [cursor=pointer]: Legal ▼

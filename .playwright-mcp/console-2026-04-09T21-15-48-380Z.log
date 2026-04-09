@@ -1,0 +1,62 @@
+[      90ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost:8765/Numerique_files/jquery-migrate.min.js:1
+[     137ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/Numerique_files/fonts/theme-icons.ttf?6xdl95:0
+[     151ms] ReferenceError: Hometest is not defined
+    at ce.<anonymous> (http://localhost:8765/Numerique_files/jquery-migrate.min.js:2:2577)
+    at e.<computed> [as find] (http://localhost:8765/Numerique_files/jquery-migrate.min.js:2:1582)
+    at ce.fn.init.find (http://localhost:8765/Numerique_files/jquery.min.js:2:21997)
+    at ce.fn.init (http://localhost:8765/Numerique_files/jquery.min.js:2:22489)
+    at e.<computed>.<anonymous> (http://localhost:8765/Numerique_files/jquery-migrate.min.js:2:2438)
+    at new e.<computed> (http://localhost:8765/Numerique_files/jquery-migrate.min.js:2:1582)
+    at ce (http://localhost:8765/Numerique_files/jquery.min.js:2:1077)
+    at http://localhost:8765/Numerique_files/all.min.js:1:2195
+    at http://localhost:8765/Numerique_files/all.min.js:1:3806
+[     154ms] ReferenceError: Homedefault is not defined
+    at 1265 (http://localhost:8765/Numerique_files/frontend-modules.min.js:1:8220)
+    at __webpack_require__ (http://localhost:8765/Numerique_files/webpack.runtime.min.js:1:154)
+    at 4946 (http://localhost:8765/Numerique_files/frontend-modules.min.js:1:43757)
+    at __webpack_require__ (http://localhost:8765/Numerique_files/webpack.runtime.min.js:1:154)
+    at http://localhost:8765/Numerique_files/frontend-modules.min.js:1:87327
+    at webpackJsonpCallback (http://localhost:8765/Numerique_files/webpack.runtime.min.js:1:5354)
+    at http://localhost:8765/Numerique_files/frontend-modules.min.js:1:77
+[     155ms] ReferenceError: elementorModules is not defined
+    at http://localhost:8765/Numerique_files/vamtam-nav-menu.min.js:1:29
+[     156ms] ReferenceError: elementorModules is not defined
+    at http://localhost:8765/Numerique_files/vamtam-button.min.js:1:28
+[     156ms] ReferenceError: elementorModules is not defined
+    at http://localhost:8765/Numerique_files/vamtam-tabs.min.js:1:33
+[     158ms] ReferenceError: elementorModules is not defined
+    at 3323 (http://localhost:8765/Numerique_files/frontend(1).min.js:2:11896)
+    at __webpack_require__ (http://localhost:8765/Numerique_files/webpack-pro.runtime.min.js:2:149)
+    at 2647 (http://localhost:8765/Numerique_files/frontend(1).min.js:2:13800)
+    at __webpack_require__ (http://localhost:8765/Numerique_files/webpack-pro.runtime.min.js:2:149)
+    at 739 (http://localhost:8765/Numerique_files/frontend(1).min.js:2:14757)
+    at __webpack_require__ (http://localhost:8765/Numerique_files/webpack-pro.runtime.min.js:2:149)
+    at 820 (http://localhost:8765/Numerique_files/frontend(1).min.js:2:4285)
+    at __webpack_require__ (http://localhost:8765/Numerique_files/webpack-pro.runtime.min.js:2:149)
+    at 4906 (http://localhost:8765/Numerique_files/frontend(1).min.js:2:3999)
+    at __webpack_require__ (http://localhost:8765/Numerique_files/webpack-pro.runtime.min.js:2:149)
+[     158ms] ReferenceError: Homejoin is not defined
+    at Object.add (http://localhost:8765/Numerique_files/jquery.min.js:2:38371)
+    at Object.<anonymous> (http://localhost:8765/Numerique_files/jquery-migrate.min.js:2:9829)
+    at e.<computed> [as add] (http://localhost:8765/Numerique_files/jquery-migrate.min.js:2:1582)
+    at http://localhost:8765/Numerique_files/jquery.min.js:2:37126
+    at ce.each (http://localhost:8765/Numerique_files/jquery.min.js:2:3129)
+    at e.<computed>.each (http://localhost:8765/Numerique_files/jquery.min.js:2:1594)
+    at Le (http://localhost:8765/Numerique_files/jquery.min.js:2:37101)
+    at e.<computed>.on (http://localhost:8765/Numerique_files/jquery.min.js:2:44490)
+    at http://localhost:8765/Numerique_files/vamtam-elementor-frontend.min.js:1:9770
+    at http://localhost:8765/Numerique_files/vamtam-elementor-frontend.min.js:1:10415
+[     159ms] [LOG] Tab click handler initialized ✓ @ http://localhost:8765/Numerique_files/tabs-click-fix.js:141
+[     159ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/Numerique_files/fonts/theme-icons.woff?6xdl95:0
+[     173ms] ReferenceError: Hometest is not defined
+    at ce.Deferred.exceptionHook (http://localhost:8765/Numerique_files/jquery.min.js:2:28624)
+    at t (http://localhost:8765/Numerique_files/jquery.min.js:2:27388)
+[     173ms] ReferenceError: Hometest is not defined
+    at ce.Deferred.exceptionHook (http://localhost:8765/Numerique_files/jquery.min.js:2:28624)
+    at t (http://localhost:8765/Numerique_files/jquery.min.js:2:27388)
+[     254ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/favicon.ico:0
+[    1676ms] ReferenceError: Homepush is not defined
+    at V.updateSlides (http://localhost:8765/Numerique_files/swiper.min.js:13:20115)
+    at V.init (http://localhost:8765/Numerique_files/swiper.min.js:13:61844)
+    at new V (http://localhost:8765/Numerique_files/swiper.min.js:13:57771)
+    at http://localhost:8765/index.html:2474:33

@@ -1,0 +1,59 @@
+[      31ms] ReferenceError: elementorCommon is not defined
+    at WpDashboardTracking.isEditorOneActive (http://localhost:8770/Numerique_files/frontend-modules.min.js:1:27934)
+    at WpDashboardTracking.destroy (http://localhost:8770/Numerique_files/frontend-modules.min.js:1:33066)
+    at http://localhost:8770/Numerique_files/frontend-modules.min.js:1:33620
+[      84ms] ReferenceError: MatHomerandom is not defined
+    at http://localhost:8771/Numerique_files/jquery.min.js:2:2671
+    at http://localhost:8771/Numerique_files/jquery.min.js:2:220
+    at http://localhost:8771/Numerique_files/jquery.min.js:2:225
+[      86ms] ReferenceError: jQuery is not defined
+    at http://localhost:8771/Numerique_files/jquery-migrate.min.js:2:1
+[      86ms] TypeError: l.pusHomeapply is not a function
+    at http://localhost:8771/Numerique_files/v4-shims.min.js:5:14709
+    at http://localhost:8771/Numerique_files/v4-shims.min.js:5:14595
+    at a (http://localhost:8771/Numerique_files/v4-shims.min.js:5:14623)
+    at http://localhost:8771/Numerique_files/v4-shims.min.js:5:14880
+    at http://localhost:8771/Numerique_files/v4-shims.min.js:5:14886
+[      90ms] ReferenceError: jQuery is not defined
+    at http://localhost:8771/Numerique_files/all.min.js:1:3807
+[      91ms] TypeError: r.pusHomebind is not a function
+    at http://localhost:8771/Numerique_files/webpack.runtime.min.js:1:5658
+    at http://localhost:8771/Numerique_files/webpack.runtime.min.js:1:5675
+    at http://localhost:8771/Numerique_files/webpack.runtime.min.js:1:5679
+[      91ms] ReferenceError: jQuery is not defined
+    at http://localhost:8771/Numerique_files/core.min.js:5:88
+    at http://localhost:8771/Numerique_files/core.min.js:5:96
+[      92ms] ReferenceError: jQuery is not defined
+    at http://localhost:8771/Numerique_files/jquery.smartmenus.min.js:3:247
+    at http://localhost:8771/Numerique_files/jquery.smartmenus.min.js:3:255
+[      92ms] ReferenceError: elementorModules is not defined
+    at http://localhost:8771/Numerique_files/vamtam-nav-menu.min.js:1:29
+[      93ms] ReferenceError: elementorModules is not defined
+    at http://localhost:8771/Numerique_files/vamtam-button.min.js:1:28
+[      94ms] ReferenceError: jQuery is not defined
+    at http://localhost:8771/Numerique_files/jquery.sticky.min.js:1:3717
+[      96ms] ReferenceError: elementorModules is not defined
+    at http://localhost:8771/Numerique_files/vamtam-tabs.min.js:1:33
+[      98ms] TypeError: r.pusHomebind is not a function
+    at http://localhost:8771/Numerique_files/webpack-pro.runtime.min.js:2:6185
+    at http://localhost:8771/Numerique_files/webpack-pro.runtime.min.js:2:6202
+    at http://localhost:8771/Numerique_files/webpack-pro.runtime.min.js:2:6206
+[      99ms] TypeError: t.extend is not a function
+    at Object.createWidgetType (http://localhost:8771/Numerique_files/dialog.min.js:9:206)
+    at Object.addWidgetType (http://localhost:8771/Numerique_files/dialog.min.js:9:418)
+    at http://localhost:8771/Numerique_files/dialog.min.js:9:7773
+    at http://localhost:8771/Numerique_files/dialog.min.js:9:11254
+[     117ms] ReferenceError: jQuery is not defined
+    at http://localhost:8771/Numerique_files/vamtam-elementor-frontend.min.js:1:10416
+[     118ms] TypeError: t.extend is not a function
+    at Object.createWidgetType (http://localhost:8771/Numerique_files/dialog(1).min.js:9:206)
+    at Object.addWidgetType (http://localhost:8771/Numerique_files/dialog(1).min.js:9:418)
+    at http://localhost:8771/Numerique_files/dialog(1).min.js:9:7773
+    at http://localhost:8771/Numerique_files/dialog(1).min.js:9:11254
+[     118ms] ReferenceError: jQuery is not defined
+    at http://localhost:8771/Numerique_files/share-link.min.js:1:2744
+[      97ms] [LOG] Tab click handler initialized ✓ @ http://localhost:8771/Numerique_files/tabs-click-fix.js:141
+[      98ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8771/Numerique_files/fonts/theme-icons.ttf?6xdl95:0
+[     107ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8771/Numerique_files/fonts/theme-icons.woff?6xdl95:0
+[     149ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8771/favicon.ico:0
+[    1617ms] [LOG] Portfolio slider initialized @ http://localhost:8771/index.html:2507

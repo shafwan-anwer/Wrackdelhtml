@@ -1,0 +1,45 @@
+[      39ms] ReferenceError: elementorCommon is not defined
+    at WpDashboardTracking.isEditorOneActive (http://localhost:8765/Numerique_files/frontend-modules.min.js:1:27936)
+    at WpDashboardTracking.destroy (http://localhost:8765/Numerique_files/frontend-modules.min.js:1:33068)
+    at http://localhost:8765/Numerique_files/frontend-modules.min.js:1:33622
+[      86ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://localhost:8766/Numerique_files/jquery-migrate.min.js:1
+[     127ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8766/Numerique_files/fonts/theme-icons.ttf?6xdl95:0
+[     132ms] [LOG] Tab click handler initialized ✓ @ http://localhost:8766/Numerique_files/tabs-click-fix.js:141
+[     132ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8766/Numerique_files/fonts/theme-icons.woff?6xdl95:0
+[     148ms] TypeError: h.test is not a function
+    at ce.Deferred.exceptionHook (http://localhost:8766/Numerique_files/jquery.min.js:2:28623)
+    at t (http://localhost:8766/Numerique_files/jquery.min.js:2:27382)
+[     145ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8766/Numerique_files/low-priority.js:0
+[     185ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8766/favicon.ico:0
+[     229ms] TypeError: Cannot read properties of undefined (reading 'documents')
+    at Object.getPopups (http://localhost:8766/Numerique_files/vamtam-elementor-frontend.min.js:1:4864)
+    at Object.hoverActivatedPopups (http://localhost:8766/Numerique_files/vamtam-elementor-frontend.min.js:1:2908)
+    at http://localhost:8766/Numerique_files/vamtam-elementor-frontend.min.js:1:628
+[    1649ms] [LOG] Portfolio slider initialized @ http://localhost:8766/index.html:2507
+[   62620ms] TypeError: h.test is not a function
+    at re (http://localhost:8766/Numerique_files/jquery.min.js:2:20546)
+    at ce.I (http://localhost:8766/Numerique_files/jquery.min.js:2:7520)
+    at ce.<anonymous> (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:2898)
+    at e.<computed> [as find] (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:1582)
+    at HTMLBodyElement.handlers (http://localhost:8766/Numerique_files/jquery.min.js:2:40499)
+    at HTMLBodyElement.dispatch (http://localhost:8766/Numerique_files/jquery.min.js:2:39721)
+    at v.handle (http://localhost:8766/Numerique_files/jquery.min.js:2:38006)
+[   62620ms] TypeError: h.test is not a function
+    at re (http://localhost:8766/Numerique_files/jquery.min.js:2:20546)
+    at ce.I (http://localhost:8766/Numerique_files/jquery.min.js:2:7520)
+    at ce.<anonymous> (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:2898)
+    at e.<computed> [as find] (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:1582)
+    at HTMLDocument.handlers (http://localhost:8766/Numerique_files/jquery.min.js:2:40499)
+    at HTMLDocument.dispatch (http://localhost:8766/Numerique_files/jquery.min.js:2:39721)
+    at v.handle (http://localhost:8766/Numerique_files/jquery.min.js:2:38006)
+[   62655ms] TypeError: h.test is not a function
+    at re (http://localhost:8766/Numerique_files/jquery.min.js:2:20406)
+    at ce.I (http://localhost:8766/Numerique_files/jquery.min.js:2:7520)
+    at ce.<anonymous> (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:2898)
+    at e.<computed> [as find] (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:1582)
+    at ce.fn.init.find (http://localhost:8766/Numerique_files/jquery.min.js:2:21991)
+    at ce.fn.init (http://localhost:8766/Numerique_files/jquery.min.js:2:22483)
+    at e.<computed>.<anonymous> (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:2438)
+    at new e.<computed> (http://localhost:8766/Numerique_files/jquery-migrate.min.js:2:1582)
+    at ce (http://localhost:8766/Numerique_files/jquery.min.js:2:1077)
+    at http://localhost:8766/Numerique_files/all.min.js:1:9985
