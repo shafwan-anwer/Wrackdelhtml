@@ -242,13 +242,32 @@ html { scroll-behavior: smooth; }
 
 /* ===== Mobile Responsive Fixes ===== */
 @media (max-width: 767px) {
-    /* Reduce sticky header size on mobile */
-    .elementor-location-header {
+    /* Reduce mobile sticky header height */
+    .elementor-element-9dbee37 {
+        min-height: auto !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .elementor-element-9dbee37 .elementor-section {
+        min-height: auto !important;
+        padding: 5px 10px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .elementor-element-9dbee37 .elementor-element-5e63b87 {
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+    .elementor-element-9dbee37 .elementor-widget-container {
         padding: 0 !important;
     }
-    .elementor-location-header .elementor-section {
-        padding: 5px 0 !important;
-        min-height: auto !important;
+    .elementor-element-9dbee37 img {
+        max-height: 35px !important;
+        width: auto !important;
+    }
+    /* Hide sticky header spacer on mobile */
+    .elementor-sticky__spacer.elementor-element-9dbee37 {
+        display: none !important;
     }
 
     /* Hero section - reduce top padding */
@@ -329,9 +348,16 @@ html { scroll-behavior: smooth; }
         margin-top: 20px !important;
     }
 
-    /* Footer social icons - center */
-    .elementor-element-612bbec .elementor-social-icons-wrapper {
-        justify-content: flex-start !important;
+    /* Footer social icons - center horizontally on mobile */
+    .elementor-widget-social-icons .elementor-social-icons-wrapper.elementor-grid {
+        justify-content: center !important;
+        display: flex !important;
+    }
+    .elementor-element-612bbec.e-grid-align-mobile-left .elementor-social-icons-wrapper.elementor-grid {
+        justify-content: center !important;
+    }
+    .elementor-widget-social-icons {
+        width: 100% !important;
     }
 
     /* Footer nav menu - stack vertically */
@@ -352,8 +378,27 @@ html { scroll-behavior: smooth; }
     }
 }
 
-/* Footer SOLUTIONS section - stack nav menus on mobile */
+/* Footer nav and SOLUTIONS fixes on mobile */
 @media (max-width: 767px) {
+    /* Footer horizontal nav - show as list, not hamburger */
+    .elementor-element-f7988a7 .elementor-menu-toggle {
+        display: none !important;
+    }
+    .elementor-element-f7988a7 .elementor-nav-menu--main {
+        display: flex !important;
+    }
+    .elementor-element-f7988a7 .elementor-nav-menu {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 5px 15px !important;
+        flex-direction: row !important;
+    }
+    .elementor-element-f7988a7 .elementor-nav-menu li {
+        font-size: 13px !important;
+    }
+
+    /* SOLUTIONS section - stack nav menus */
     .elementor-element-55da5c2 .elementor-widget__width-auto {
         width: 100% !important;
     }

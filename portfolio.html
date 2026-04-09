@@ -240,9 +240,32 @@ html { scroll-behavior: smooth; }
 
 /* ===== Mobile Responsive Fixes ===== */
 @media (max-width: 767px) {
-    /* Reduce sticky header size */
-    .elementor-sticky--active {
-        padding: 5px 0 !important;
+    /* Reduce mobile sticky header height */
+    .elementor-element-9dbee37 {
+        min-height: auto !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .elementor-element-9dbee37 .elementor-section {
+        min-height: auto !important;
+        padding: 5px 10px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .elementor-element-9dbee37 .elementor-element-5e63b87 {
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+    .elementor-element-9dbee37 .elementor-widget-container {
+        padding: 0 !important;
+    }
+    .elementor-element-9dbee37 img {
+        max-height: 35px !important;
+        width: auto !important;
+    }
+    /* Hide sticky header spacer on mobile */
+    .elementor-sticky__spacer.elementor-element-9dbee37 {
+        display: none !important;
     }
 
     /* Portfolio slider arrows - keep visible */
@@ -306,9 +329,12 @@ html { scroll-behavior: smooth; }
         justify-content: center !important;
     }
 
-    /* Footer social icons */
+    /* Footer social icons - center on mobile */
     .elementor-element-612bbec .elementor-social-icons-wrapper {
-        justify-content: flex-start !important;
+        justify-content: center !important;
+    }
+    .elementor-element-612bbec {
+        text-align: center !important;
     }
 
     /* WhatsApp float */
@@ -319,6 +345,39 @@ html { scroll-behavior: smooth; }
     .whatsapp-float a {
         width: 50px !important;
         height: 50px !important;
+    }
+}
+
+
+/* Footer mobile fixes */
+@media (max-width: 767px) {
+    /* Footer horizontal nav - show as list, not hamburger */
+    .elementor-element-f7988a7 .elementor-menu-toggle {
+        display: none !important;
+    }
+    .elementor-element-f7988a7 .elementor-nav-menu--main {
+        display: flex !important;
+    }
+    .elementor-element-f7988a7 .elementor-nav-menu {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 5px 15px !important;
+        flex-direction: row !important;
+    }
+    .elementor-element-f7988a7 .elementor-nav-menu li {
+        font-size: 13px !important;
+    }
+    /* Footer social icons - center horizontally on mobile */
+    .elementor-widget-social-icons .elementor-social-icons-wrapper.elementor-grid {
+        justify-content: center !important;
+        display: flex !important;
+    }
+    .elementor-element-612bbec.e-grid-align-mobile-left .elementor-social-icons-wrapper.elementor-grid {
+        justify-content: center !important;
+    }
+    .elementor-widget-social-icons {
+        width: 100% !important;
     }
 }
 
