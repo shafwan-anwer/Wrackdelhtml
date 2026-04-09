@@ -842,10 +842,10 @@ h2.section-heading::after {
 
 /* Portfolio client logos */
 .portfolio-client-logo {
-    max-width: 650px;
-    max-height: 350px;
-    width: 650px;
-    height: 350px;
+    max-width: 700px;
+    max-height: 200px;
+    width: 700px;
+    height: 200px;
     object-fit: contain;
     transition: transform 0.3s ease, filter 0.3s ease;
     filter: grayscale(0%);
