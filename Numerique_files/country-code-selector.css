@@ -37,11 +37,20 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .phone-input-wrapper {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         gap: 8px;
     }
 
     .country-code-select {
-        width: 100%;
+        width: 90px;
+        flex-shrink: 0;
+        padding: 12px 8px;
+        font-size: 13px;
+    }
+
+    .phone-input-wrapper input[type="tel"] {
+        flex: 1;
+        min-width: 0;
     }
 }

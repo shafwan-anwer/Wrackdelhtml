@@ -1,0 +1,151 @@
+REPLACE FROM LINE 856 to 934 in terms-conditions.html with this:
+
+				<div class="elementor-element elementor-element-55d468b elementor-widget elementor-widget-heading" data-id="55d468b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">1. Introduction</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-275b00b elementor-widget elementor-widget-text-editor" data-id="275b00b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Welcome to Wrackdell. By accessing or using our website and services, you agree to comply with and be bound by these Terms & Conditions. If you do not agree, please do not use our website.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-a17fc7a elementor-widget elementor-widget-heading" data-id="a17fc7a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">2. Services</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-de3720b elementor-widget elementor-widget-text-editor" data-id="de3720b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Wrackdell provides digital marketing services including but not limited to:</p>
+<ul>
+<li>Content creation & branding</li>
+<li>CRM management (including responding to reviews, comments, and inquiries)</li>
+<li>Social media strategy and campaign execution</li>
+</ul>
+<p>All services are subject to agreed proposals, timelines, and pricing.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-8e0d2fe elementor-widget elementor-widget-heading" data-id="8e0d2fe" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">3. Use of Website</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-66de4a6 elementor-widget elementor-widget-text-editor" data-id="66de4a6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>You agree to:</p>
+<ul>
+<li>Use this website only for lawful purposes</li>
+<li>Not misuse, copy, or distribute content without permission</li>
+<li>Not attempt to disrupt or damage the website</li>
+</ul>
+<p>We reserve the right to restrict access if misuse is detected.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-6d96fd0 elementor-widget elementor-widget-heading" data-id="6d96fd0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">4. Intellectual Property</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-42245a9 elementor-widget elementor-widget-text-editor" data-id="42245a9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>All content on this website (text, graphics, logos, visuals, and designs) is owned by Wrackdell unless stated otherwise.</p>
+<p>You may not:</p>
+<ul>
+<li>Copy or reproduce content without written permission</li>
+<li>Use our branding or materials for commercial purposes</li>
+</ul>								</div>
+				</div>
+				<div class="elementor-element elementor-element-c190abd elementor-widget elementor-widget-heading" data-id="c190abd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">5. Payments & Pricing</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-1ba37f3 elementor-widget elementor-widget-text-editor" data-id="1ba37f3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<ul>
+<li>All pricing will be provided in proposals or agreements</li>
+<li>Payments must be made as per agreed terms</li>
+<li>Late payments may result in delays or suspension of services</li>
+</ul>								</div>
+				</div>
+				<div class="elementor-element elementor-element-b7cbfed elementor-widget elementor-widget-heading" data-id="b7cbfed" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">6. Client Responsibilities</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-ae269c0 elementor-widget elementor-widget-text-editor" data-id="ae269c0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Clients agree to:</p>
+<ul>
+<li>Provide accurate information and timely approvals</li>
+<li>Respond promptly to communication</li>
+<li>Ensure they have rights to any content/materials they provide</li>
+</ul>
+<p>Delays from the client side may affect timelines.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-fde0f1c elementor-widget elementor-widget-heading" data-id="fde0f1c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">7. Revisions & Deliverables</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-42d30a2 elementor-widget elementor-widget-text-editor" data-id="42d30a2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<ul>
+<li>Revisions are limited to what is agreed in the project scope</li>
+<li>Additional revisions may incur extra charges</li>
+<li>Final deliverables will be shared once full payment is completed (unless otherwise agreed)</li>
+</ul>								</div>
+				</div>
+				<div class="elementor-element elementor-element-ba0fcc0 elementor-widget elementor-widget-heading" data-id="ba0fcc0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">8. Limitation of Liability</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-30407f9 elementor-widget elementor-widget-text-editor" data-id="30407f9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Wrackdell is not liable for:</p>
+<ul>
+<li>Any indirect or consequential losses</li>
+<li>Performance outcomes affected by external factors (platform algorithm changes, market trends, etc.)</li>
+</ul>
+<p>We aim to deliver results, but we do not guarantee specific outcomes.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-f607b8f elementor-widget elementor-widget-heading" data-id="f607b8f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">9. Termination</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-55ac452 elementor-widget elementor-widget-text-editor" data-id="55ac452" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We reserve the right to:</p>
+<ul>
+<li>Terminate services if terms are violated</li>
+<li>Pause or stop services due to non-payment</li>
+</ul>
+<p>Clients may also terminate services based on agreed notice periods.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-55d468b elementor-widget elementor-widget-heading" data-id="55d468b-2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">10. Third-Party Platforms</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-275b00b elementor-widget elementor-widget-text-editor" data-id="275b00b-2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Our services may involve platforms like social media or third-party tools. We are not responsible for:</p>
+<ul>
+<li>Platform outages</li>
+<li>Policy changes affecting performance</li>
+</ul>								</div>
+				</div>
+				<div class="elementor-element elementor-element-a17fc7a elementor-widget elementor-widget-heading" data-id="a17fc7a-2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">11. Privacy</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-de3720b elementor-widget elementor-widget-text-editor" data-id="de3720b-2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Your use of our website is also governed by our <a href="privacy-policy.html">Privacy Policy</a>. We respect and protect your data.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-8e0d2fe elementor-widget elementor-widget-heading" data-id="8e0d2fe-2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">12. Changes to Terms</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-66de4a6 elementor-widget elementor-widget-text-editor" data-id="66de4a6-2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We may update these Terms & Conditions at any time. Continued use of the website means you accept any updates.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-6d96fd0 elementor-widget elementor-widget-heading" data-id="6d96fd0-2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">13. Governing Law</h3>				</div>
+				</div>
+				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-42245a9 elementor-widget elementor-widget-text-editor" data-id="42245a9-2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>These Terms & Conditions are governed by the laws of Sri Lanka.</p>								</div>
+				</div>
