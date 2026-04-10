@@ -1,5 +1,8 @@
 // Simple Mobile Menu - Completely Custom Approach
 document.addEventListener('DOMContentLoaded', function() {
+    // Fix lazy loaded logo images in mobile header
+    fixLazyLoadedLogos();
+
     if (window.innerWidth <= 1024) {
         console.log('🚀 Starting simple mobile menu initialization...');
         initSimpleMobileMenu();
@@ -11,7 +14,31 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    function fixLazyLoadedLogos() {
+        console.log('🖼️ Fixing lazy-loaded logos...');
+
+        // Find all lazy-loaded images in the mobile header
+        const mobileHeader = document.querySelector('.elementor-hidden-desktop');
+        if (mobileHeader) {
+            const lazyImages = mobileHeader.querySelectorAll('img[data-lazy-src]');
+            console.log('Found lazy images:', lazyImages.length);
+
+            lazyImages.forEach(img => {
+                const lazySrc = img.getAttribute('data-lazy-src');
+                if (lazySrc) {
+                    console.log('Loading image:', lazySrc);
+                    img.src = lazySrc;
+                    img.removeAttribute('data-lazy-src');
+                    img.classList.add('lazyloaded');
+                }
+            });
+        }
+    }
+
     function initSimpleMobileMenu() {
+        // Fix logos again when menu initializes
+        fixLazyLoadedLogos();
+
         // Create custom mobile menu if it doesn't exist
         if (document.getElementById('custom-mobile-menu')) {
             console.log('⚠️ Custom menu already exists');
@@ -141,5 +168,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         console.log('🎉 Simple mobile menu initialization complete!');
+    }
+});
+
+// Also fix logos on window load (in case DOMContentLoaded was too early)
+window.addEventListener('load', function() {
+    console.log('🔄 Window loaded - double-checking lazy logos...');
+    const mobileHeader = document.querySelector('.elementor-hidden-desktop');
+    if (mobileHeader) {
+        const lazyImages = mobileHeader.querySelectorAll('img[data-lazy-src]');
+        lazyImages.forEach(img => {
+            const lazySrc = img.getAttribute('data-lazy-src');
+            if (lazySrc) {
+                img.src = lazySrc;
+                img.removeAttribute('data-lazy-src');
+                img.classList.add('lazyloaded');
+            }
+        });
     }
 });

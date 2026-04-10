@@ -842,10 +842,10 @@ h2.section-heading::after {
 
 /* Portfolio client logos */
 .portfolio-client-logo {
-    max-width: 700px;
+    max-width: 100%;
     max-height: 200px;
-    width: 700px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: contain;
     transition: transform 0.3s ease, filter 0.3s ease;
     filter: grayscale(0%);
@@ -932,11 +932,14 @@ h2.section-heading::after {
 .elementor-element-3a7d1af.elementor-grid {
     row-gap: 35px !important;
     column-gap: 30px !important;
+    width: 100% !important;
 }
 
 /* Remove inline margin styles from masonry items */
 .e-loop-item {
     margin-top: 0 !important;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Ensure consistent card heights */
@@ -945,6 +948,13 @@ h2.section-heading::after {
     height: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+/* Prevent overflow on all devices */
+.page-id-1089 .elementor-container {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Portfolio page intro text */
@@ -960,63 +970,84 @@ h2.section-heading::after {
 /* ===== TABLET RESPONSIVE (768px - 1024px) ===== */
 @media (max-width: 1024px) and (min-width: 768px) {
     .portfolio-logo-container {
-        padding: 35px 25px 30px 25px;
-        min-height: 160px;
+        padding: 25px 20px !important;
+        min-height: 140px !important;
     }
 
     .portfolio-client-logo {
-        max-width: 280px;
-        max-height: 130px;
+        max-width: 100% !important;
+        max-height: 150px !important;
+        width: auto !important;
+        height: auto !important;
     }
 
     .elementor-element-6c0720c > .elementor-element-populated,
     .elementor-element-e60da80 > .elementor-element-populated {
-        padding: 35px 30px 30px 30px !important;
+        padding: 30px 25px !important;
     }
 
     .elementor-element-3abe29a .elementor-heading-title,
     .elementor-element-88189ee .elementor-heading-title {
-        font-size: 20px !important;
+        font-size: 19px !important;
+    }
+
+    /* Portfolio grid - 2 columns on tablet */
+    .elementor-element-3a7d1af.elementor-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 20px !important;
     }
 }
 
 /* ===== MOBILE RESPONSIVE (up to 767px) ===== */
 @media (max-width: 767px) {
+    /* Portfolio cards - better mobile layout */
     .elementor-element-c0059f9,
     .elementor-element-1ff7e98 {
-        min-height: 460px !important;
+        min-height: auto !important;
         margin-bottom: 25px !important;
+        width: 100% !important;
+    }
+
+    .elementor-element-6c0720c,
+    .elementor-element-e60da80 {
+        width: 100% !important;
+        max-width: 100% !important;
     }
 
     .elementor-element-6c0720c > .elementor-element-populated,
     .elementor-element-e60da80 > .elementor-element-populated {
-        padding: 30px 25px 25px 25px !important;
+        padding: 25px 20px !important;
     }
 
     .portfolio-logo-container {
-        padding: 30px 20px 25px 20px;
-        min-height: 140px;
+        padding: 20px 15px !important;
+        min-height: 100px !important;
+        margin-bottom: 15px !important;
     }
 
     .portfolio-client-logo {
-        max-width: 240px;
-        max-height: 110px;
+        max-width: 100% !important;
+        max-height: 100px !important;
+        width: auto !important;
+        height: auto !important;
     }
 
     .elementor-element-5b8a939 .elementor-icon-list-text,
     .elementor-element-6c74ef0 .elementor-icon-list-text {
         font-size: 11px !important;
-        padding: 5px 14px !important;
+        padding: 5px 12px !important;
     }
 
     .elementor-element-3abe29a .elementor-heading-title,
     .elementor-element-88189ee .elementor-heading-title {
-        font-size: 18px !important;
+        font-size: 17px !important;
+        line-height: 1.3 !important;
     }
 
     .elementor-element-5a8d2d4 .elementor-icon-list-text,
     .elementor-element-f8a6e6b .elementor-icon-list-text {
         font-size: 14px !important;
+        line-height: 1.6 !important;
     }
 
     .page-id-1089 .elementor-element-34bc9ae p {
@@ -1024,8 +1055,49 @@ h2.section-heading::after {
         margin-bottom: 35px;
     }
 
+    /* Portfolio grid - single column on mobile */
     .elementor-element-3a7d1af.elementor-grid {
+        grid-template-columns: 1fr !important;
         row-gap: 25px !important;
+        column-gap: 0 !important;
+    }
+
+    /* Ensure cards don't overflow */
+    .e-loop-item {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/* ===== EXTRA SMALL MOBILE (up to 480px) ===== */
+@media (max-width: 480px) {
+    .elementor-element-c0059f9,
+    .elementor-element-1ff7e98 {
+        border-radius: 12px !important;
+    }
+
+    .elementor-element-6c0720c > .elementor-element-populated,
+    .elementor-element-e60da80 > .elementor-element-populated {
+        padding: 20px 15px !important;
+    }
+
+    .portfolio-logo-container {
+        padding: 15px 10px !important;
+        min-height: 80px !important;
+    }
+
+    .portfolio-client-logo {
+        max-height: 80px !important;
+    }
+
+    .elementor-element-3abe29a .elementor-heading-title,
+    .elementor-element-88189ee .elementor-heading-title {
+        font-size: 16px !important;
+    }
+
+    .elementor-element-5a8d2d4 .elementor-icon-list-text,
+    .elementor-element-f8a6e6b .elementor-icon-list-text {
+        font-size: 13px !important;
     }
 }
 

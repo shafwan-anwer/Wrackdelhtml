@@ -4,11 +4,13 @@
 @media (max-width: 1024px) {
     /* Force mobile header section to full width */
     section.elementor-hidden-desktop {
-        width: 100vw !important;
+        width: 100% !important;
         max-width: 100vw !important;
         margin: 0 !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     section.elementor-hidden-desktop .elementor-container {
@@ -16,6 +18,141 @@
         max-width: 100% !important;
         padding-left: 15px !important;
         padding-right: 15px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* Make the audit button section super thin */
+    section.elementor-hidden-desktop .elementor-element-5e63b87 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-element-5e63b87 .elementor-widget-container {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-element-5e63b87 .elementor-button-wrapper {
+        margin: 0 !important;
+        padding: 8px 0 !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-element-5e63b87 .elementor-button {
+        padding: 8px 20px !important;
+        font-size: 12px !important;
+    }
+
+    /* Make the logo and nav section compact */
+    section.elementor-hidden-desktop .elementor-element-3ec1ab5,
+    section.elementor-hidden-desktop .elementor-inner-section {
+        padding: 8px 0 !important;
+        margin: 0 !important;
+        min-height: auto !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-element-3ec1ab5 .elementor-container,
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-container {
+        padding: 0 15px !important;
+        min-height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+    /* Ensure inner columns are visible and properly arranged */
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-column,
+    section.elementor-hidden-desktop .elementor-inner-column {
+        display: flex !important;
+        align-items: center !important;
+        width: auto !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-column .elementor-widget-wrap,
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-column .elementor-element-populated {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-column:first-child {
+        flex: 0 0 auto !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-column:last-child {
+        flex: 1 !important;
+        justify-content: flex-end !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-column:last-child .elementor-widget-wrap,
+    section.elementor-hidden-desktop .elementor-inner-section .elementor-column:last-child .elementor-element-populated {
+        justify-content: flex-end !important;
+    }
+
+    /* Reduce logo height - make sure logo is visible on all pages */
+    section.elementor-hidden-desktop .elementor-widget-image img,
+    section.elementor-hidden-desktop .elementor-widget-theme-site-logo img {
+        max-height: 40px !important;
+        width: auto !important;
+        height: auto !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        min-height: 30px !important;
+    }
+
+    /* Force lazy-loaded images to show */
+    section.elementor-hidden-desktop img[data-lazy-src] {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        content: attr(data-lazy-src) !important;
+    }
+
+    /* Ensure logo containers are visible */
+    section.elementor-hidden-desktop .elementor-widget-image,
+    section.elementor-hidden-desktop .elementor-widget-theme-site-logo {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        min-width: 100px !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-widget-image .elementor-widget-container,
+    section.elementor-hidden-desktop .elementor-widget-theme-site-logo .elementor-widget-container {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-widget-image a,
+    section.elementor-hidden-desktop .elementor-widget-theme-site-logo a {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* Specific fix for team page logo */
+    section.elementor-hidden-desktop .elementor-element-d0f870c,
+    section.elementor-hidden-desktop .elementor-element-d0f870c .elementor-widget-container,
+    section.elementor-hidden-desktop .elementor-element-d0f870c a,
+    section.elementor-hidden-desktop .elementor-element-d0f870c img {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* Fix for logo column */
+    section.elementor-hidden-desktop .elementor-element-88e2cc2 {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        flex: 0 0 auto !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-element-88e2cc2 .elementor-widget-wrap {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
     }
 
     /* Ensure sticky header is full width */
@@ -28,42 +165,42 @@
 
     /* Hero section margin fix for mobile - Homepage */
     section[data-id="6099a9d"] {
-        margin-top: 80px !important;
-        padding-top: 40px !important;
+        margin-top: 60px !important;
+        padding-top: 30px !important;
     }
 
     /* Services page - "Solutions for business growth" heading */
     body.page section.elementor-top-section:first-of-type {
-        padding-top: 100px !important;
+        padding-top: 80px !important;
     }
 
     /* Portfolio page - "PORTFOLIO" heading */
     .portfolio-section:first-of-type,
     section.portfolio-hero:first-of-type {
-        padding-top: 100px !important;
+        padding-top: 80px !important;
     }
 
     /* Testimonials page - "What Our Clients Say" heading */
     .testimonials-section:first-of-type,
     section.testimonials-hero:first-of-type {
-        padding-top: 100px !important;
+        padding-top: 80px !important;
     }
 
     /* FAQ page - "FAQ" heading */
     .faq-section:first-of-type,
     section.faq-hero:first-of-type {
-        padding-top: 100px !important;
+        padding-top: 80px !important;
     }
 
     /* Contact page - "CONTACT US" heading */
     .contact-section:first-of-type,
     section.contact-hero:first-of-type {
-        padding-top: 100px !important;
+        padding-top: 80px !important;
     }
 
     /* Universal fix for all first sections */
     .page-content .elementor:first-child section:first-child {
-        padding-top: 100px !important;
+        padding-top: 80px !important;
     }
 
     /* Fix any overflow issues */
@@ -83,6 +220,19 @@
         display: none !important;
     }
 
+    /* Ensure nav menu widget is visible */
+    section.elementor-hidden-desktop .elementor-widget-nav-menu {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    section.elementor-hidden-desktop .elementor-widget-nav-menu .elementor-widget-container {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
     /* Custom Hamburger Icon */
     .elementor-menu-toggle__icon--open.eicon-menu-bar,
     .elementor-menu-toggle__icon--close.eicon-close {
@@ -90,57 +240,54 @@
     }
 
     .elementor-menu-toggle {
-        position: relative;
-        width: 30px;
-        height: 24px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 100000;
+        position: relative !important;
+        width: 30px !important;
+        height: 24px !important;
+        cursor: pointer !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: 100000 !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        flex-shrink: 0 !important;
+        margin-left: auto !important;
     }
 
     .elementor-menu-toggle::before,
-    .elementor-menu-toggle::after,
-    .elementor-menu-toggle .hamburger-middle {
-        content: '';
-        position: absolute;
-        width: 28px;
-        height: 3px;
-        background-color: #1E3A8A;
-        border-radius: 2px;
-        transition: all 0.3s ease;
-        left: 50%;
-        transform: translateX(-50%);
+    .elementor-menu-toggle::after {
+        content: '' !important;
+        position: absolute !important;
+        width: 28px !important;
+        height: 3px !important;
+        background-color: #1E3A8A !important;
+        border-radius: 2px !important;
+        transition: all 0.3s ease !important;
+        left: 50% !important;
+        display: block !important;
     }
 
     .elementor-menu-toggle::before {
-        top: 2px;
-    }
-
-    .elementor-menu-toggle .hamburger-middle {
-        top: 50%;
-        transform: translate(-50%, -50%);
+        top: 3px !important;
+        transform: translateX(-50%) !important;
+        box-shadow: 0 8px 0 0 #1E3A8A !important;
     }
 
     .elementor-menu-toggle::after {
-        bottom: 2px;
+        bottom: 3px !important;
+        transform: translateX(-50%) !important;
     }
 
     /* Active/Open State - X icon */
     .elementor-menu-toggle[aria-expanded="true"]::before {
-        top: 50%;
-        transform: translate(-50%, -50%) rotate(45deg);
-    }
-
-    .elementor-menu-toggle[aria-expanded="true"] .hamburger-middle {
-        opacity: 0;
-        transform: translate(-50%, -50%) scale(0);
+        top: 50% !important;
+        transform: translate(-50%, -50%) rotate(45deg) !important;
+        box-shadow: none !important;
     }
 
     .elementor-menu-toggle[aria-expanded="true"]::after {
-        bottom: 50%;
-        transform: translate(-50%, 50%) rotate(-45deg);
+        bottom: 50% !important;
+        transform: translate(-50%, 50%) rotate(-45deg) !important;
     }
 
     /* Overlay */
@@ -165,11 +312,11 @@
     /* Custom Mobile Menu */
     #custom-mobile-menu {
         position: fixed;
-        top: 70px;
+        top: 60px;
         right: -100%;
         width: 85%;
         max-width: 400px;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 60px);
         background: white;
         z-index: 99999;
         overflow-y: auto;
