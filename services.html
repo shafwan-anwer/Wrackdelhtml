@@ -1360,6 +1360,62 @@ document.addEventListener('DOMContentLoaded', function() {
 												.package-tooltip ul li:last-child {
 													margin-bottom: 0;
 												}
+
+												/* Phone Input Wrapper Styles */
+												.phone-input-wrapper {
+													display: flex;
+													gap: 10px;
+													width: 100%;
+												}
+												.country-code-select {
+													padding: 12px 8px;
+													border: 1px solid #E2E2E2;
+													border-radius: 18px;
+													font-size: 14px;
+													min-width: 90px;
+													cursor: pointer;
+													background: white;
+													transition: border-color 0.3s;
+												}
+												.country-code-select:focus {
+													border-color: #1565C0;
+													outline: none;
+												}
+
+												/* Mobile Responsive Styles */
+												@media (max-width: 767px) {
+													#contact-form {
+														padding: 30px 20px !important;
+													}
+
+													/* Make flex rows stack vertically on mobile */
+													#contact-form > div[style*="display: flex"] {
+														flex-direction: column !important;
+														gap: 20px !important;
+													}
+
+													/* Phone input wrapper on mobile */
+													.phone-input-wrapper {
+														flex-direction: column;
+														gap: 10px;
+													}
+
+													.country-code-select {
+														width: 100% !important;
+														min-width: 100%;
+													}
+
+													/* Services grid - single column on mobile */
+													div[style*="grid-template-columns"] {
+														grid-template-columns: 1fr !important;
+													}
+												}
+
+												@media (max-width: 480px) {
+													#contact-form {
+														padding: 25px 15px !important;
+													}
+												}
 											</style>
 											<div style="margin-bottom: 25px;">
 												<label style="display: block; margin-bottom: 12px; font-weight: 500; color: #333;">Select a Package <span style="font-weight: 400; color: #666; font-size: 14px;">(Optional - Hover for details)</span></label>

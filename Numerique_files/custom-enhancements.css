@@ -1237,3 +1237,301 @@ h2.section-heading::after {
         font-size: 14px !important;
     }
 }
+
+/* ===== HOMEPAGE PORTFOLIO SLIDER MOBILE FIX ===== */
+@media (max-width: 767px) {
+    /* Fix portfolio slider navigation buttons */
+    .elementor-element-c3df51f .swiper-button-prev,
+    .elementor-element-c3df51f .swiper-button-next {
+        display: flex !important;
+        width: 40px !important;
+        height: 40px !important;
+        background: rgba(30, 58, 138, 0.9) !important;
+        border-radius: 50% !important;
+    }
+
+    .elementor-element-c3df51f .swiper-button-prev::after,
+    .elementor-element-c3df51f .swiper-button-next::after {
+        font-size: 18px !important;
+        color: white !important;
+    }
+
+    /* Fix pagination bullets */
+    .elementor-element-c3df51f .swiper-pagination {
+        bottom: -35px !important;
+    }
+
+    .elementor-element-c3df51f .swiper-pagination-bullet {
+        width: 10px !important;
+        height: 10px !important;
+        background: #1E3A8A !important;
+        opacity: 0.5 !important;
+    }
+
+    .elementor-element-c3df51f .swiper-pagination-bullet-active {
+        opacity: 1 !important;
+        background: #1E3A8A !important;
+    }
+
+    /* Ensure swiper is properly initialized on mobile */
+    .elementor-element-c3df51f .swiper-wrapper {
+        display: flex !important;
+    }
+
+    .elementor-element-c3df51f .swiper-slide {
+        width: 100% !important;
+        flex-shrink: 0 !important;
+    }
+}
+
+/* ===== HOMEPAGE LOGO SLIDER MOBILE FIX ===== */
+@media (max-width: 767px) {
+    .brands-slider-item {
+        padding: 0 25px !important;
+        min-width: 150px !important;
+    }
+
+    .brands-slider-item img {
+        max-width: 140px !important;
+        min-width: 120px !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .brands-slider-item {
+        padding: 0 20px !important;
+        min-width: 140px !important;
+    }
+
+    .brands-slider-item img {
+        max-width: 130px !important;
+        min-width: 110px !important;
+    }
+}
+
+/* ===== ABOUT US PAGE CTA SECTION & BUTTONS ===== */
+.about-cta-section {
+    background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+    padding: 60px 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.cta-content p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    min-width: 180px;
+    text-align: center;
+}
+
+.btn-primary {
+    background: white;
+    color: #1E3A8A;
+    border: 2px solid white;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: #1E3A8A;
+}
+
+@media (max-width: 767px) {
+    .about-cta-section {
+        padding: 40px 20px;
+    }
+
+    .cta-content h2 {
+        font-size: 26px !important;
+        line-height: 1.3 !important;
+    }
+
+    .cta-content p {
+        font-size: 16px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        padding: 14px 25px;
+        font-size: 15px;
+    }
+}
+
+/* ===== PORTFOLIO PAGE MOBILE FIXES ===== */
+@media (max-width: 767px) {
+    /* Fix portfolio card logos - make them bigger */
+    .portfolio-logo-container {
+        padding: 25px 20px !important;
+        min-height: 120px !important;
+    }
+
+    .portfolio-client-logo {
+        max-width: 85% !important;
+        max-height: 140px !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    /* Reduce grid spacing */
+    .elementor-element-3a7d1af.elementor-grid,
+    .elementor-loop-container.elementor-grid {
+        grid-template-columns: 1fr !important;
+        row-gap: 20px !important;
+        column-gap: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-logo-container {
+        padding: 30px 25px !important;
+        min-height: 130px !important;
+    }
+
+    .portfolio-client-logo {
+        max-height: 150px !important;
+        max-width: 90% !important;
+    }
+}
+
+/* ===== BLOG PAGE HEADER SCROLL FIX ===== */
+@media (max-width: 1024px) {
+    /* Fix blog page content scrolling over header */
+    body.blog .elementor-location-header,
+    .blog .elementor-location-header {
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 9999 !important;
+        background: white !important;
+    }
+
+    /* Add padding to content to prevent overlap */
+    body.blog .elementor-section:first-of-type,
+    .blog main > .elementor-section:first-child {
+        margin-top: 20px !important;
+    }
+}
+
+/* ===== BLOG PAGES CTA BUTTONS MOBILE FIX ===== */
+@media (max-width: 767px) {
+    /* Target all blog page CTA sections */
+    .elementor-widget-button .elementor-button-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .elementor-widget-button .elementor-button-link {
+        width: 100% !important;
+        max-width: 280px !important;
+        margin: 0 auto !important;
+        padding: 14px 25px !important;
+        font-size: 15px !important;
+        text-align: center !important;
+        display: block !important;
+    }
+
+    /* Specific targeting for CTA sections with phone/contact buttons */
+    section[class*="elementor-section"] h2 + .elementor-button-wrapper,
+    .elementor-section .elementor-button-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ===== CAREERS PAGE RESPONSIVENESS ===== */
+@media (max-width: 767px) {
+    /* Fix careers form modal */
+    #applicationModal .modal-content {
+        width: 95% !important;
+        max-width: 95% !important;
+        margin: 20px auto !important;
+        padding: 25px 20px !important;
+        max-height: 85vh !important;
+        overflow-y: auto !important;
+    }
+
+    #applicationModal h2 {
+        font-size: 24px !important;
+    }
+
+    #applicationModal form input,
+    #applicationModal form select,
+    #applicationModal form textarea {
+        font-size: 14px !important;
+        padding: 12px !important;
+    }
+
+    #applicationModal button[type="submit"] {
+        width: 100% !important;
+        font-size: 16px !important;
+    }
+
+    /* Fix careers page job cards */
+    .job-card {
+        padding: 20px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .job-card h3 {
+        font-size: 20px !important;
+    }
+
+    .job-card button {
+        width: 100% !important;
+        margin-top: 15px !important;
+    }
+}
