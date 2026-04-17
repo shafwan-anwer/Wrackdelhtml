@@ -1,6 +1,6 @@
 /**
  * Header Scroll Animation
- * Adds white background to header on scroll
+ * Adds white background to header on scroll for all devices
  */
 
 (function() {
@@ -8,10 +8,11 @@
 
     // Get header element
     const header = document.querySelector('.elementor-location-header');
-    const headerSection = document.querySelector('.vamtam-sticky-header--transparent-header');
+    const desktopHeaderSection = document.querySelector('.vamtam-sticky-header--transparent-header');
+    const mobileHeaderSection = document.querySelector('.elementor-hidden-desktop');
 
-    if (!header || !headerSection) {
-        console.warn('Header elements not found');
+    if (!header) {
+        console.warn('Header element not found');
         return;
     }
 
@@ -31,12 +32,14 @@
         if (scrollTop > SCROLL_THRESHOLD && !isScrolled) {
             // User scrolled down
             header.classList.add('header-scrolled');
-            headerSection.classList.add('header-scrolled');
+            if (desktopHeaderSection) desktopHeaderSection.classList.add('header-scrolled');
+            if (mobileHeaderSection) mobileHeaderSection.classList.add('header-scrolled');
             isScrolled = true;
         } else if (scrollTop <= SCROLL_THRESHOLD && isScrolled) {
             // User scrolled to top
             header.classList.remove('header-scrolled');
-            headerSection.classList.remove('header-scrolled');
+            if (desktopHeaderSection) desktopHeaderSection.classList.remove('header-scrolled');
+            if (mobileHeaderSection) mobileHeaderSection.classList.remove('header-scrolled');
             isScrolled = false;
         }
 

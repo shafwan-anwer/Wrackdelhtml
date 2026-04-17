@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create the mobile menu HTML
         const mobileMenuHTML = `
             <div id="custom-mobile-menu" class="custom-mobile-menu">
+                <button class="mobile-menu-close" aria-label="Close menu"></button>
                 <div class="custom-mobile-menu-content">
                     <ul class="custom-mobile-nav">
                         <li><a href="index.html">Home</a></li>
@@ -77,6 +78,21 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add menu to body
         document.body.insertAdjacentHTML('beforeend', mobileMenuHTML);
         console.log('✅ Custom menu added to DOM');
+
+        // Close button handler
+        const closeBtn = document.querySelector('.mobile-menu-close');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function() {
+                const menu = document.getElementById('custom-mobile-menu');
+                const overlay = document.querySelector('.mobile-menu-overlay');
+                const toggles = document.querySelectorAll('.elementor-menu-toggle');
+
+                menu.classList.remove('active');
+                if (overlay) overlay.classList.remove('active');
+                toggles.forEach(t => t.setAttribute('aria-expanded', 'false'));
+                document.body.style.overflow = '';
+            });
+        }
 
         // Add hamburger middle bars
         const menuToggles = document.querySelectorAll('.elementor-menu-toggle');

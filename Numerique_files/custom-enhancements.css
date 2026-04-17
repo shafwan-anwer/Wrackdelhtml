@@ -13,7 +13,7 @@
 
 /* ===== HEADER SCROLL ANIMATION ===== */
 
-/* Default header state - transparent */
+/* Default header state - fixed at top on all devices */
 .elementor-location-header {
     position: fixed;
     top: 0;
@@ -24,17 +24,32 @@
     transition: background-color 0.3s ease, box-shadow 0.3s ease, backdrop-filter 0.3s ease;
 }
 
+/* Desktop header - transparent by default */
 .vamtam-sticky-header--transparent-header {
     background-color: transparent !important;
     transition: all 0.3s ease;
 }
 
-/* Scrolled state - white background with shadow */
-.elementor-location-header.header-scrolled,
-.header-scrolled .vamtam-sticky-header--transparent-header {
-    background-color: #ffffff !important;
+/* Mobile/tablet header - transparent by default */
+.elementor-hidden-desktop {
+    background-color: transparent !important;
+    transition: all 0.3s ease;
+}
+
+/* Scrolled state - white background with slight transparency + shadow (all devices) */
+.elementor-location-header.header-scrolled {
+    background-color: rgba(255, 255, 255, 0.92) !important;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.header-scrolled .vamtam-sticky-header--transparent-header {
+    background-color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.elementor-hidden-desktop.header-scrolled {
+    background-color: rgba(255, 255, 255, 0.92) !important;
 }
 
 /* Ensure nav links are visible on white background */
@@ -63,6 +78,43 @@
 .header-scrolled .elementor-widget-theme-site-logo img {
     transform: scale(0.9);
     transition: transform 0.3s ease;
+}
+
+/* Override Elementor sticky inline styles on mobile header - let parent handle positioning */
+@media (max-width: 1024px) {
+    .elementor-element-9dbee37.elementor-sticky--active {
+        position: relative !important;
+        top: auto !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* Ensure mobile header section stretches full width */
+    .elementor-element-9dbee37 {
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    /* Hide desktop header sections on tablet/mobile */
+    .elementor-1350 > section.elementor-element-a51dd12 {
+        display: none !important;
+    }
+
+    /* Hide all sticky spacers on tablet/mobile */
+    .elementor-1350 > section.elementor-sticky__spacer {
+        display: none !important;
+    }
+}
+
+/* Body padding to account for fixed header */
+body {
+    padding-top: 0;
+}
+
+/* Spacer to push content below fixed header */
+.vamtam-sticky-header--spacer {
+    visibility: hidden;
 }
 
 /* ===== ABOUT US PAGE - CLEAN, NEAT & FULLY RESPONSIVE ===== */
@@ -1446,35 +1498,32 @@ h2.section-heading::after {
     }
 }
 
-/* ===== BLOG PAGE HEADER SCROLL FIX ===== */
-@media (max-width: 1024px) {
-    /* Fix blog page content scrolling over header */
-    body.blog .elementor-location-header,
-    .blog .elementor-location-header {
-        position: sticky !important;
-        top: 0 !important;
-        z-index: 9999 !important;
-        background: white !important;
-    }
-
-    /* Add padding to content to prevent overlap */
-    body.blog .elementor-section:first-of-type,
-    .blog main > .elementor-section:first-child {
-        margin-top: 20px !important;
-    }
+/* ===== FOOTER - ALWAYS VISIBLE (no fade-in animation) ===== */
+.elementor-element-55da5c2,
+.elementor-element-96e5687 {
+    opacity: 1 !important;
+    transform: none !important;
 }
+
+/* ===== FOOTER - HIDE HAMBURGER MENU ===== */
+.elementor-element-f7988a7 .elementor-menu-toggle {
+    display: none !important;
+}
+
+/* ===== BLOG PAGE HEADER SCROLL FIX ===== */
+/* Header is now fixed on all devices via .elementor-location-header */
 
 /* ===== BLOG PAGES CTA BUTTONS MOBILE FIX ===== */
 @media (max-width: 767px) {
-    /* Target all blog page CTA sections */
-    .elementor-widget-button .elementor-button-wrapper {
+    /* Target CTA buttons in page content only, NOT the header */
+    .elementor-widget-button:not(.elementor-element-5e63b87):not(.elementor-element-1e82954) .elementor-button-wrapper {
         display: flex;
         flex-direction: column;
         gap: 15px;
         width: 100%;
     }
 
-    .elementor-widget-button .elementor-button-link {
+    .elementor-widget-button:not(.elementor-element-5e63b87):not(.elementor-element-1e82954) .elementor-button-link {
         width: 100% !important;
         max-width: 280px !important;
         margin: 0 auto !important;
