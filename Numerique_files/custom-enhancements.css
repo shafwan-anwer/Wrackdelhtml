@@ -38,18 +38,18 @@
 
 /* Scrolled state - white background with slight transparency + shadow (all devices) */
 .elementor-location-header.header-scrolled {
-    background-color: rgba(255, 255, 255, 0.92) !important;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
 }
 
 .header-scrolled .vamtam-sticky-header--transparent-header {
-    background-color: rgba(255, 255, 255, 0.92) !important;
+    background-color: rgba(255, 255, 255, 0.75) !important;
 }
 
 .elementor-hidden-desktop.header-scrolled {
-    background-color: rgba(255, 255, 255, 0.92) !important;
+    background-color: rgba(255, 255, 255, 0.75) !important;
 }
 
 /* Ensure nav links are visible on white background */
@@ -1505,7 +1505,41 @@ h2.section-heading::after {
     transform: none !important;
 }
 
+/* ===== FOOTER - CENTER ALIGN COPYRIGHT & LINKS ON MOBILE ===== */
+@media (max-width: 767px) {
+    .elementor-element-96e5687 .elementor-element-5b460d7 {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .elementor-element-96e5687 .elementor-element-7fed48c {
+        width: 100% !important;
+    }
+
+    .elementor-element-96e5687 .elementor-element-7fed48c .elementor-heading-title {
+        text-align: center !important;
+    }
+
+    .elementor-element-96e5687 .elementor-element-fcec2a3 {
+        width: 100% !important;
+    }
+
+    .elementor-element-96e5687 .elementor-element-fcec2a3 .elementor-nav-menu--main {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .elementor-element-96e5687 .elementor-element-fcec2a3 .elementor-nav-menu {
+        justify-content: center !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 10px !important;
+    }
+}
+
 /* ===== FOOTER - HIDE HAMBURGER MENU ===== */
+.elementor-location-footer .elementor-menu-toggle,
+.elementor-1332 .elementor-menu-toggle,
 .elementor-element-f7988a7 .elementor-menu-toggle {
     display: none !important;
 }
