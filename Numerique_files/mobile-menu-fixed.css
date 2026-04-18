@@ -208,12 +208,6 @@
         display: none !important;
     }
 
-    /* Hide hamburger in footer */
-    .elementor-location-footer .elementor-menu-toggle,
-    .elementor-1332 .elementor-menu-toggle {
-        display: none !important;
-    }
-
     /* Ensure nav menu widget is visible */
     section.elementor-hidden-desktop .elementor-widget-nav-menu {
         display: block !important;
@@ -257,6 +251,18 @@
         margin-left: auto !important;
         background: transparent !important;
         border: none !important;
+    }
+
+    /* Hide hamburger in footer - must come AFTER general toggle rule */
+    .elementor-location-footer .elementor-menu-toggle,
+    .elementor-1332 .elementor-menu-toggle {
+        display: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        overflow: hidden !important;
     }
 
     /* Ensure hamburger column is visible */

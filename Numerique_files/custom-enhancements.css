@@ -1498,6 +1498,24 @@ h2.section-heading::after {
     }
 }
 
+/* ===== FOOTER CTA - ADD BOTTOM PADDING FOR OVERLAP ===== */
+/* Extra padding so the SOLUTIONS overlap (-120px) doesn't clash with CTA content */
+.elementor-1332 .elementor-element-d01652e > .elementor-element-populated {
+    padding-block-end: 120px !important;
+}
+
+@media (max-width: 1024px) {
+    .elementor-1332 .elementor-element-d01652e > .elementor-element-populated {
+        padding-block-end: 100px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-1332 .elementor-element-d01652e > .elementor-element-populated {
+        padding-block-end: 100px !important;
+    }
+}
+
 /* ===== FOOTER - ALWAYS VISIBLE (no fade-in animation) ===== */
 .elementor-element-55da5c2,
 .elementor-element-96e5687 {
