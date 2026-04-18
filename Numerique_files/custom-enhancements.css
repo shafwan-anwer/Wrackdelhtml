@@ -1702,6 +1702,76 @@ h2.section-heading::after {
     display: none !important;
 }
 
+/* ===== CONTACT PAGE MOBILE FIX ===== */
+@media (max-width: 767px) {
+    /* Center align phone label, numbers, email label, email */
+    .elementor-element-baea2ed .elementor-widget-wrap,
+    .elementor-element-e024415 .elementor-widget-wrap {
+        text-align: center !important;
+        align-items: center !important;
+    }
+
+    .elementor-element-baea2ed .elementor-button-wrapper,
+    .elementor-element-e024415 .elementor-button-wrapper {
+        justify-content: center !important;
+        display: flex !important;
+    }
+
+    /* Center Phone: and Email: labels */
+    .elementor-element-034b722,
+    .elementor-element-8832860 {
+        text-align: center !important;
+    }
+
+    /* Hide the divider column on mobile */
+    .elementor-element-1f05d07 {
+        display: none !important;
+    }
+
+    /* Stack contact columns vertically */
+    .elementor-element-baea2ed,
+    .elementor-element-e024415 {
+        width: 100% !important;
+    }
+
+    /* Center address and view on map */
+    .elementor-element-95f8ccd .elementor-container {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .elementor-element-4cac96e,
+    .elementor-element-b7ecf9a {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .elementor-element-4cac96e .elementor-widget-wrap,
+    .elementor-element-b7ecf9a .elementor-widget-wrap {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .elementor-element-de27adb .elementor-icon-box-wrapper {
+        flex-direction: column !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+
+    .elementor-element-de27adb .elementor-icon-box-title {
+        text-align: center !important;
+    }
+
+    .elementor-element-182d4fe {
+        width: 100% !important;
+    }
+
+    .elementor-element-182d4fe .elementor-button-wrapper {
+        justify-content: center !important;
+        display: flex !important;
+    }
+}
+
 /* ===== BLOG PAGE HEADER SCROLL FIX ===== */
 /* Header is now fixed on all devices via .elementor-location-header */
 
