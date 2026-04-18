@@ -6,18 +6,48 @@
 /* ===== FIX DOUBLE SCROLLBAR ===== */
 html {
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
+    height: auto;
 }
 
 body {
-    overflow-x: hidden;
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
 }
 
 /* Prevent inner wrappers from creating second scrollbar */
 #top,
 .footer-wrapper,
-#main-content {
-    overflow: visible;
+#main-content,
+.vamtam-main,
+.elementor-location-single {
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
+}
+
+
+/* ===== FIX INITIAL LOAD DOUBLE SCROLLBAR ===== */
+/* Prevent fade-in animation from causing layout shift on load */
+/* Header/footer should never be hidden */
+.elementor-location-header .elementor-top-section,
+.elementor-location-header .elementor-widget,
+.elementor-location-header .elementor-inner-section,
+.elementor-location-footer .elementor-top-section,
+.elementor-location-footer .elementor-widget,
+.elementor-location-footer .elementor-section,
+.elementor-location-footer .elementor-inner-section {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+/* Remove translateY from initial state to prevent extra page height */
+.elementor-top-section:not(.is-visible),
+.elementor-inner-section:not(.is-visible),
+.elementor-widget:not(.is-visible) {
+    transform: none;
 }
 
 /* ===== LOGO COLOR VARIABLES ===== */
@@ -881,7 +911,7 @@ h2.section-heading::after {
     box-shadow: 0 4px 15px rgba(0,0,0,0.06) !important;
     transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
     overflow: hidden !important;
-    min-height: 550px !important;
+    min-height: auto !important;
 }
 
 .elementor-element-c0059f9:hover,
@@ -1191,7 +1221,7 @@ h2.section-heading::after {
     box-shadow: 0 4px 15px rgba(0,0,0,0.06) !important;
     transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
     overflow: hidden !important;
-    min-height: 520px !important;
+    min-height: auto !important;
 }
 
 .elementor-element-18d3a72:hover {
@@ -1268,10 +1298,72 @@ h2.section-heading::after {
     padding: 45px 40px 40px 40px !important;
 }
 
+/* ===== HOMEPAGE PORTFOLIO SLIDER FIX ===== */
+.elementor-element-c3df51f .swiper {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Ensure slider widget doesn't exceed its container */
+.elementor-element-c3df51f {
+    max-width: 100% !important;
+    overflow: hidden;
+}
+
+.elementor-element-c3df51f .elementor-widget-container {
+    max-width: 100% !important;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .elementor-element-c3df51f {
+        --swiper-slides-gap: 15px !important;
+    }
+
+    .elementor-element-c3df51f .swiper-slide {
+        max-width: calc(100vw - 80px) !important;
+        width: calc(100vw - 80px) !important;
+        margin-right: 15px !important;
+        flex-shrink: 0;
+    }
+
+    .elementor-element-c3df51f .swiper {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        box-sizing: border-box;
+    }
+
+    /* Card inner container - remove fixed min-height */
+    .elementor-element-18d3a72 > .elementor-container {
+        min-height: auto !important;
+    }
+
+    .elementor-element-18d3a72 {
+        border-radius: 18px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element-c3df51f {
+        --swiper-slides-gap: 20px !important;
+    }
+
+    .elementor-element-c3df51f .swiper-slide {
+        max-width: calc(100% - 60px) !important;
+        width: calc(100% - 60px) !important;
+        margin-right: 20px !important;
+        flex-shrink: 0;
+    }
+
+    .elementor-element-18d3a72 > .elementor-container {
+        min-height: auto !important;
+    }
+}
+
 /* ===== HOMEPAGE SLIDER MOBILE RESPONSIVE ===== */
 @media (max-width: 1024px) and (min-width: 768px) {
     .home .elementor-element-18d3a72 {
-        min-height: 480px !important;
+        min-height: auto !important;
     }
 
     .home .elementor-element-8518e7f > .elementor-element-populated {
@@ -1285,7 +1377,7 @@ h2.section-heading::after {
 
 @media (max-width: 767px) {
     .home .elementor-element-18d3a72 {
-        min-height: 460px !important;
+        min-height: auto !important;
         margin-bottom: 20px !important;
     }
 
