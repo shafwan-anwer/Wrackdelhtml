@@ -388,6 +388,17 @@ html { scroll-behavior: smooth; }
     }
 }
 
+/* About page animations */
+.about-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.about-animate.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -399,7 +410,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget').forEach(function(el) {
+    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget, .about-animate').forEach(function(el) {
         if (el.closest('.swiper-wrapper') || el.classList.contains('elementor-widget-loop-carousel')) return;
         observer.observe(el);
     });
@@ -879,7 +890,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</section>
 
 		<!-- What We Do Section -->
-		<section class="our-story-section">
+		<section class="our-story-section about-animate">
 			<div class="story-container">
 				<div class="story-content">
 					<h2 class="section-title">What We Do</h2>
@@ -900,7 +911,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</section>
 
 		<!-- Our Approach Section -->
-		<section class="mission-values-section">
+		<section class="mission-values-section about-animate">
 			<div class="mission-container">
 				<h2 class="section-title centered">Our Approach</h2>
 				<p class="section-description">We believe digital marketing should be strategic, creative, and measurable. Our work combines smart data insights with compelling content to ensure every campaign not only looks great but also performs effectively.</p>
@@ -909,7 +920,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</section>
 
 		<!-- Mission Section -->
-		<section class="core-values-section">
+		<section class="core-values-section about-animate">
 			<div class="values-container">
 				<h2 class="section-title centered">Our Mission</h2>
 				<p class="mission-statement">To help businesses grow through innovative digital marketing, powerful storytelling, and measurable strategies that drive real results.</p>
@@ -917,7 +928,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</section>
 
 		<!-- Why Work With Us -->
-		<section class="why-choose-section">
+		<section class="why-choose-section about-animate">
 			<div class="why-container">
 				<div class="why-content">
 					<h2 class="section-title">Why Work With Us</h2>
@@ -957,7 +968,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</section>
 
 		<!-- CTA Section -->
-		<section class="about-cta-section">
+		<section class="about-cta-section about-animate">
 			<div class="cta-content">
 				<h2>Ready to Grow Your Brand?</h2>
 				<p>Let's discuss how we can help build your digital presence</p>
