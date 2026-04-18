@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget').forEach(function(el) {
+    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget, .testimonial-animate').forEach(function(el) {
         if (el.closest('.swiper-wrapper') || el.classList.contains('elementor-widget-loop-carousel')) return;
         observer.observe(el);
     });
@@ -976,17 +976,34 @@ document.addEventListener('DOMContentLoaded', function() {
 		font-size: 22px;
 	}
 }
+
+/* Testimonials page animations */
+.testimonial-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.testimonial-animate.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.testimonial-card.testimonial-animate:nth-child(1) { transition-delay: 0s; }
+.testimonial-card.testimonial-animate:nth-child(2) { transition-delay: 0.1s; }
+.testimonial-card.testimonial-animate:nth-child(3) { transition-delay: 0.2s; }
+.testimonial-card.testimonial-animate:nth-child(4) { transition-delay: 0.3s; }
+.testimonial-card.testimonial-animate:nth-child(5) { transition-delay: 0.4s; }
+.testimonial-card.testimonial-animate:nth-child(6) { transition-delay: 0.5s; }
 </style>
 
 <div class="testimonials-section">
 	<div class="testimonials-intro">
-		<h2 class="elementor-heading-title elementor-size-default section-heading" style="padding-top: 20px;">What Our Clients Say</h2>
-		<p class="section-subtitle">Real results from real businesses. See why companies trust Wrackdell to grow their digital presence and drive measurable ROI.</p>
+		<h2 class="elementor-heading-title elementor-size-default section-heading testimonial-animate" style="margin-top: 40px; font-size: 26px;">What Our Clients Say</h2>
+		<p class="section-subtitle testimonial-animate" style="padding-left: 40px; padding-right: 40px;">Real results from real businesses. See why companies trust Wrackdell to grow their digital presence and drive measurable ROI.</p>
 	</div>
 
 	<div class="testimonials-grid">
 		<!-- Testimonial 1 - E-commerce SEO Success -->
-		<div class="testimonial-card">
+		<div class="testimonial-card testimonial-animate">
 			<div class="quote-icon">
 				<i class="fas fa-quote-left"></i>
 			</div>
@@ -1010,7 +1027,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 
 		<!-- Testimonial 2 - PPC Campaign Success -->
-		<div class="testimonial-card">
+		<div class="testimonial-card testimonial-animate">
 			<div class="quote-icon">
 				<i class="fas fa-quote-left"></i>
 			</div>
@@ -1034,7 +1051,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 
 		<!-- Testimonial 3 - Social Media Marketing -->
-		<div class="testimonial-card">
+		<div class="testimonial-card testimonial-animate">
 			<div class="quote-icon">
 				<i class="fas fa-quote-left"></i>
 			</div>
@@ -1058,7 +1075,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 
 		<!-- Testimonial 4 - Comprehensive Digital Strategy -->
-		<div class="testimonial-card">
+		<div class="testimonial-card testimonial-animate">
 			<div class="quote-icon">
 				<i class="fas fa-quote-left"></i>
 			</div>
@@ -1082,7 +1099,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 
 		<!-- Testimonial 5 - Amazon Shopping Success -->
-		<div class="testimonial-card">
+		<div class="testimonial-card testimonial-animate">
 			<div class="quote-icon">
 				<i class="fas fa-quote-left"></i>
 			</div>
@@ -1106,7 +1123,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 
 		<!-- Testimonial 6 - Website Strategy & CRO -->
-		<div class="testimonial-card">
+		<div class="testimonial-card testimonial-animate">
 			<div class="quote-icon">
 				<i class="fas fa-quote-left"></i>
 			</div>
@@ -1130,7 +1147,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 	</div>
 
-	<div class="testimonials-cta" style="text-align: center; margin-top: 60px; padding: 40px; background: #f8f9fa; border-radius: 20px;">
+	<div class="testimonials-cta testimonial-animate" style="text-align: center; margin-top: 60px; padding: 40px; background: #f8f9fa; border-radius: 20px;">
 		<h3 style="font-size: 32px; font-weight: 700; margin-bottom: 15px; color: #000;">Ready to Join Our Success Stories?</h3>
 		<p style="font-size: 18px; color: #555; margin-bottom: 25px;">Let's create your digital marketing success story together.</p>
 		<a href="contact.html" style="display: inline-block; background: #1565C0; color: #ffffff; padding: 16px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 16px; transition: all 0.3s ease;">Get Started Today</a>

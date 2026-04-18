@@ -902,6 +902,11 @@ h2.section-heading::after {
     display: none !important;
 }
 
+/* Portfolio card - remove top margin */
+.elementor-element-1ff7e98 {
+    margin-top: 0 !important;
+}
+
 /* Portfolio card container styling */
 .elementor-element-c0059f9,
 .elementor-element-1ff7e98 {

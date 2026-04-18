@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget').forEach(function(el) {
+    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget, .team-animate').forEach(function(el) {
         if (el.closest('.swiper-wrapper') || el.classList.contains('elementor-widget-loop-carousel')) return;
         observer.observe(el);
     });
@@ -827,7 +827,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-c1c537e elementor-widget elementor-widget-heading animated fadeInDown" data-id="c1c537e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_tablet&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default" style="padding-top: 80px;">Our Team</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default" style="padding-top: 40px; display: none;">Our Team</h2>				</div>
 				</div>
 					</div>
 		</div>
@@ -845,11 +845,40 @@ document.addEventListener('DOMContentLoaded', function() {
 				<div class="elementor-widget-container">
 							<div data-elementor-type="wp-page" data-elementor-id="packages" class="elementor elementor-packages" data-elementor-post-type="page">
 
-<section class="team-section" style="padding: 80px 0; background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);">
+<section class="team-section" style="padding: 40px 0 80px 0; background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);">
 	<div style="max-width: 1280px; margin: 0 auto; padding: 0 20px;">
 
+		<style>
+		.team-animate {
+			opacity: 0;
+			transform: translateY(40px);
+			transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+		}
+		.team-animate.is-visible {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		.team-card.team-animate:nth-child(2) { transition-delay: 0.2s; }
+
+		@media (max-width: 767px) {
+			.team-grid {
+				grid-template-columns: 1fr !important;
+				gap: 25px !important;
+			}
+			.team-card {
+				padding: 35px 25px !important;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 1024px) {
+			.team-grid {
+				grid-template-columns: 1fr !important;
+				max-width: 600px !important;
+			}
+		}
+		</style>
+
 		<!-- Section Header -->
-		<div style="text-align: center; margin-bottom: 30px;">
+		<div class="team-animate" style="text-align: center; margin-bottom: 30px;">
 			<h2 class="section-heading" style="font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif; font-size: clamp(32px, 4vw, 48px); font-weight: 800; margin-bottom: 20px; color: #000;">
 				Meet Our Team
 			</h2>
@@ -865,10 +894,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 
 		<!-- Team Cards Container -->
-		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 40px; margin-top: 60px; max-width: 1000px; margin-left: auto; margin-right: auto;">
+		<div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-top: 60px; max-width: 1000px; margin-left: auto; margin-right: auto;">
 
 			<!-- Team Member 1 -->
-			<div style="background: #ffffff; border-radius: 18px; padding: 50px 40px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); border: 1px solid #e8e8e8; transition: all 0.35s ease; position: relative; overflow: hidden;">
+			<div class="team-card team-animate" style="background: #ffffff; border-radius: 18px; padding: 50px 40px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); border: 1px solid #e8e8e8; transition: all 0.35s ease; position: relative; overflow: hidden;">
 				<div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: linear-gradient(180deg, #94d6f7 0%, #56b5f3 100%);"></div>
 				<div style="text-align: left;">
 					<div style="margin-bottom: 25px;">
@@ -885,7 +914,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			</div>
 
 			<!-- Team Member 2 -->
-			<div style="background: #ffffff; border-radius: 18px; padding: 50px 40px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); border: 1px solid #e8e8e8; transition: all 0.35s ease; position: relative; overflow: hidden;">
+			<div class="team-card team-animate" style="background: #ffffff; border-radius: 18px; padding: 50px 40px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); border: 1px solid #e8e8e8; transition: all 0.35s ease; position: relative; overflow: hidden;">
 				<div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: linear-gradient(180deg, #94d6f7 0%, #56b5f3 100%);"></div>
 				<div style="text-align: left;">
 					<div style="margin-bottom: 25px;">
@@ -904,7 +933,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 
 		<!-- Bottom CTA Section -->
-		<div style="margin-top: 80px; padding: 50px 40px; background: linear-gradient(135deg, #0A3D62 0%, #003366 100%); border-radius: 20px; text-align: center; box-shadow: 0 15px 50px rgba(0,0,0,0.15);">
+		<div class="team-animate" style="margin-top: 80px; padding: 50px 40px; background: linear-gradient(135deg, #0A3D62 0%, #003366 100%); border-radius: 20px; text-align: center; box-shadow: 0 15px 50px rgba(0,0,0,0.15);">
 			<h3 style="font-family: var(--e-global-typography-vamtam_h1-font-family, 'Syne'), Sans-serif; color: #fff; font-size: 32px; font-weight: 700; margin-bottom: 16px;">
 				Ready to Work With Us?
 			</h3>
