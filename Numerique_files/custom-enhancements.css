@@ -1335,13 +1335,29 @@ h2.section-heading::after {
         padding: 0 10px !important;
     }
 
-    /* Card inner container - remove fixed min-height */
-    .elementor-element-18d3a72 > .elementor-container {
-        min-height: auto !important;
+    /* Card - force fit within slide */
+    .elementor-element-18d3a72 {
+        width: 100% !important;
+        max-width: 100% !important;
+        border-radius: 18px !important;
+        box-sizing: border-box !important;
     }
 
-    .elementor-element-18d3a72 {
-        border-radius: 18px !important;
+    .elementor-element-18d3a72 > .elementor-container {
+        min-height: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .elementor-element-c3df51f .swiper-slide .elementor {
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
+
+    .elementor-element-c3df51f .e-loop-item {
+        max-width: 100% !important;
+        overflow: hidden !important;
     }
 }
 
@@ -1357,8 +1373,21 @@ h2.section-heading::after {
         flex-shrink: 0;
     }
 
+    .elementor-element-18d3a72 {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
     .elementor-element-18d3a72 > .elementor-container {
         min-height: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .elementor-element-c3df51f .e-loop-item {
+        max-width: 100% !important;
+        overflow: hidden !important;
     }
 }
 
