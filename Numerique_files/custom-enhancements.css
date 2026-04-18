@@ -1321,16 +1321,18 @@ h2.section-heading::after {
     }
 
     .elementor-element-c3df51f .swiper-slide {
-        max-width: calc(100vw - 80px) !important;
-        width: calc(100vw - 80px) !important;
-        margin-right: 15px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-right: 0 !important;
         flex-shrink: 0;
     }
 
-    .elementor-element-c3df51f .swiper {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        box-sizing: border-box;
+    .elementor-element-c3df51f .swiper-wrapper {
+        padding: 0 !important;
+    }
+
+    .elementor-element-c3df51f .elementor-widget-container {
+        padding: 0 10px !important;
     }
 
     /* Card inner container - remove fixed min-height */
@@ -1349,9 +1351,9 @@ h2.section-heading::after {
     }
 
     .elementor-element-c3df51f .swiper-slide {
-        max-width: calc(100% - 60px) !important;
-        width: calc(100% - 60px) !important;
-        margin-right: 20px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-right: 0 !important;
         flex-shrink: 0;
     }
 
