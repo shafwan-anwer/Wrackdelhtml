@@ -1507,7 +1507,26 @@ h2.section-heading::after {
     background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
     padding: 60px 20px;
     text-align: center;
-    margin: 40px 0;
+    margin: 0;
+}
+
+/* Ensure footer has no side margins */
+.footer-wrapper,
+.main-footer,
+.elementor-location-footer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Remove gap padding from footer containers */
+.elementor-element-a252478 > .elementor-container,
+.elementor-element-55da5c2 > .elementor-container {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .cta-content {
@@ -1589,6 +1608,7 @@ h2.section-heading::after {
 
     .cta-buttons {
         flex-direction: column;
+        align-items: center;
         gap: 15px;
         width: 100%;
     }
@@ -1599,6 +1619,7 @@ h2.section-heading::after {
         max-width: 280px;
         padding: 14px 25px;
         font-size: 15px;
+        text-align: center;
     }
 }
 

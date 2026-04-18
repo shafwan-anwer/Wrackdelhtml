@@ -889,7 +889,8 @@ document.addEventListener('DOMContentLoaded', function() {
 .faq-section {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 50px;
+	box-sizing: border-box;
 }
 .faq-section .faq-intro {
 	margin-bottom: 60px;
@@ -1004,6 +1005,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	background: #5443c7;
 }
 @media (max-width: 767px) {
+	.faq-section {
+		padding: 0 50px;
+	}
 	.faq-section .faq-intro {
 		margin-bottom: 40px;
 	}
@@ -1023,7 +1027,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="faq-section">
 	<div class="faq-intro">
-		<h2 class="elementor-heading-title elementor-size-default">Frequently Asked Questions</h2>
+		<h2 class="elementor-heading-title elementor-size-default" style="margin-top: 40px;">Frequently Asked Questions</h2>
 		<p>Find answers to common questions about our digital marketing services, processes, and how we can help grow your business.</p>
 	</div>
 

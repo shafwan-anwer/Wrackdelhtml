@@ -362,7 +362,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget').forEach(function(el) {
+    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget, .blog-animate').forEach(function(el) {
         if (el.closest('.swiper-wrapper') || el.classList.contains('elementor-widget-loop-carousel')) return;
         observer.observe(el);
     });
@@ -824,6 +824,21 @@ document.addEventListener('DOMContentLoaded', function() {
 .blog-card-read-more { display:inline-flex; align-items:center; gap:6px; color:#000; font-size:14px; font-weight:600; text-decoration:none; transition:color .3s ease,gap .3s ease; }
 .blog-card-read-more:hover { color:#1565C0; gap:10px; }
 .blog-card-read-more .vamtamtheme- { font-size:12px; }
+
+/* Blog page animations */
+.blog-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.blog-animate.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.blog-card.blog-animate:nth-child(1) { transition-delay: 0s; }
+.blog-card.blog-animate:nth-child(2) { transition-delay: 0.15s; }
+.blog-card.blog-animate:nth-child(3) { transition-delay: 0.3s; }
+.blog-card.blog-animate:nth-child(4) { transition-delay: 0.45s; }
 .blog-newsletter { max-width:1280px; margin:0 auto 120px auto; padding:50px; background:#000; border-radius:20px; display:flex; align-items:center; justify-content:space-between; gap:40px; }
 .blog-newsletter-text h3 { font-family:var(--e-global-typography-vamtam_h1-font-family,'Syne'),Sans-serif; color:#fff; font-size:28px; font-weight:700; margin:0 0 8px 0; }
 .blog-newsletter-text p { color:rgba(255,255,255,.7); font-size:16px; margin:0; }
@@ -833,12 +848,12 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 
 <div class="blog-page-section">
-	<div class="blog-page-intro">
+	<div class="blog-page-intro blog-animate">
 		<h2 class="elementor-heading-title elementor-size-default">Insights &amp; Resources</h2>
 		<p>Stay up to date with the latest trends, strategies, and insights in digital marketing. Our team shares actionable tips to help you grow your business online.</p>
 	</div>
 	<div class="blog-grid">
-	<article class="blog-card">
+	<article class="blog-card blog-animate">
 		<a href="blog-social-media-management.html" class="blog-card-image-link"><div class="blog-card-image" style="background-image:url('./Numerique_files/pexels-moe-magners-7495410-1024x948.jpg');"><span class="blog-card-category">Social Media</span></div></a>
 		<div class="blog-card-content">
 			<div class="blog-card-meta"><span class="blog-card-date">Apr 1, 2026</span><span class="blog-card-separator">&middot;</span><span class="blog-card-read-time">5 min read</span></div>
@@ -847,7 +862,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			<a href="blog-social-media-management.html" class="blog-card-read-more">Read more <span class="vamtamtheme- vamtam-theme-arrow-right"></span></a>
 		</div>
 	</article>
-	<article class="blog-card">
+	<article class="blog-card blog-animate">
 		<a href="blog-content-creation-branding.html" class="blog-card-image-link"><div class="blog-card-image" style="background-image:url('./Numerique_files/pexels-pavel-danilyuk-7675014-1024x750.jpg');"><span class="blog-card-category">Branding</span></div></a>
 		<div class="blog-card-content">
 			<div class="blog-card-meta"><span class="blog-card-date">Mar 28, 2026</span><span class="blog-card-separator">&middot;</span><span class="blog-card-read-time">5 min read</span></div>
@@ -856,7 +871,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			<a href="blog-content-creation-branding.html" class="blog-card-read-more">Read more <span class="vamtamtheme- vamtam-theme-arrow-right"></span></a>
 		</div>
 	</article>
-	<article class="blog-card">
+	<article class="blog-card blog-animate">
 		<a href="blog-paid-advertising.html" class="blog-card-image-link"><div class="blog-card-image" style="background-image:url('./Numerique_files/GettyImages-1341057712.jpg');"><span class="blog-card-category">Advertising</span></div></a>
 		<div class="blog-card-content">
 			<div class="blog-card-meta"><span class="blog-card-date">Mar 25, 2026</span><span class="blog-card-separator">&middot;</span><span class="blog-card-read-time">5 min read</span></div>
@@ -865,7 +880,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			<a href="blog-paid-advertising.html" class="blog-card-read-more">Read more <span class="vamtamtheme- vamtam-theme-arrow-right"></span></a>
 		</div>
 	</article>
-	<article class="blog-card">
+	<article class="blog-card blog-animate">
 		<a href="blog-data-driven-marketing.html" class="blog-card-image-link"><div class="blog-card-image" style="background-image:url('./Numerique_files/GettyImages-1472335476.jpg');"><span class="blog-card-category">Analytics</span></div></a>
 		<div class="blog-card-content">
 			<div class="blog-card-meta"><span class="blog-card-date">Mar 20, 2026</span><span class="blog-card-separator">&middot;</span><span class="blog-card-read-time">5 min read</span></div>
@@ -875,7 +890,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</div>
 	</article>
 	</div>
-	<div class="blog-newsletter">
+	<div class="blog-newsletter blog-animate">
 		<div class="blog-newsletter-text">
 			<h3>Stay in the loop</h3>
 			<p>Get the latest digital marketing insights delivered straight to your inbox.</p>

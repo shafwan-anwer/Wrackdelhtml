@@ -388,6 +388,21 @@ html { scroll-behavior: smooth; }
     }
 }
 
+/* Career page animations */
+.career-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.career-animate.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.career-animate:nth-child(2) { transition-delay: 0.15s; }
+.career-animate:nth-child(3) { transition-delay: 0.3s; }
+
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -399,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget').forEach(function(el) {
+    document.querySelectorAll('.elementor-top-section, .elementor-inner-section, .elementor-widget, .career-animate').forEach(function(el) {
         if (el.closest('.swiper-wrapper') || el.classList.contains('elementor-widget-loop-carousel')) return;
         observer.observe(el);
     });
@@ -921,11 +936,12 @@ document.addEventListener('DOMContentLoaded', function() {
 		<!-- Job Openings Section -->
 		<section class="our-story-section" style="background: #f8f9fa; padding: 80px 0;">
 			<div class="story-container" style="display: block;">
-				<div style="max-width: 1000px; margin: 0 auto; width: 100%;">
-					<h2 class="section-title centered" style="margin-bottom: 50px;">Current Openings</h2>
+				<div style="max-width: 1000px; margin: 0 auto; width: 100%; padding: 0 20px; box-sizing: border-box;">
+					<h2 class="section-title centered career-animate" style="margin-bottom: 50px; text-align: center;">Current Openings</h2>
 
 					<!-- Job 1: Digital Marketing Intern -->
-					<div style="background: white; border-radius: 12px; padding: 40px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+					<div class="career-animate" style="background: white; border-radius: 12px; padding: 40px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+
 						<div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
 							<div>
 								<h3 style="font-size: 28px; margin-bottom: 10px; color: #1E88E5;">Digital Marketing Intern</h3>
@@ -958,7 +974,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					</div>
 
 					<!-- Job 2: Digital Marketing Assistant -->
-					<div style="background: white; border-radius: 12px; padding: 40px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+					<div class="career-animate" style="background: white; border-radius: 12px; padding: 40px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 						<div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
 							<div>
 								<h3 style="font-size: 28px; margin-bottom: 10px; color: #1E88E5;">Digital Marketing Assistant</h3>
@@ -994,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		</section>
 
 		<!-- CTA Section -->
-		<section class="about-cta-section">
+		<section class="about-cta-section career-animate">
 			<div class="cta-content">
 				<h2>Don't See the Right Role?</h2>
 				<p>We're always looking for talented people to join our team. Send us your resume and let's talk!</p>
