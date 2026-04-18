@@ -3,6 +3,23 @@
    Modern, Impressive Styling for About Us, Packages & Testimonials
    ================================================================= */
 
+/* ===== FIX DOUBLE SCROLLBAR ===== */
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Prevent inner wrappers from creating second scrollbar */
+#top,
+.footer-wrapper,
+#main-content {
+    overflow: visible;
+}
+
 /* ===== LOGO COLOR VARIABLES ===== */
 :root {
     --logo-bright-blue: #94d6f7;

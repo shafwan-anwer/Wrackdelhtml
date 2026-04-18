@@ -50,7 +50,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create the mobile menu HTML
         const mobileMenuHTML = `
             <div id="custom-mobile-menu" class="custom-mobile-menu">
-                <button class="mobile-menu-close" aria-label="Close menu"></button>
+                <div class="mobile-menu-header">
+                    <a href="index.html" class="mobile-menu-logo">
+                        <img src="./Numerique_files/logo.png" alt="Wrackdell" />
+                    </a>
+                    <button class="mobile-menu-close" aria-label="Close menu"></button>
+                </div>
                 <div class="custom-mobile-menu-content">
                     <ul class="custom-mobile-nav">
                         <li><a href="index.html">Home</a></li>
@@ -71,6 +76,9 @@ document.addEventListener('DOMContentLoaded', function() {
                             </ul>
                         </li>
                     </ul>
+                </div>
+                <div class="mobile-menu-footer">
+                    Developed by <a href="https://codelabsolutionsco.com/" target="_blank">CodeLabs</a>
                 </div>
             </div>
         `;
