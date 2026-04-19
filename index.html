@@ -3,9 +3,12 @@
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	
+
 	<title>Wrackdell</title>
 <meta name="robots" content="max-image-preview:large">
+<link rel="icon" type="image/jpeg" sizes="32x32" href="assets/favicon.jpg">
+<link rel="icon" type="image/jpeg" sizes="16x16" href="assets/favicon.jpg">
+<link rel="apple-touch-icon" href="assets/favicon.jpg">
 <style id="vamtam-theme-options">body {--vamtam-body-link-regular:#000000;
 --vamtam-body-link-visited:#000000;
 --vamtam-body-link-hover:#1E88E5;
@@ -924,7 +927,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-a794434 elementor-widget elementor-widget-image" data-id="a794434" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1466" height="948" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&h=900" alt="Modern office workspace" class="attachment-1536x1536 size-1536x1536 wp-image-1717" alt="">															</div>
+															<img loading="lazy" decoding="async" width="1466" height="948" src="assets/hero.jpeg" alt="Modern office workspace" class="attachment-1536x1536 size-1536x1536 wp-image-1717" alt="">															</div>
 				</div>
 					</div>
 		</div>
@@ -2584,18 +2587,110 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"39b5909790","urls":{"ass
     right: -25px !important;
 }
 
-/* Mobile: arrows inside the card area */
+/* Mobile: Complete slider redesign */
 @media (max-width: 767px) {
-    .swiper-button-prev.portfolio-arrow {
-        left: 5px !important;
-    }
+    /* Hide default arrows on mobile - use swipe instead */
+    .swiper-button-prev.portfolio-arrow,
     .swiper-button-next.portfolio-arrow {
-        right: 5px !important;
+        display: none !important;
+    }
+
+    /* Mobile portfolio section - container */
+    .elementor-element-c3df51f {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: visible !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+    }
+
+    .elementor-element-c3df51f .elementor-widget-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: visible !important;
+        padding: 0 !important;
+    }
+
+    /* Swiper container */
+    .elementor-element-c3df51f .swiper {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        overflow: visible !important;
+        padding: 0 0 50px 0 !important;
+    }
+
+    /* Swiper wrapper */
+    .elementor-element-c3df51f .swiper-wrapper {
+        display: flex !important;
+        align-items: stretch !important;
+        padding: 0 20px !important;
+    }
+
+    /* Individual slides - smaller width with gaps */
+    .elementor-element-c3df51f .swiper-slide {
+        width: 75% !important;
+        max-width: 280px !important;
+        height: auto !important;
+        flex-shrink: 0 !important;
+        display: flex !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Portfolio card - the actual content */
+    .elementor-element-c3df51f .e-loop-item {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    /* Portfolio card section with background */
+    .elementor-element-c3df51f .elementor-element-18d3a72 {
+        width: 100% !important;
+        border-radius: 25px !important;
+    }
+
+    .elementor-element-c3df51f .elementor-container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Content padding adjustment for mobile */
+    .elementor-element-c3df51f .elementor-element-8518e7f > .elementor-element-populated {
+        padding: 25px 25px 25px 25px !important;
+    }
+
+    /* Logo sizing for mobile */
+    .elementor-element-c3df51f .portfolio-client-logo {
+        max-width: 100px !important;
+        height: auto !important;
+    }
+
+    /* Pagination */
+    .elementor-element-c3df51f .swiper-pagination {
+        position: relative !important;
+        bottom: 0 !important;
+        margin-top: 20px !important;
+        text-align: center !important;
+    }
+
+    .elementor-element-c3df51f .swiper-pagination-bullet {
+        width: 10px !important;
+        height: 10px !important;
+        margin: 0 6px !important;
+        background: #ccc !important;
+        opacity: 1 !important;
+    }
+
+    .elementor-element-c3df51f .swiper-pagination-bullet-active {
+        background: #1E88E5 !important;
+        width: 24px !important;
+        border-radius: 5px !important;
     }
 }
 </style>
 <script>
-// Portfolio slider initialization
+// Portfolio slider initialization - Mobile optimized
 setTimeout(function() {
     const swiperEl = document.querySelector('.elementor-element-c3df51f .swiper');
     if (swiperEl) {
@@ -2604,8 +2699,39 @@ setTimeout(function() {
             swiperEl.swiper.destroy(true, true);
         }
 
-        // Initialize new Swiper
-        const portfolioSwiper = new Swiper(swiperEl, {
+        // Check if mobile
+        const isMobile = window.innerWidth <= 767;
+
+        // Mobile-specific configuration
+        const mobileConfig = {
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            centeredSlides: false,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: true,
+            },
+            speed: 500,
+            // Touch settings optimized for mobile
+            touchRatio: 1,
+            threshold: 10,
+            simulateTouch: true,
+            allowTouchMove: true,
+            // No navigation arrows on mobile
+            navigation: false,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: false,
+            },
+            // Better performance
+            watchSlidesProgress: false,
+            preventInteractionOnTransition: true,
+        };
+
+        // Desktop/Tablet configuration
+        const desktopConfig = {
             slidesPerView: 2,
             spaceBetween: 30,
             loop: true,
@@ -2624,30 +2750,87 @@ setTimeout(function() {
                 clickable: true,
             },
             breakpoints: {
-                0: {
-                    slidesPerView: 1,
-                    spaceBetween: 0,
-                },
                 768: {
                     slidesPerView: 1,
-                    spaceBetween: 0,
+                    spaceBetween: 15,
                 },
                 1025: {
                     slidesPerView: 2,
                     spaceBetween: 30,
                 }
-            },
-            on: {
-                init: function() {
-                    console.log('Portfolio slider initialized');
-                }
             }
-        });
+        };
+
+        // Choose config based on device
+        const config = isMobile ? mobileConfig : desktopConfig;
+
+        // Initialize Swiper
+        const portfolioSwiper = new Swiper(swiperEl, config);
+
+        console.log('Portfolio slider initialized for', isMobile ? 'MOBILE' : 'DESKTOP');
+        console.log('Slides count:', swiperEl.querySelectorAll('.swiper-slide').length);
+
+        // Force update on mobile to ensure proper display
+        if (isMobile) {
+            setTimeout(() => {
+                portfolioSwiper.update();
+                console.log('Mobile slider updated');
+            }, 500);
+        }
+
+        // Mobile-specific event handlers
+        if (isMobile) {
+            let autoplayPaused = false;
+
+            swiperEl.addEventListener('touchstart', function() {
+                if (!autoplayPaused && portfolioSwiper.autoplay) {
+                    portfolioSwiper.autoplay.stop();
+                    autoplayPaused = true;
+                }
+            });
+
+            swiperEl.addEventListener('touchend', function() {
+                if (autoplayPaused && portfolioSwiper.autoplay) {
+                    setTimeout(() => {
+                        portfolioSwiper.autoplay.start();
+                        autoplayPaused = false;
+                    }, 3000);
+                }
+            });
+
+            // Ensure slides update correctly
+            portfolioSwiper.on('slideChange', function() {
+                portfolioSwiper.update();
+            });
+        }
 
         // Force start autoplay
         if (portfolioSwiper.autoplay) {
             portfolioSwiper.autoplay.start();
         }
+
+        // Handle window resize - reinitialize if needed
+        let resizeTimer;
+        let currentMobileState = isMobile;
+
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                const nowMobile = window.innerWidth <= 767;
+
+                // If changed from mobile to desktop or vice versa, reinitialize
+                if (nowMobile !== currentMobileState) {
+                    currentMobileState = nowMobile;
+                    if (portfolioSwiper) {
+                        portfolioSwiper.destroy(true, true);
+                    }
+                    // Reload the page section or reinitialize
+                    location.reload();
+                } else if (portfolioSwiper) {
+                    portfolioSwiper.update();
+                }
+            }, 250);
+        });
     }
 }, 1500);
 </script>
