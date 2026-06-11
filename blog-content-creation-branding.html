@@ -181,7 +181,61 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					}
 				}
 			</style>
-			<script>
+			<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
 				// Force first tab content to be visible on page load
 				document.addEventListener('DOMContentLoaded', function() {
 					// Find all active tab content elements
@@ -261,7 +315,7 @@ html { scroll-behavior: smooth; }
     }
     .elementor-element-9dbee37 .elementor-element-5e63b87 {
         margin-bottom: 0 !important;
-        margin-top: 0 !important;
+        margin-top: -8px !important;
     }
     .elementor-element-9dbee37 .elementor-widget-container {
         padding: 0 !important;
@@ -458,6 +512,60 @@ html { scroll-behavior: smooth; }
 }
 
 </style>
+<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var observer = new IntersectionObserver(function(entries) {
@@ -475,6 +583,60 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <!-- Meta Pixel Code -->
+<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -518,6 +680,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="about-us.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">About Us</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3226"><a href="portfolio.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Portfolio</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Team</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-17729597090969531-4" aria-haspopup="true" aria-controls="sm-17729597090969531-5" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Plans</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729597090969531-5" role="group" aria-hidden="true" aria-labelledby="sm-17729597090969531-4" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Contact</span></span></a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -540,6 +709,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item" tabindex="-1">Awards</a></li>
 </ul>
 </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-17729597091012283-9" aria-haspopup="true" aria-controls="sm-17729597091012283-10" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729597091012283-10" role="group" aria-hidden="true" aria-labelledby="sm-17729597091012283-9" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 </ul>			</nav>
 						</div>
@@ -603,6 +779,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item">Awards</a></li>
 </ul>
 </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-17729597091042-9" aria-haspopup="true" aria-controls="sm-17729597091042-10" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Plans</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729597091042-10" role="group" aria-hidden="true" aria-labelledby="sm-17729597091042-9" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Contact</span></span></a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -629,6 +812,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item" tabindex="-1">Awards</a></li>
 </ul>
 </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-1772959709106489-9" aria-haspopup="true" aria-controls="sm-1772959709106489-10" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709106489-10" role="group" aria-hidden="true" aria-labelledby="sm-1772959709106489-9" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 </ul>			</nav>
 						</div>
@@ -719,6 +909,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-1772959709107365-11" aria-haspopup="true" aria-controls="sm-1772959709107365-12" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709107365-12" role="group" aria-hidden="true" aria-labelledby="sm-1772959709107365-11" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item has-submenu" id="sm-1772959709107365-7" aria-haspopup="true" aria-controls="sm-1772959709107365-8" aria-expanded="false">Legal<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
 <ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709107365-8" role="group" aria-hidden="true" aria-labelledby="sm-1772959709107365-7" aria-expanded="false">
@@ -753,6 +950,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item" tabindex="-1">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item" tabindex="-1">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item" tabindex="-1">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-1772959709109221-11" aria-haspopup="true" aria-controls="sm-1772959709109221-12" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709109221-12" role="group" aria-hidden="true" aria-labelledby="sm-1772959709109221-11" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-1772959709109221-7" aria-haspopup="true" aria-controls="sm-1772959709109221-8" aria-expanded="false">Legal<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
 <ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709109221-8" role="group" aria-hidden="true" aria-labelledby="sm-1772959709109221-7" aria-expanded="false">
@@ -835,6 +1039,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-plans-4-a" aria-haspopup="true" aria-controls="sm-plans-4-ul" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-plans-4-ul" role="group" aria-hidden="true" aria-labelledby="sm-plans-4-a" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item">Legal</a>
 <ul class="sub-menu elementor-nav-menu--dropdown">
@@ -869,6 +1080,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item" tabindex="-1">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item" tabindex="-1">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item" tabindex="-1">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-plans-8-a" aria-haspopup="true" aria-controls="sm-plans-8-ul" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-plans-8-ul" role="group" aria-hidden="true" aria-labelledby="sm-plans-8-a" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item" tabindex="-1">Legal</a>
 <ul class="sub-menu elementor-nav-menu--dropdown">
@@ -1229,7 +1447,61 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 
 		
 				
-					<script>
+					<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
 				const lazyloadRunObserver = () => {
 					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
 					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
@@ -1307,7 +1579,61 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"39b5909790","urls":{"ass
 <script type="text/javascript" src="./Numerique_files/dialog.min.js" id="elementor-dialog-js" data-rocket-defer="" defer=""></script>
 <script type="text/javascript" src="./Numerique_files/vamtam-elementor-frontend.min.js" id="vamtam-elementor-frontend-js" data-rocket-defer="" defer=""></script>
 
-<span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;" class="e-font-icon-svg-symbols"></svg><script>
+<span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;" class="e-font-icon-svg-symbols"></svg><style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
 // Force active tab content to be visible - runs AFTER all other scripts
 (function() {
     function showActiveTabs() {
@@ -1421,4 +1747,91 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"39b5909790","urls":{"ass
         <span class="whatsapp-tooltip">Chat with us</span>
     </a>
 </div>
+<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
+// Simple Plans Dropdown with Delay
+jQuery(document).ready(function($) {
+    var hideTimer;
+
+    // Show dropdown on hover
+    $('.menu-item-plans, .menu-item-1439').on('mouseenter', function() {
+        clearTimeout(hideTimer);
+        $(this).find('.sub-menu').show();
+    });
+
+    // Hide dropdown with delay
+    $('.menu-item-plans, .menu-item-1439').on('mouseleave', function() {
+        var $submenu = $(this).find('.sub-menu');
+        hideTimer = setTimeout(function() {
+            $submenu.hide();
+        }, 400);
+    });
+
+    // Keep dropdown open when hovering over it
+    $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseenter', function() {
+        clearTimeout(hideTimer);
+        $(this).show();
+    });
+
+    $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseleave', function() {
+        var $submenu = $(this);
+        hideTimer = setTimeout(function() {
+            $submenu.hide();
+        }, 400);
+    });
+});
+</script>
 </body></html>

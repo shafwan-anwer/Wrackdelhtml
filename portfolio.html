@@ -180,7 +180,61 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					}
 				}
 			</style>
-			<script>
+			<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
 				// Force first tab content to be visible on page load
 				document.addEventListener('DOMContentLoaded', function() {
 					// Find all active tab content elements
@@ -260,7 +314,7 @@ html { scroll-behavior: smooth; }
     }
     .elementor-element-9dbee37 .elementor-element-5e63b87 {
         margin-bottom: 0 !important;
-        margin-top: 0 !important;
+        margin-top: -8px !important;
     }
     .elementor-element-9dbee37 .elementor-widget-container {
         padding: 0 !important;
@@ -471,6 +525,60 @@ html { scroll-behavior: smooth; }
 }
 
 </style>
+<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var observer = new IntersectionObserver(function(entries) {
@@ -488,6 +596,60 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <!-- Meta Pixel Code -->
+<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -531,6 +693,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="about-us.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">About Us</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3226"><a href="portfolio.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Portfolio</span></span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Team</span></span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-17729597090969531-4" aria-haspopup="true" aria-controls="sm-17729597090969531-5" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Plans</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729597090969531-5" role="group" aria-hidden="true" aria-labelledby="sm-17729597090969531-4" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Contact</span></span></a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -553,6 +722,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item" tabindex="-1">Awards</a></li>
 </ul>
 </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-17729597091012283-9" aria-haspopup="true" aria-controls="sm-17729597091012283-10" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729597091012283-10" role="group" aria-hidden="true" aria-labelledby="sm-17729597091012283-9" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 </ul>			</nav>
 						</div>
@@ -616,6 +792,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item">Awards</a></li>
 </ul>
 </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-17729597091042-9" aria-haspopup="true" aria-controls="sm-17729597091042-10" aria-expanded="false"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Plans</span></span><span class="sub-arrow"><i class="" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17729597091042-10" role="group" aria-hidden="true" aria-labelledby="sm-17729597091042-9" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item"><span class="vamtam-nav-text-wrap"><span class="vamtam-nav-text">Contact</span></span></a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -642,6 +825,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3228"><a href="#" class="elementor-sub-item" tabindex="-1">Awards</a></li>
 </ul>
 </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-1772959709106489-9" aria-haspopup="true" aria-controls="sm-1772959709106489-10" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709106489-10" role="group" aria-hidden="true" aria-labelledby="sm-1772959709106489-9" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 </ul>			</nav>
 						</div>
@@ -729,9 +919,22 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1440"><a href="about-us.html" class="elementor-item">About Us</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="portfolio.html" class="elementor-item">Portfolio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1439"><a href="#" class="elementor-item has-submenu" id="sm-plans-1" aria-haspopup="true" aria-controls="sm-plans-submenu-1" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-plans-submenu-1" role="group" aria-hidden="true" aria-labelledby="sm-plans-1" aria-expanded="false">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1441"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1442"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-1772959709107365-11" aria-haspopup="true" aria-controls="sm-1772959709107365-12" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709107365-12" role="group" aria-hidden="true" aria-labelledby="sm-1772959709107365-11" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item has-submenu" id="sm-1772959709107365-7" aria-haspopup="true" aria-controls="sm-1772959709107365-8" aria-expanded="false">Legal<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
 <ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709107365-8" role="group" aria-hidden="true" aria-labelledby="sm-1772959709107365-7" aria-expanded="false">
@@ -766,6 +969,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item" tabindex="-1">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item" tabindex="-1">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item" tabindex="-1">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-1772959709109221-11" aria-haspopup="true" aria-controls="sm-1772959709109221-12" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709109221-12" role="group" aria-hidden="true" aria-labelledby="sm-1772959709109221-11" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-1772959709109221-7" aria-haspopup="true" aria-controls="sm-1772959709109221-8" aria-expanded="false">Legal<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
 <ul class="sub-menu elementor-nav-menu--dropdown" id="sm-1772959709109221-8" role="group" aria-hidden="true" aria-labelledby="sm-1772959709109221-7" aria-expanded="false">
@@ -845,9 +1055,22 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1440"><a href="about-us.html" class="elementor-item">About Us</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="portfolio.html" class="elementor-item">Portfolio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1439"><a href="#" class="elementor-item has-submenu" id="sm-plans-1" aria-haspopup="true" aria-controls="sm-plans-submenu-1" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-plans-submenu-1" role="group" aria-hidden="true" aria-labelledby="sm-plans-1" aria-expanded="false">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1441"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1442"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" id="sm-plans-4-a" aria-haspopup="true" aria-controls="sm-plans-4-ul" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-plans-4-ul" role="group" aria-hidden="true" aria-labelledby="sm-plans-4-a" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item">Legal</a>
 <ul class="sub-menu elementor-nav-menu--dropdown">
@@ -882,6 +1105,13 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="team.html" class="elementor-item" tabindex="-1">Team</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="testimonials.html" class="elementor-item" tabindex="-1">Testimonials</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="faq.html" class="elementor-item" tabindex="-1">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-plans"><a href="#" class="elementor-item has-submenu" tabindex="-1" id="sm-plans-8-a" aria-haspopup="true" aria-controls="sm-plans-8-ul" aria-expanded="false">Plans<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-plans-8-ul" role="group" aria-hidden="true" aria-labelledby="sm-plans-8-a" aria-expanded="false">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-marketing-plans"><a href="marketing-plans.html" class="elementor-sub-item" tabindex="-1">Marketing Plans</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-seo-plans"><a href="seo-plans.html" class="elementor-sub-item" tabindex="-1">SEO Plans</a></li>
+</ul>
+</li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="contact.html" class="elementor-item" tabindex="-1">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1603"><a href="#" class="elementor-item" tabindex="-1">Legal</a>
 <ul class="sub-menu elementor-nav-menu--dropdown">
@@ -979,28 +1209,121 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7e14887" data-id="7e14887" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-40ce0f7 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="40ce0f7" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="250" height="34" src="./assets/Lanka Real Estate.png" class="attachment-large size-large wp-image-9316" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-533da8d elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="533da8d" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="147" height="35" src="./assets/Villa Maggona.png" class="attachment-large size-large wp-image-9306" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-49ef3da elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="49ef3da" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="250" height="34" src="./assets/Haldummulla Estate.png" class="attachment-large size-large wp-image-9385" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-cf9c2fb elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="cf9c2fb" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="250" height="34" src="./assets/Shanti Uyana.png" class="attachment-large size-large wp-image-9317" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-5afa0db elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="5afa0db" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="250" height="34" src="./assets/Serendo Tours.png" class="attachment-large size-large wp-image-9386" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-eff633f elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="eff633f" data-element_type="widget" data-widget_type="image.default">
+				<style>
+					.brands-slider {
+						overflow: hidden;
+						position: relative;
+						width: 100%;
+						padding: 20px 0;
+					}
 
+					.brands-slider-track {
+						display: flex;
+						align-items: center;
+						animation: scroll-logos 30s linear infinite;
+						width: fit-content;
+					}
+
+					.brands-slider-item {
+						flex: 0 0 auto;
+						padding: 0 20px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						min-width: 180px;
+					}
+
+					.brands-slider-item img {
+						max-width: 250px;
+						height: auto;
+						object-fit: contain;
+						transition: all 0.4s ease;
+					}
+
+					.brands-slider-item img:hover {
+						transform: scale(1.05);
+					}
+
+					@keyframes scroll-logos {
+						0% {
+							transform: translateX(0);
+						}
+						100% {
+							transform: translateX(-50%);
+						}
+					}
+
+					/* Responsive adjustments */
+					@media (max-width: 768px) {
+						.brands-slider-item {
+							padding: 0 20px;
+							min-width: 170px;
+						}
+
+						.brands-slider-item img {
+							max-width: 150px;
+						}
+					}
+
+					@media (max-width: 480px) {
+						.brands-slider-item {
+							padding: 0 20px;
+							min-width: 120px;
+						}
+
+						.brands-slider-item img {
+							max-width: 120px;
+						}
+					}
+				</style>
+				<div class="brands-slider">
+					<div class="brands-slider-track">
+						<!-- First set of logos -->
+						<div class="brands-slider-item">
+							<img src="./assets/Lanka Real Estate.png" alt="Lanka Real Estate" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Villa Maggona.png" alt="Villa Maggona" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Haldummulla Estate.png" alt="Haldummulla Estate" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Shanti Uyana.png" alt="Shanti Uyana" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Serendo Tours.png" alt="Serendo Tours" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/travera.png" alt="Travera" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/satori.png" alt="Satori Villa & Retreat" loading="lazy">
+						</div>
+						<!-- Duplicate set for seamless infinite loop -->
+						<div class="brands-slider-item">
+							<img src="./assets/Lanka Real Estate.png" alt="Lanka Real Estate" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Villa Maggona.png" alt="Villa Maggona" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Haldummulla Estate.png" alt="Haldummulla Estate" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Shanti Uyana.png" alt="Shanti Uyana" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/Serendo Tours.png" alt="Serendo Tours" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/travera.png" alt="Travera" loading="lazy">
+						</div>
+						<div class="brands-slider-item">
+							<img src="./assets/satori.png" alt="Satori Villa & Retreat" loading="lazy">
+						</div>
+					</div>
+				</div>
 					</div>
 		</div>
 					</div>
@@ -1344,6 +1667,128 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 					</div>
 		</section>
 				</div>
+		<style id="loop-dynamic-3170">.e-loop-item-5002 .elementor-element.elementor-element-c0059f9:not(.elementor-motion-effects-element-type-background), .e-loop-item-5002 .elementor-element.elementor-element-c0059f9 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop");}</style>		<div data-elementor-type="loop-item" data-elementor-id="3170" class="elementor elementor-3170 e-loop-item e-loop-item-5002 post-5002 post type-post status-publish format-standard has-post-thumbnail hentry category-stories tag-paid-search tag-paid-social tag-seo" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-c0059f9 elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c0059f9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6c0720c" data-id="6c0720c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-105b037 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="105b037" data-element_type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container portfolio-logo-container">
+					<img src="./assets/travera.png" alt="Travera" class="portfolio-client-logo">
+					</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-7b1c220 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7b1c220" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-91b9b7f" data-id="91b9b7f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5b8a939 elementor-widget elementor-widget-post-info" data-id="5b8a939" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-7fd48ef elementor-inline-item">
+						<a href="#">
+														<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-custom">
+										Luxury Villa / Hospitality					</span>
+									</a>
+				</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-3abe29a elementor-widget elementor-widget-heading" data-id="3abe29a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="#">Comfort Beyond Limits</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c4f912d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c4f912d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5a8d2d4 elementor-widget elementor-widget-post-info" data-id="5a8d2d4" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-38b44ea" itemprop="about">
+													<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
+										<span class="elementor-post-info__terms-list">
+				A colonial hilltop villa with a private pool, yoga shala, and resident chef, steps from the beaches of Unawatuna.				</span>
+					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<style id="loop-dynamic-3170">.e-loop-item-5003 .elementor-element.elementor-element-c0059f9:not(.elementor-motion-effects-element-type-background), .e-loop-item-5003 .elementor-element.elementor-element-c0059f9 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop");}</style>		<div data-elementor-type="loop-item" data-elementor-id="3170" class="elementor elementor-3170 e-loop-item e-loop-item-5003 post-5003 post type-post status-publish format-standard has-post-thumbnail hentry category-stories tag-paid-search tag-paid-social tag-seo" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-c0059f9 elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c0059f9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6c0720c" data-id="6c0720c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-105b037 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="105b037" data-element_type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container portfolio-logo-container">
+					<img src="./assets/satori.png" alt="Satori Villa & Retreat" class="portfolio-client-logo">
+					</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-7b1c220 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7b1c220" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-91b9b7f" data-id="91b9b7f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5b8a939 elementor-widget elementor-widget-post-info" data-id="5b8a939" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-7fd48ef elementor-inline-item">
+						<a href="#">
+														<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-custom">
+										Luxury Villa / Hospitality					</span>
+									</a>
+				</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-3abe29a elementor-widget elementor-widget-heading" data-id="3abe29a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="#">Hilltop Jungle Retreat Near Galle</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c4f912d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c4f912d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5a8d2d4 elementor-widget elementor-widget-post-info" data-id="5a8d2d4" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-38b44ea" itemprop="about">
+													<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
+										<span class="elementor-post-info__terms-list">
+				A colonial hilltop villa with a private pool, yoga shala, and resident chef, steps from the beaches of Unawatuna.				</span>
+					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
 		</div>
 					</div>
 
@@ -1617,7 +2062,61 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 
 		
 				
-					<script>
+					<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
 				const lazyloadRunObserver = () => {
 					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
 					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
@@ -1699,7 +2198,61 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"f9c6a059f1","urls":{"ass
 <script type="text/javascript" src="./Numerique_files/dialog.min.js" id="elementor-dialog-js" data-rocket-defer="" defer=""></script>
 <script type="text/javascript" src="./Numerique_files/vamtam-elementor-frontend.min.js" id="vamtam-elementor-frontend-js" data-rocket-defer="" defer=""></script>
 
-<span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;" class="e-font-icon-svg-symbols"></svg><script>
+<span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;" class="e-font-icon-svg-symbols"></svg><style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
 // Force active tab content to be visible - runs AFTER all other scripts
 (function() {
     function showActiveTabs() {
@@ -1813,4 +2366,91 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"f9c6a059f1","urls":{"ass
         <span class="whatsapp-tooltip">Chat with us</span>
     </a>
 </div>
+<style>
+/* Plans Dropdown - Simple Fix */
+.menu-item-plans,
+.menu-item-1439 {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-item-plans .sub-menu,
+.menu-item-1439 .sub-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 200px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.menu-item-plans:hover .sub-menu,
+.menu-item-1439:hover .sub-menu,
+.menu-item-plans .sub-menu:hover,
+.menu-item-1439 .sub-menu:hover {
+    display: block !important;
+}
+
+.menu-item-plans .sub-menu li,
+.menu-item-1439 .sub-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-item-plans .sub-menu li a,
+.menu-item-1439 .sub-menu li a {
+    display: block !important;
+    padding: 12px 24px !important;
+    color: #333333 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: background 0.2s ease !important;
+}
+
+.menu-item-plans .sub-menu li a:hover,
+.menu-item-1439 .sub-menu li a:hover {
+    background: #f5f9ff !important;
+    color: #1E88E5 !important;
+}
+</style>
+
+<script>
+// Simple Plans Dropdown with Delay
+jQuery(document).ready(function($) {
+    var hideTimer;
+
+    // Show dropdown on hover
+    $('.menu-item-plans, .menu-item-1439').on('mouseenter', function() {
+        clearTimeout(hideTimer);
+        $(this).find('.sub-menu').show();
+    });
+
+    // Hide dropdown with delay
+    $('.menu-item-plans, .menu-item-1439').on('mouseleave', function() {
+        var $submenu = $(this).find('.sub-menu');
+        hideTimer = setTimeout(function() {
+            $submenu.hide();
+        }, 400);
+    });
+
+    // Keep dropdown open when hovering over it
+    $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseenter', function() {
+        clearTimeout(hideTimer);
+        $(this).show();
+    });
+
+    $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseleave', function() {
+        var $submenu = $(this);
+        hideTimer = setTimeout(function() {
+            $submenu.hide();
+        }, 400);
+    });
+});
+</script>
 </body></html>
