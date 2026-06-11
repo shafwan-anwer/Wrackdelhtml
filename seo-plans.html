@@ -705,7 +705,7 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 						<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-1e82954 elementor-widget__width-auto vamtam-has-underline-anim elementor-widget elementor-widget-button" data-id="1e82954" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm open-audit-modal" href="#" onclick="event.preventDefault(); document.getElementById('auditModal').style.display='flex';" style="cursor: pointer;">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<i aria-hidden="true" class="vamtamtheme- vamtam-theme-arrow-right"></i>			</span>
@@ -808,7 +808,7 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 						<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-1e82954 elementor-widget__width-auto vamtam-has-underline-anim elementor-widget elementor-widget-button" data-id="1e82954" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm open-audit-modal" href="#" onclick="event.preventDefault(); document.getElementById('auditModal').style.display='flex';" style="cursor: pointer;">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<i aria-hidden="true" class="vamtamtheme- vamtam-theme-arrow-right"></i>			</span>
@@ -829,7 +829,7 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 						<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-5e63b87 elementor-align-right elementor-mobile-align-justify elementor-tablet-align-justify vamtam-has-underline-anim elementor-widget elementor-widget-button" data-id="5e63b87" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm open-audit-modal" href="#" onclick="event.preventDefault(); document.getElementById('auditModal').style.display='flex';" style="cursor: pointer;">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<i aria-hidden="true" class="vamtamtheme- vamtam-theme-arrow-right"></i>			</span>
@@ -965,7 +965,7 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 						<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-5e63b87 elementor-align-right elementor-mobile-align-justify elementor-tablet-align-justify vamtam-has-underline-anim elementor-widget elementor-widget-button" data-id="5e63b87" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm open-audit-modal" href="#" onclick="event.preventDefault(); document.getElementById('auditModal').style.display='flex';" style="cursor: pointer;">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<i aria-hidden="true" class="vamtamtheme- vamtam-theme-arrow-right"></i>			</span>
@@ -1216,7 +1216,7 @@ src="https://www.facebook.com/tr?id=1417467566100709&ev=PageView&noscript=1"
 				<div class="vamtam-has-theme-widget-styles elementor-element elementor-element-21773cc elementor-align-right elementor-mobile-align-center vamtam-has-underline-anim elementor-widget elementor-widget-button" data-id="21773cc" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="contact.html">
+					<a class="elementor-button elementor-button-link elementor-size-sm open-audit-modal" href="#" onclick="event.preventDefault(); document.getElementById('auditModal').style.display='flex';" style="cursor: pointer;">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<i aria-hidden="true" class="vamtamtheme- vamtam-theme-arrow-right"></i>			</span>
@@ -1749,35 +1749,44 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"f9c6a059f1","urls":{"ass
 </style>
 
 <script>
-// Simple Plans Dropdown with Delay
+// Plans Dropdown - Hover to Open, Stays Open
 jQuery(document).ready(function($) {
-    var hideTimer;
+    var isOpen = false;
 
-    // Show dropdown on hover
+    // Show on hover
     $('.menu-item-plans, .menu-item-1439').on('mouseenter', function() {
-        clearTimeout(hideTimer);
         $(this).find('.sub-menu').show();
+        isOpen = true;
     });
 
-    // Hide dropdown with delay
-    $('.menu-item-plans, .menu-item-1439').on('mouseleave', function() {
+    // Keep open - don't hide on mouseleave from parent
+    $('.menu-item-plans, .menu-item-1439').on('mouseleave', function(e) {
         var $submenu = $(this).find('.sub-menu');
-        hideTimer = setTimeout(function() {
-            $submenu.hide();
-        }, 400);
+
+        // Check if mouse is entering the submenu
+        setTimeout(function() {
+            if (!$submenu.is(':hover')) {
+                $submenu.hide();
+                isOpen = false;
+            }
+        }, 100);
     });
 
-    // Keep dropdown open when hovering over it
+    // Keep open when in dropdown
     $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseenter', function() {
-        clearTimeout(hideTimer);
         $(this).show();
+        isOpen = true;
     });
 
+    // Hide only when leaving dropdown
     $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseleave', function() {
-        var $submenu = $(this);
-        hideTimer = setTimeout(function() {
-            $submenu.hide();
-        }, 400);
+        $(this).hide();
+        isOpen = false;
+    });
+
+    // Prevent Plans link from navigating
+    $('.menu-item-plans > a[href="#"], .menu-item-1439 > a[href="#"]').on('click', function(e) {
+        e.preventDefault();
     });
 });
 </script>

@@ -1749,35 +1749,44 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"39b5909790","urls":{"ass
 </style>
 
 <script>
-// Simple Plans Dropdown with Delay
+// Plans Dropdown - Hover to Open, Stays Open
 jQuery(document).ready(function($) {
-    var hideTimer;
+    var isOpen = false;
 
-    // Show dropdown on hover
+    // Show on hover
     $('.menu-item-plans, .menu-item-1439').on('mouseenter', function() {
-        clearTimeout(hideTimer);
         $(this).find('.sub-menu').show();
+        isOpen = true;
     });
 
-    // Hide dropdown with delay
-    $('.menu-item-plans, .menu-item-1439').on('mouseleave', function() {
+    // Keep open - don't hide on mouseleave from parent
+    $('.menu-item-plans, .menu-item-1439').on('mouseleave', function(e) {
         var $submenu = $(this).find('.sub-menu');
-        hideTimer = setTimeout(function() {
-            $submenu.hide();
-        }, 400);
+
+        // Check if mouse is entering the submenu
+        setTimeout(function() {
+            if (!$submenu.is(':hover')) {
+                $submenu.hide();
+                isOpen = false;
+            }
+        }, 100);
     });
 
-    // Keep dropdown open when hovering over it
+    // Keep open when in dropdown
     $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseenter', function() {
-        clearTimeout(hideTimer);
         $(this).show();
+        isOpen = true;
     });
 
+    // Hide only when leaving dropdown
     $('.menu-item-plans .sub-menu, .menu-item-1439 .sub-menu').on('mouseleave', function() {
-        var $submenu = $(this);
-        hideTimer = setTimeout(function() {
-            $submenu.hide();
-        }, 400);
+        $(this).hide();
+        isOpen = false;
+    });
+
+    // Prevent Plans link from navigating
+    $('.menu-item-plans > a[href="#"], .menu-item-1439 > a[href="#"]').on('click', function(e) {
+        e.preventDefault();
     });
 });
 </script>
